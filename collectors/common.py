@@ -3,7 +3,7 @@
 Rules this module enforces, because every collector depends on them:
 
 1. A fetch that fails is recorded, never hidden. Every run writes one line to
-   data/runs/YYYY-MM-DD.jsonl with a `source` marker ("live" | "unavailable")
+   data/runs/YYYY-MM-DD/<job>.jsonl with a `source` marker ("live" | "unavailable")
    and the counts it saw. A missing hour is visible in the run log before
    anyone looks at the data.
 2. Every pagination cap is named and truncation is detected. A collector that
@@ -166,7 +166,9 @@ def record_run(collector: str, *, source: str, counts: dict[str, Any], note: str
         row["http"] = {"requests": http.requests_made, "retries": http.retries}
     if note:
         row["note"] = note[:500]
-    append_jsonl(RUNS / f"{day()}.jsonl", [row])
+    # One file per job per day (RUN_LOG_NAME is set by each workflow), so two
+    # jobs never append to the same file and a rebase never conflicts.
+    append_jsonl(RUNS / day() / f"{os.environ.get('RUN_LOG_NAME', 'local')}.jsonl", [row])
     print(json.dumps(row, sort_keys=True), file=sys.stderr)
     return row
 

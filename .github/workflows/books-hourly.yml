@@ -28,6 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: echo "RUN_LOG_NAME=hourly-$(date -u +%H)" >> "$GITHUB_ENV"
       - name: Kalshi
         run: python collectors/kalshi.py --mode hourly || true
       - name: Gemini
@@ -59,4 +60,4 @@ jobs:
           git add data/runs/
           git diff --cached --quiet && exit 0
           git commit -m "runs: $(date -u +%Y-%m-%dT%HZ) books"
-          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 15; done
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; git rebase --abort 2>/dev/null || true; sleep 15; done; echo "push failed after 5 tries"; exit 1

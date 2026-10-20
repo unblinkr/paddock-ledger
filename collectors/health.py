@@ -25,7 +25,9 @@ def last_24h() -> list[dict]:
     now = utcnow()
     rows: list[dict] = []
     for d in (now - timedelta(days=1), now):
-        rows.extend(read_jsonl(RUNS / f"{d.strftime('%Y-%m-%d')}.jsonl"))
+        folder = RUNS / d.strftime("%Y-%m-%d")
+        for f in sorted(folder.glob("*.jsonl")) if folder.exists() else []:
+            rows.extend(read_jsonl(f))
     cutoff = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
     return [r for r in rows if r.get("finished", "") >= cutoff]
 

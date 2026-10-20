@@ -11,7 +11,7 @@ Maintained by [Paddock](https://paddock.finance/venues). Started October 2026.
 | Listings ledger: every product a designated contract market filed with the CFTC (new products, Rule 40.2 and 40.3) and every product rule change | cftc.gov, Industry Filings | daily, 06:30 UTC | `data/cftc/products.jsonl`, `data/cftc/product-rules.jsonl`, `data/cftc/details/<id>.json` |
 | Listings snapshot: every open market on each platform with full metadata | each platform's public API | daily, 05:40 UTC | `data/<platform>/listings/YYYY-MM-DD.jsonl.gz` |
 | Books: top-of-book (or the platform's published price, where no book is exposed) for every open market | each platform's public API | hourly | Cloudflare R2 `books/<platform>/YYYY-MM-DD/HH.jsonl.gz` (access on request) |
-| Run records: one line per collector run with counts, caps hit, and a `source` marker | this repository | every run | `data/runs/YYYY-MM-DD.jsonl` |
+| Run records: one line per collector run with counts, caps hit, and a `source` marker | this repository | every run | `data/runs/YYYY-MM-DD/<job>.jsonl` |
 
 Platforms with a collector today: Kalshi, Polymarket US, Gemini Predictions. The full list, with the ones not yet captured and why, is `data/platforms/platforms.json`. The CFTC ledger covers every designated contract market whether or not it has a collector.
 
