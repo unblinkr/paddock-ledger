@@ -24,7 +24,7 @@ RULES: list[tuple[str, str]] = [
     ("Props", r"<stat>|<statistic>|ENTITYSTAT|PLAYERSTAT|player stat|player prop|\bprop\b|prop series|\bstat series|\bstat anchor|football stat\b|basketball stat\b|baseball stat\b|hockey stat\b|"
                      r"first touchdown|anytime touchdown|FIRSTTD|passing yards|rushing yards|receiving yards|RECYDS|PASSYDS|RUSHYDS|strokes during|"
                      r"KX(?:NBA|NFL|NHL|MLB|WNBA|NCAAF|NCAAB)(?:PTS|AST|REB|3PT|TD|REC|RECYDS|PASSYDS|RUSHYDS|SOG|HR|HITS|KS|STL|BLK)\b"),
-    ("Esports", r"esport|counter.?strike|\bCS2\b|league of legends|\bLOL\b|valorant|dota|call of duty|KXCS2|KXLOL|KXVAL|KXDOTA|KXCOD"),
+    ("Esports", r"esport|counter.?strike|\bCS2\b|league of legends|\bLOL\b|valorant|dota|call of duty|KXCS2|KXLOL|KXVAL|KXDOTA|KXCODGAME"),
     ("Table tennis", r"table tennis|\bWTT\b|TTCUP|TTELITE|WTTWIN"),
     ("Tennis", r"tennis|\bATP\b|\bWTA\b|\bITF\b|KXATP|KXWTA|KXITF|davis cup"),
     ("Golf", r"golf|\bPGA\b|\bLPGA\b|\bLIV\b|ryder cup|KXPGA|KXLPGA|masters tournament"),
@@ -36,9 +36,9 @@ RULES: list[tuple[str, str]] = [
     ("College basketball", r"NCAA.{0,30}basketball|NCAAM|NCAAW|NCAAB|college basketball|COLLEGEBASKETBALL|march madness|KXNCAAMB|KXNCAAWB|KXNCAAB"),
     ("College football", r"college football|COLLEGEFOOTBALL|NCAAF|heisman|\bCFP\b|KXNCAAF"),
     ("NFL", r"\bNFL|super bowl|pro football|PROFOOTBALL|^football\b|KXNFL|KXSB\b"),
-    ("NBA", r"\bNBA\b|KXNBA"),
-    ("MLB", r"\bMLB|world series|baseball|\bNPB\b|\bKBO\b|KXMLB"),
-    ("NHL", r"\bNHL|stanley cup|hockey|KXNHL"),
+    ("NBA", r"\bNBA|PROBASKETBALL|KXNBA"),
+    ("MLB", r"\bMLB|PROBASEBALL|world series|baseball|\bNPB\b|\bKBO\b|KXMLB"),
+    ("NHL", r"\bNHL|PROHOCKEY|stanley cup|hockey|KXNHL"),
     ("Soccer", r"soccer|premier league|\bEPL\b|champions league|\bUCL\b|\bMLS\b|la liga|serie a|bundesliga|ligue 1|FIFA|world cup|ballon d.or|"
                r"CONCACAF|\bUEL\b|\bUNL\b|\bEFL\b|\bSAFF\b|\bAFA\b|LALIGA|DIMAYOR|eredivisie|liga mx|saudi pro|goals during|KXUCL|KXEPL|KXMLS|KXLALIGA|KXSERIEA|KXBUND|KXLIGUE|KXBALLON|KXWC|PLGAME|LEAGUEGAME"),
     ("Other sports", r"olympic|rugby|darts|snooker|cycling|horse|derby|lacrosse|volleyball|handball|athletics|KXOLY"),
