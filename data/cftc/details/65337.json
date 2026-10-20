@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634303.pdf"
+},
+{
+"title": "NCAA MBB Total Points",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634301.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:53Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the combined score exceed 160 points in the NCAA Division I Men's Basketball game between Notre Dame and Villanova on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65337,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65337"
+}

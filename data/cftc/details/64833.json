@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "Cover letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10022631130.pdf"
+},
+{
+"title": "Coversheet",
+"url": "https://www.cftc.gov/filings/orgrules/rules10022631129.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:27Z",
+"fields": {
+"date": "2026-10-19 00:00:00",
+"description": "Decrease of the minimum price increment for transactions submitted for NHL contracts Products Affected:",
+"official_receipt_date": "2026-10-02 00:00:00",
+"organization": "REX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64833,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64833"
+}

@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "PMUS - CPCSOL - (2026.09.15) - 40.6a - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules09152626440.pdf"
+},
+{
+"title": "PMUS - CPCSOLD - (2026.09.15) - 40.6d - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules09152626441.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:13Z",
+"fields": {
+"date": "2026-09-29 00:00:00",
+"description": "Adds a 4-hour measurement period to the permissible {period} values in Attachment A. No other terms or conditions are amended. Products Affected:",
+"official_receipt_date": "2026-09-15 00:00:00",
+"organization": "QCEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64096,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64096"
+}

@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - CPAU - (2026.10.16) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634214.pdf"
+},
+{
+"title": "PMUS - CPAU - (2026.10.16) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634211.pdf"
+},
+{
+"title": "PMUS - CPAU - (2026.10.16) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634212.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:50Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "QCEX",
+"product_name": "Gold Price Contracts (CPAU)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65323,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65323"
+}

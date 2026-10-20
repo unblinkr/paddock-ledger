@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629792.pdf"
+},
+{
+"title": "How many FOMC dissenting votes will there be in <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629791.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629789.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:12Z",
+"fields": {
+"date": "2026-10-08 00:00:00",
+"description": "Straightforward amendment to the \"How many FOMC dissenting votes will there be in <time period>?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-25 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64609,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64609"
+}

@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will <competitor> win <bout> by <method> in <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632090.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632088.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632091.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:55Z",
+"fields": {
+"date": "2026-10-06 00:00:00",
+"description": "Straightforward amendment to the \"Will <competitor> win <bout> by <method> in <time period>?\" Contract",
+"official_receipt_date": "2026-10-06 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 64984,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64984"
+}

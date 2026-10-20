@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "PMUS - CAOC - (2026.09.22) - 40.6 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/orgrules/rules09222628814.pdf"
+},
+{
+"title": "PMUS - CAOC - (2026.09.22) - 40.6 - Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules09222628811.pdf"
+},
+{
+"title": "PMUS - CAOC - (2026.09.22) - 40.6 - Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules09222628812.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:25Z",
+"fields": {
+"date": "2026-10-06 00:00:00",
+"description": "Amendment to the Contracts' Terms and Conditions to revise the Minimum Tick size from $0.001 to $0.0001. Products Affected:",
+"official_receipt_date": "2026-09-22 00:00:00",
+"organization": "QCEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64460,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64460"
+}

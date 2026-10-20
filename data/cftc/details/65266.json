@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10152633891.pdf"
+},
+{
+"title": "Will <political party> <have/not have> control of the House, <have/not have> control of the Senate, and <have/not have> control of the Presidency after <election year>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10152633889.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10152633888.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:43Z",
+"fields": {
+"date": "2026-10-15 00:00:00",
+"description": "Straightforward amendment to \"Will <political party> <have/not have> control of the House, <have/not have> control of the Senate, and <have/not have> control of the Presidency after <election year>?\" Contract",
+"official_receipt_date": "2026-10-15 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65266,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65266"
+}

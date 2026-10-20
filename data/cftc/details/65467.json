@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - NHL Eastern Conference Finals Champion (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634927.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NHL Eastern Conference Finals Champion (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634929.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:30Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "GMNI",
+"product_name": "Will {team} win the {season} Eastern Conference Finals?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65467,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65467"
+}

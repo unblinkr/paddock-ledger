@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "2026-121",
+"url": "https://www.cftc.gov/filings/orgrules/rules10022631194.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:29Z",
+"fields": {
+"date": "2026-10-19 00:00:00",
+"description": "Update to Dogecoin US Dollar Spot contract terms Products Affected:",
+"official_receipt_date": "2026-10-02 00:00:00",
+"organization": "BTNL",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64839,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64839"
+}

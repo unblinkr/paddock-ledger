@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634515.pdf"
+},
+{
+"title": "NCAA MBB Moneyline",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634274.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:31Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Notre Dame win the NCAA Division I Men's Basketball game against Villanova on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65378,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65378"
+}

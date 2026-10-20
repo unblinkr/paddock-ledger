@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - International City High Temperature (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635011.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - International City High Temperature (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635013.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:19Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Maximum Temperature at {International City location} on {date} Be {threshold}?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65481,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65481"
+}

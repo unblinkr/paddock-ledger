@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634752.pdf"
+},
+{
+"title": "WTTWIN-WANHAR-05NOV2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634750.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:32Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "WTTWIN-WANHAR-05NOV2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65427,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65427"
+}

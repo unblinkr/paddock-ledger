@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Exhibit A - Terms and Conditions - REDLINE",
+"url": "https://www.cftc.gov/filings/orgrules/rules10082632755.pdf"
+},
+{
+"title": "Exhibit B - Terms and Conditions - Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10082632756.pdf"
+},
+{
+"title": "ForecastEx LLC 40.6(a) Submission",
+"url": "https://www.cftc.gov/filings/orgrules/rules10082632757.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:08Z",
+"fields": {
+"date": "2026-10-08 00:00:00",
+"description": "Non-substantive changes clarifying if contracts may be subject to early resolution.",
+"official_receipt_date": "2026-10-08 00:00:00",
+"organization": "FEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65097,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65097"
+}

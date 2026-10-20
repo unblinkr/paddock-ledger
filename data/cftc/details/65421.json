@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEBASKETBALLWIN-KANUK-10NOV2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634715.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634716.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEBASKETBALLWIN-KANUK-10NOV2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65421,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65421"
+}

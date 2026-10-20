@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEBASKETBALLENTITYSTAT - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634664.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634665.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:45Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEBASKETBALLENTITYSTAT",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65413,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65413"
+}

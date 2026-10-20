@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - CPAUSP - (2026.10.16) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634192.pdf"
+},
+{
+"title": "PMUS - CPAUSP - (2026.10.16) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634189.pdf"
+},
+{
+"title": "PMUS - CPAUSP - (2026.10.16) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634190.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:46Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "QCEX",
+"product_name": "Gold Spot Price Contracts (CPAUSP)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65319,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65319"
+}

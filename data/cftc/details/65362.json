@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA WBB Moneyline",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634441.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:03Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Women's Basketball Moneyline Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65362,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65362"
+}

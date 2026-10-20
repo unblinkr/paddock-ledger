@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "26-152",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634114.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:36Z",
+"fields": {
+"date": "2026-10-16 00:00:00",
+"description": "Amendments to Mid-Curve Options on PJM Tri Qualified Renewable Energy Certificate Class I Futures",
+"official_receipt_date": "2026-10-16 00:00:00",
+"organization": "ICE US",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65306,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65306"
+}

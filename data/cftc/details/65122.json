@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10132632884.pdf"
+},
+{
+"title": "Appendix A - NFLAWACH",
+"url": "https://www.cftc.gov/filings/orgrules/rules10132632885.pdf"
+},
+{
+"title": "Appendix A - NFLPLACH",
+"url": "https://www.cftc.gov/filings/orgrules/rules10132632883.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:55Z",
+"fields": {
+"date": "2026-10-11 00:00:00",
+"description": "Added contracts to 10/1 mass amendment that were not included in that filing.",
+"official_receipt_date": "2026-10-11 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65122,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65122"
+}

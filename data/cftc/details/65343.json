@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634331.pdf"
+},
+{
+"title": "NCAAM TOTAL",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634330.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "LEX",
+"product_name": "NCAAM TOTAL",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65343,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65343"
+}

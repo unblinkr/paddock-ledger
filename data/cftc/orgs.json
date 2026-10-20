@@ -1,0 +1,12 @@
+{
+  "_about": "Organization codes as they appear on the CFTC's industry filings lists, mapped to platform slugs in data/platforms/platforms.json. `confidence` is `confirmed` when the mapping comes from the CFTC's own designation record or the organization's filing documents, `likely` when inferred from the code alone. Codes seen on the list but not yet mapped are listed with a null slug; map them by pull request with the evidence in `evidence`.",
+  "orgs": {
+    "KEX": {"slug": "kalshi", "name": "KalshiEX LLC", "confidence": "confirmed", "evidence": "Kalshi's own filings name KalshiEX LLC"},
+    "GMNI": {"slug": "gemini", "name": "Gemini Titan LLC", "confidence": "likely", "evidence": "GMNI filings are Gemini Predictions contracts (temperature, BTC)"},
+    "PROPHX": {"slug": "prophetx", "name": "ProphetX", "confidence": "likely", "evidence": "code"},
+    "FEX": {"slug": "forecastex", "name": "ForecastEx LLC", "confidence": "likely", "evidence": "code"},
+    "QCEX": {"slug": "polymarket-us", "name": "QCEX LLC (Polymarket US)", "confidence": "likely", "evidence": "Polymarket acquired QCEX, the DCM behind Polymarket US"},
+    "REX": {"slug": null, "name": null, "confidence": "unmapped", "evidence": "17 filings on the first page on 2026-10-20; possibly Railbird Exchange (DKeX), unconfirmed"},
+    "BTNL": {"slug": null, "name": "Bitnomial Exchange", "confidence": "likely", "evidence": "code; Bitnomial is a pending prediction-market applicant"}
+  }
+}

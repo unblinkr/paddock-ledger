@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA MBB Total Points",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634307.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:43Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Men's Basketball Total Points Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65338,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65338"
+}

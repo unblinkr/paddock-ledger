@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634447.pdf"
+},
+{
+"title": "NCAA WBB Spread",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634445.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:00Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Notre Dame win the NCAA Division I Women's Basketball game against Villanova on November 1, 2026 by more than 9.5 points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65363,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65363"
+}

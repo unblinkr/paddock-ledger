@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "Nodal Exchange Appendix A - Contract Specifications - REDLINE",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629912.pdf"
+},
+{
+"title": "Self-Certification Letter 26-034",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629911.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:57Z",
+"fields": {
+"date": "2026-10-09 00:00:00",
+"description": "The Exchange is amending Appendix A - Contract Specifications for all Power Monthly Options to clarify the Last Trading Day if such day falls on the Friday immediately following Thanksgiving Day. Products Affected:",
+"official_receipt_date": "2026-09-25 00:00:00",
+"organization": "NODAL",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64629,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64629"
+}

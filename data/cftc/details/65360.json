@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA Mens Basketball",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634431.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:58Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Men's Basketball Championship Futures Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65360,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65360"
+}

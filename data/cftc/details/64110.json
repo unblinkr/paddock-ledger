@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09162626529.pdf"
+},
+{
+"title": "Will the number of rate cuts be <count>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09162626528.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules09162626526.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:12Z",
+"fields": {
+"date": "2026-09-29 00:00:00",
+"description": "Straightforward amendment to the \"Will the number of rate cuts be <count>?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-16 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64110,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64110"
+}

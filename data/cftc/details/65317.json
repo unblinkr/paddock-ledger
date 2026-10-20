@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - CPAGSP - (2026.10.16) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634181.pdf"
+},
+{
+"title": "PMUS - CPAGSP - (2026.10.16) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634178.pdf"
+},
+{
+"title": "PMUS - CPAGSP - (2026.10.16) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634179.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:30Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "QCEX",
+"product_name": "Silver Spot Price Contracts (CPAGSP)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65317,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65317"
+}

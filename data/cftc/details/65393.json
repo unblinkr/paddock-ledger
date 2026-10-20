@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - RAINCLI - (2026.10.19) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634578.pdf"
+},
+{
+"title": "PMUS - RAINCLI - (2026.10.19) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634575.pdf"
+},
+{
+"title": "PMUS - RAINCLI - (2026.10.19) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634576.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:48Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "QCEX",
+"product_name": "Rainfall CLI Contracts (RAINCLI)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65393,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65393"
+}

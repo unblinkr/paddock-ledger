@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "Weekly Notification of Rule Amendments",
+"url": "https://www.cftc.gov/filings/orgrules/rules10052631586.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:02Z",
+"fields": {
+"date": "2026-10-05 00:00:00",
+"description": "Changes title of the ticker from UFC to MMA on specified contracts.",
+"official_receipt_date": "2026-10-05 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "Notified"
+},
+"id": 64905,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64905"
+}

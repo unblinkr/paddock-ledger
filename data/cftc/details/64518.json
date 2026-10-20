@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will Alta Ski Area open for the <season> ski season <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09232629153.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules09232629155.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09232629156.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:46Z",
+"fields": {
+"date": "2026-10-06 00:00:00",
+"description": "Straightforward amendment to the \"Will Alta Ski Area open for the <season> ski season <time period>?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-23 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64518,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64518"
+}

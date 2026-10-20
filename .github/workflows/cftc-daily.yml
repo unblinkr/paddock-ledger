@@ -1,0 +1,42 @@
+# The listings ledger: the CFTC's product filings lists, once a day.
+# Runs after the CFTC's business day (06:30 UTC). New rows are appended to
+# data/cftc/*.jsonl and committed; the run record goes to data/runs/.
+name: cftc-daily
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Walk every page (backfill, about 10 minutes, list rows only)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: ledger-commit
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect
+        run: |
+          if [ "${{ inputs.all }}" = "true" ]; then
+            python collectors/cftc.py --all --no-details || true
+          else
+            python collectors/cftc.py || true
+          fi
+      - name: Commit
+        run: |
+          git config user.name "paddock-ledger[bot]"
+          git config user.email "hello@paddock.finance"
+          git add data/
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "cftc: $(date -u +%Y-%m-%d) $(python -c "import json,glob;r=[json.loads(l) for f in sorted(glob.glob('data/runs/*.jsonl'))[-1:] for l in open(f)];print(', '.join(f\"{x['collector']} +{x['counts'].get('new_rows',0)}\" for x in r if x['collector'].startswith('cftc')))")"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break || sleep 15; done

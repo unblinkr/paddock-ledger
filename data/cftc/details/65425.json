@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634740.pdf"
+},
+{
+"title": "TTELITEWIN-FOLWED-16NOV2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634739.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:34Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "TTELITEWIN-FOLWED-16NOV2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65425,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65425"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEBASKETBALLOUTRIGHT-NCAA-FLORIDA-2027 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634670.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634671.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:44Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEBASKETBALLOUTRIGHT-NCAA-FLORIDA-2027",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65414,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65414"
+}

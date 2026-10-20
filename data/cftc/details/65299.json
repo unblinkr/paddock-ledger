@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEFOOTBALLSPREAD-MICHOSU-28NOV2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634071.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634072.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:18Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEFOOTBALLSPREAD-MICHOSU-28NOV2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65299,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65299"
+}

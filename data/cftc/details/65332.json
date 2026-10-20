@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA Division I Men's Basketball Moneyline Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634277.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:51Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Men's Basketball Moneyline Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65332,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65332"
+}

@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - CPAGD - (2026.10.16) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634207.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:49Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "QCEX",
+"product_name": "Silver Price Contracts (CPAGD)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65322,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65322"
+}

@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "NYMEX Submission No. 26-388 (FOIA)",
+"url": "https://www.cftc.gov/filings/orgrules/rules09302630702.pdf"
+},
+{
+"title": "NYMEX Submission No. 26-388",
+"url": "https://www.cftc.gov/filings/orgrules/rules09302630704.pdf"
+},
+{
+"title": "26-388_1.pdf",
+"url": "https://www.cftc.gov/filings/orgrules/rules10012630857.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:45Z",
+"fields": {
+"date": "2026-10-15 00:00:00",
+"description": "Amendments to the Gulf Coast LNG Export Futures Contract: Removal of Freeport LNG Delivery Facility and Decrease of Spot Month Position Limits Products Affected:",
+"official_receipt_date": "2026-09-30 00:00:00",
+"organization": "NYMEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64768,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64768"
+}

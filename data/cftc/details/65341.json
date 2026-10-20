@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "2026-122",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634321.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:41Z",
+"fields": {
+"category": "Natural Resource",
+"date": "2026-10-16 00:00:00",
+"organization": "BTNL",
+"product_name": "Architect Deci Gold Futures Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Metal",
+"type": "Future"
+},
+"id": 65341,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65341"
+}

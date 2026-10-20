@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634008.pdf"
+},
+{
+"title": "Will Shai Gilgeous-Alexander record <above/below/exactly/at least/at most/between> <count> <stat> <time period> of the Denver Nuggets at Oklahoma City Thunder game on October 22, 2026 (Covered)?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634007.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:09Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "KEX",
+"product_name": "Will Shai Gilgeous-Alexander record <above/below/exactly/at least/at most/between> <count> <stat> <time period> of the Denver Nuggets at Oklahoma City Thunder game on October 22, 2026 (Covered)?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65288,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65288"
+}

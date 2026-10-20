@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "40.6(a) Amendment Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10012630865.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:39Z",
+"fields": {
+"date": "2026-10-16 00:00:00",
+"description": "Amendments provide additional specificity concerning the variables that may be listed, the time periods that may be referenced, the sources used for settlement, and the trading restrictions applicable to the affected Contracts. Products Affected:",
+"official_receipt_date": "2026-10-01 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64790,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64790"
+}

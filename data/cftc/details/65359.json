@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634427.pdf"
+},
+{
+"title": "NCAA Mens Basketball",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634425.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:57Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will UConn win the 2027 NCAA Division I Women's Basketball Championship?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65359,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65359"
+}

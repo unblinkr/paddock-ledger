@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - CPAG - (2026.10.16) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634203.pdf"
+},
+{
+"title": "PMUS - CPAG - (2026.10.16) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634200.pdf"
+},
+{
+"title": "PMUS - CPAG - (2026.10.16) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634201.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:48Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "QCEX",
+"product_name": "Silver Price Contracts (CPAG)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65321,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65321"
+}

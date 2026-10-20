@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NHL Western Conference Finals Champion (LAK)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634933.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NHL Western Conference Finals Champion (LAK)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634935.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:29Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Los Angeles Kings win the 2026-27 Western Conference Finals?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65468,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65468"
+}

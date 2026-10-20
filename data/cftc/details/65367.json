@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634467.pdf"
+},
+{
+"title": "NCAA WBB Total Points",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634465.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:04Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the combined score exceed 139.5 points in the NCAA Division I Women's Basketball game between Notre Dame and Villanova on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65367,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65367"
+}

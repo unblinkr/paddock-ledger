@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632142.pdf"
+},
+{
+"title": "Will the U.S. midterm elections be held on time in <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632141.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10062632140.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:52Z",
+"fields": {
+"date": "2026-10-06 00:00:00",
+"description": "Straightforward amendment to the \"Will the U.S. midterm elections be held on time in <time period>?\" Contract",
+"official_receipt_date": "2026-10-06 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 64993,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64993"
+}

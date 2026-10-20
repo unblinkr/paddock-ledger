@@ -1,0 +1,34 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634152.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634151.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634147.pdf"
+},
+{
+"title": "FOIA Request for Confidential Treatment",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634146.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:25Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-16 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will the Chicago Bulls score over 100 total points in the Bulls vs Raptors game on October 21, 2026? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65311,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65311"
+}

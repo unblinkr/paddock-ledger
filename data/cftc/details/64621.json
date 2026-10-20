@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will <central bank> take <action> at <meeting>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629864.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629863.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09252629865.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:56Z",
+"fields": {
+"date": "2026-10-09 00:00:00",
+"description": "Straightforward amendment to the \"Will <central bank> take <action> at <meeting>?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-25 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64621,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64621"
+}

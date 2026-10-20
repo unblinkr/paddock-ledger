@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - RAINCLID - (2026.10.19) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634590.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:47Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "QCEX",
+"product_name": "Rainfall CLI Contract (RAINCLID)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65396,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65396"
+}

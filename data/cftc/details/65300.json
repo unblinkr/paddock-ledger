@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEFOOTBALLSPREAD - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634078.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634076.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:19Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEFOOTBALLSPREAD",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65300,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65300"
+}

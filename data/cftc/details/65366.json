@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA WBB Statistics",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634461.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:06Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Women's Basketball Player Statistics Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65366,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65366"
+}

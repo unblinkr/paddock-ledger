@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "15 Minute Cryptocurrency Forecast Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc10142633116.pdf"
+},
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10142633117.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:55Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "FEX",
+"product_name": "Ethereum 15 Minute Cryptocurrency Forecast Contract",
+"remarks": "",
+"status": "Withdrawn",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65176,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65176"
+}

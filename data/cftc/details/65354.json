@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "ATP WINNER",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634400.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:34Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "LEX",
+"product_name": "ATP WINNER",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65354,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65354"
+}

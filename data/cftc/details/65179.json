@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "15 Minute Cryptocurrency Forecast Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc10142633134.pdf"
+},
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10142633135.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:52Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "FEX",
+"product_name": "Cardano 15 Minute Cryptocurrency Forecast Contract",
+"remarks": "",
+"status": "Withdrawn",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65179,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65179"
+}

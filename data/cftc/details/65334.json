@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA Division I Men's Basketball Spread Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634287.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:56Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Men's Basketball Spread Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65334,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65334"
+}

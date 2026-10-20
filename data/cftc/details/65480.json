@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - International City High Temperature (London)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635005.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - International City High Temperature (London)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635007.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Maximum Temperature at London Heathrow Airport (EGLL) on October 22, 2026 Be 16C or Above?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65480,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65480"
+}

@@ -1,0 +1,48 @@
+{
+"documents": [
+{
+"title": "Appendix A - FIBASPR",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192633244.pdf"
+},
+{
+"title": "Appendix A - FIBATOT",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192633247.pdf"
+},
+{
+"title": "Appendix A - FIBAWIN",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192633248.pdf"
+},
+{
+"title": "Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192632849.pdf"
+},
+{
+"title": "Appendix A - MLBAWACH",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192633246.pdf"
+},
+{
+"title": "Appendix A - MLBPLACH",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192632850.pdf"
+},
+{
+"title": "Appendix A - MLBSTACH",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192632851.pdf"
+},
+{
+"title": "Appendix A - PRESCUP",
+"url": "https://www.cftc.gov/filings/orgrules/rules10192633245.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:59Z",
+"fields": {
+"date": "2026-10-09 00:00:00",
+"description": "Adding 7 contracts that should have been included in the 10/1/26 amendment.",
+"official_receipt_date": "2026-10-09 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65376,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65376"
+}

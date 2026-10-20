@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "26-150",
+"url": "https://www.cftc.gov/filings/orgrules/rules10052631528.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:30Z",
+"fields": {
+"date": "2026-10-19 00:00:00",
+"description": "Amendments to terms and conditions of OKX futures contracts Products Affected:",
+"official_receipt_date": "2026-10-05 00:00:00",
+"organization": "ICE US",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64895,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64895"
+}

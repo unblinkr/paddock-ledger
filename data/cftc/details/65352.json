@@ -1,0 +1,44 @@
+{
+"documents": [
+{
+"title": "BOXPROP Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634386.pdf"
+},
+{
+"title": "BOXPROP Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634387.pdf"
+},
+{
+"title": "BOXWIN Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634385.pdf"
+},
+{
+"title": "BOXWIN Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634388.pdf"
+},
+{
+"title": "Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634384.pdf"
+},
+{
+"title": "MMAPROP Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634390.pdf"
+},
+{
+"title": "MMAPROP Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634389.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:41Z",
+"fields": {
+"date": "2026-10-16 00:00:00",
+"description": "Respond to CFTC staff concerns regarding provisions that permit a <time period> consisting of a specific minute within a round. They narrow the permitted values of <time period> in each affected Public Appendix A by",
+"official_receipt_date": "2026-10-16 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65352,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65352"
+}

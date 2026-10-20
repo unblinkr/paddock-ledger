@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/orgrules/rules10162634222.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:34Z",
+"fields": {
+"date": "2026-10-16 00:00:00",
+"description": "Rothera is adding an additional clarification under the Payment Criterion section of the terms and conditions of the contract to clarify the settlement process in the event an NFL game outcome ends in a tie.",
+"official_receipt_date": "2026-10-16 00:00:00",
+"organization": "ROTHDCM",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65325,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65325"
+}

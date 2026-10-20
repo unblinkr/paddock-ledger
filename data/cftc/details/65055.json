@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "Group Amendment - Minimum Tick Size",
+"url": "https://www.cftc.gov/filings/orgrules/rules10082632497.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:33Z",
+"fields": {
+"date": "2026-10-19 00:00:00",
+"description": "Submission of group amendment to alter minimum tick size in Contract terms. Products Affected:",
+"official_receipt_date": "2026-10-05 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 65055,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65055"
+}

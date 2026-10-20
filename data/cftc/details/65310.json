@@ -1,0 +1,34 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634142.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634141.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634137.pdf"
+},
+{
+"title": "FOIA Request for Confidential Treatment",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634136.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:24Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-16 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will the Bulls win by more than 6 points in the Bulls vs Raptors on October 21, 2026? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65310,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65310"
+}

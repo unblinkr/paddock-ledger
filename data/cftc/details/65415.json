@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COLLEGEBASKETBALLOUTRIGHT - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634676.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634677.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:43Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "REX",
+"product_name": "COLLEGEBASKETBALLOUTRIGHT",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65415,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65415"
+}

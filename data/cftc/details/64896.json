@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "26-151",
+"url": "https://www.cftc.gov/filings/orgrules/rules10052631532.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:57Z",
+"fields": {
+"date": "2026-10-05 00:00:00",
+"description": "Reduction of minimum tic size for OKX WLD futures contracts and renumbering of rules.",
+"official_receipt_date": "2026-10-05 00:00:00",
+"organization": "ICE US",
+"remarks": "",
+"status": "Notified"
+},
+"id": 64896,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64896"
+}

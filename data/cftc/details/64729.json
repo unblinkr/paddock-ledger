@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "CME Submission No. 26-414",
+"url": "https://www.cftc.gov/filings/orgrules/rules09292630473.pdf"
+},
+{
+"title": "CME Submission No. 26-414 (FOIA)",
+"url": "https://www.cftc.gov/filings/orgrules/rules09292630471.pdf"
+}
+],
+"fetched": "2026-10-20T19:00:47Z",
+"fields": {
+"date": "2026-10-14 00:00:00",
+"description": "Increase of the Single Month Position Limits of the Lean Hog Futures and Options on Lean Hog Futures Contracts Products Affected:",
+"official_receipt_date": "2026-09-29 00:00:00",
+"organization": "CME",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64729,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64729"
+}

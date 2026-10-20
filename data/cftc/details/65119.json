@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10092632879.pdf"
+},
+{
+"title": "Will <candidate> win the Nobel Peace Prize for <year>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10092632877.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10092632878.pdf"
+}
+],
+"fetched": "2026-10-20T19:01:03Z",
+"fields": {
+"date": "2026-10-09 00:00:00",
+"description": "Straightforward amendment to the \"Will <candidate> win the Nobel Peace Prize for <year>?\" Contract",
+"official_receipt_date": "2026-10-09 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65119,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65119"
+}

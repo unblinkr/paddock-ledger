@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634283.pdf"
+},
+{
+"title": "NCAA MBB Spread",
+"url": "https://www.cftc.gov/filings/ptc/ptc10162634282.pdf"
+}
+],
+"fetched": "2026-10-20T19:03:55Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-16 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Notre Dame win by more than 5 points against Villanova on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65333,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65333"
+}

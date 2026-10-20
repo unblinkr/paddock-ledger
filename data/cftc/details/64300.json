@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will <person> be picked with the <count> pick of the <sports league> <draft>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09182627828.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules09182627827.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09182627829.pdf"
+}
+],
+"fetched": "2026-10-20T19:02:08Z",
+"fields": {
+"date": "2026-10-01 00:00:00",
+"description": "Straightforward amendment to the \"Will <person> be picked with the <count> pick of the <sports league> draft?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-18 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64300,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64300"
+}
