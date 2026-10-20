@@ -1,0 +1,50 @@
+# The clock. GitHub did not fire this repository's cron schedules on its
+# first day (no `schedule` run at 20:07 or 21:07 UTC on 2026-10-20), and a
+# missed hour of books can never be captured later. This job is the fallback:
+# it runs for just under six hours, dispatches each collector at its time,
+# then dispatches itself again before it ends. The cron below restarts it if
+# the chain ever breaks, once GitHub honours schedules here.
+#
+# A collector dispatched by both its own cron and the clock in the same hour
+# writes the same hour's file twice; the second write replaces the first.
+# Nothing is lost either way.
+name: clock
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */6 * * *"
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: clock
+  cancel-in-progress: true
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Dispatch collectors on time for six hours
+        run: |
+          end=$(( $(date +%s) + 345*60 ))
+          last=""
+          while [ "$(date +%s)" -lt "$end" ]; do
+            hm=$(date -u +%H:%M)
+            m=$(date -u +%M)
+            key=$(date -u +%Y%m%d%H)
+            if [ "$m" = "07" ] && [ "$last" != "$key-books" ]; then
+              gh workflow run books-hourly.yml -R "$REPO" && echo "$hm books-hourly"; last="$key-books"
+            fi
+            case "$hm" in
+              05:40) gh workflow run listings-daily.yml -R "$REPO" && echo "$hm listings-daily" ;;
+              06:30) gh workflow run cftc-daily.yml -R "$REPO" && echo "$hm cftc-daily" ;;
+              08:15) gh workflow run health-daily.yml -R "$REPO" && echo "$hm health-daily" ;;
+            esac
+            sleep $(( 60 - $(date +%S | sed 's/^0//') ))
+          done
+      - name: Hand over to the next clock
+        if: always()
+        run: gh workflow run clock.yml -R "$REPO" && echo "next clock dispatched"
