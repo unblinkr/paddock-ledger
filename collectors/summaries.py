@@ -60,6 +60,26 @@ def filings_recent(days: int = 120) -> dict:
             "orgs": {k: {"slug": v["slug"], "name": v["name"]} for k, v in orgs.items()}}
 
 
+def org_topics() -> dict:
+    """All-time event-filing counts per exchange per topic, with the last
+    filing date. Answers 'has this exchange ever filed in this topic', which a
+    120-day window cannot: an exchange lists for years on one old filing."""
+    orgs = json.loads((DATA / "cftc" / "orgs.json").read_text())["orgs"]
+    out: dict[str, dict[str, dict]] = {k: {} for k in orgs}
+    seen: set[int] = set()
+    with (DATA / "cftc" / "products.jsonl").open() as f:
+        for line in f:
+            r = json.loads(line)
+            if r.get("organization") not in orgs or r.get("category") != "Event" or r["id"] in seen:
+                continue
+            seen.add(r["id"])
+            t = topic(r["product_name"])
+            cell = out[r["organization"]].setdefault(t, {"count": 0, "last": ""})
+            cell["count"] += 1
+            cell["last"] = max(cell["last"], r["date"])
+    return {"generated": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "orgs": out}
+
+
 def kalshi_series(day_file: Path) -> dict:
     series: dict[str, dict] = defaultdict(lambda: {"markets": 0, "volume_24h": 0.0, "top": []})
     with gzip.open(day_file, "rt") as f:
@@ -93,12 +113,15 @@ def main() -> int:
     try:
         fr = filings_recent()
         write_atomic(OUT / "filings-recent.json", json.dumps(fr, ensure_ascii=False, sort_keys=True).encode())
+        write_atomic(OUT / "org-topics.json", json.dumps(org_topics(), ensure_ascii=False, sort_keys=True).encode())
         days = sorted((DATA / "kalshi" / "listings").glob("*.jsonl.gz"))
         written = 0
         for d in days:
             target = OUT / "kalshi-series" / f"{d.name.split('.')[0]}.json"
             write_atomic(target, json.dumps(kalshi_series(d), ensure_ascii=False, sort_keys=True).encode())
             written += 1
+        idx = sorted(p.name.split(".")[0] for p in (OUT / "kalshi-series").glob("*.json") if p.name != "index.json")
+        write_atomic(OUT / "kalshi-series" / "index.json", json.dumps({"days": idx}).encode())
         record_run("summaries", source="live", counts={"filings": len(fr["rows"]), "kalshi_days_written": written}, started=started)
         return 0
     except Exception as e:  # noqa: BLE001
