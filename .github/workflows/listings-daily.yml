@@ -23,6 +23,7 @@ jobs:
       - run: python collectors/kalshi.py --mode daily || true
       - run: python collectors/gemini.py --mode daily || true
       - run: python collectors/polymarket_us.py --mode daily || true
+      - run: python collectors/summaries.py || true
       - name: Commit
         run: |
           git config user.name "paddock-ledger[bot]"
