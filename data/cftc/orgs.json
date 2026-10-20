@@ -1,12 +1,95 @@
 {
-  "_about": "Organization codes as they appear on the CFTC's industry filings lists, mapped to platform slugs in data/platforms/platforms.json. `confidence` is `confirmed` when the mapping comes from the CFTC's own designation record or the organization's filing documents, `likely` when inferred from the code alone. Codes seen on the list but not yet mapped are listed with a null slug; map them by pull request with the evidence in `evidence`.",
-  "orgs": {
-    "KEX": {"slug": "kalshi", "name": "KalshiEX LLC", "confidence": "confirmed", "evidence": "Kalshi's own filings name KalshiEX LLC"},
-    "GMNI": {"slug": "gemini", "name": "Gemini Titan LLC", "confidence": "likely", "evidence": "GMNI filings are Gemini Predictions contracts (temperature, BTC)"},
-    "PROPHX": {"slug": "prophetx", "name": "ProphetX", "confidence": "likely", "evidence": "code"},
-    "FEX": {"slug": "forecastex", "name": "ForecastEx LLC", "confidence": "likely", "evidence": "code"},
-    "QCEX": {"slug": "polymarket-us", "name": "QCEX LLC (Polymarket US)", "confidence": "likely", "evidence": "Polymarket acquired QCEX, the DCM behind Polymarket US"},
-    "REX": {"slug": null, "name": null, "confidence": "unmapped", "evidence": "17 filings on the first page on 2026-10-20; possibly Railbird Exchange (DKeX), unconfirmed"},
-    "BTNL": {"slug": null, "name": "Bitnomial Exchange", "confidence": "likely", "evidence": "code; Bitnomial is a pending prediction-market applicant"}
+ "_about": "Organization codes on the CFTC's industry filings lists, mapped to platform slugs in data/platforms/platforms.json. Each mapping cites the filing whose own document names the exchange. Not yet seen filing since June 2025 under any code: Small Exchange (Kraken), JuiceX, Xchange Alpha. Map new codes by pull request with the same kind of evidence.",
+ "orgs": {
+  "KEX": {
+   "slug": "kalshi",
+   "name": "KalshiEX LLC",
+   "confidence": "confirmed",
+   "evidence": "Kalshi's own filings name KalshiEX LLC"
+  },
+  "QCEX": {
+   "slug": "polymarket-us",
+   "name": "QCX LLC d/b/a Polymarket US",
+   "confidence": "confirmed",
+   "evidence": "filing 65393 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65393): document names QCX LLC d/b/a Polymarket US; read 2026-10-20"
+  },
+  "GMNI": {
+   "slug": "gemini",
+   "name": "Gemini Titan, LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 65467 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65467): document names Gemini Titan, LLC; read 2026-10-20"
+  },
+  "LEX": {
+   "slug": "novig",
+   "name": "Ludlow Exchange, LLC (Novig)",
+   "confidence": "confirmed",
+   "evidence": "filing 65340 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65340): document names Ludlow Exchange, LLC; read 2026-10-20; Novig's DCM is Ludlow Exchange"
+  },
+  "PROPHX": {
+   "slug": "prophetx",
+   "name": "ProphetX LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 65359 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65359): document names ProphetX LLC; read 2026-10-20"
+  },
+  "ARST": {
+   "slug": "udx",
+   "name": "Aristotle Exchange DCM, Inc. (UDX)",
+   "confidence": "confirmed",
+   "evidence": "filing 64931 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/64931): document names Aristotle Exchange DCM, Inc.; read 2026-10-20"
+  },
+  "REX": {
+   "slug": "dkex",
+   "name": "Railbird Exchange, LLC (DKeX)",
+   "confidence": "confirmed",
+   "evidence": "filing 65302 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65302): document names Railbird Exchange, LLC; read 2026-10-20; DraftKings bought Railbird"
+  },
+  "ROTHDCM": {
+   "slug": "rothera",
+   "name": "Rothera Exchange and Clearing LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 65310 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65310): document names Rothera Exchange and Clearing LLC; read 2026-10-20"
+  },
+  "FEX": {
+   "slug": "forecastex",
+   "name": "ForecastEx LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 65175 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65175): document names ForecastEx LLC; read 2026-10-20"
+  },
+  "CDNA": {
+   "slug": "cdna",
+   "name": "North American Derivatives Exchange, Inc. (Crypto.com)",
+   "confidence": "confirmed",
+   "evidence": "filing 65107 (https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65107): document names the North American Derivatives Exchange, Inc.; read 2026-10-20"
+  },
+  "COIN": {
+   "slug": null,
+   "name": "Coinbase Derivatives, LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 64236 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/64236): document names Coinbase Derivatives, LLC; read 2026-10-20"
+  },
+  "BTNL": {
+   "slug": null,
+   "name": "Bitnomial Exchange, LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 64838 (https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64838): document names Bitnomial Exchange, LLC; read 2026-10-20"
+  },
+  "ETRON": {
+   "slug": null,
+   "name": "Electron Exchange DCM, LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 63514 (https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/63514): document names Electron Exchange DCM, LLC; read 2026-10-20"
+  },
+  "MIAX": {
+   "slug": null,
+   "name": "MIAX Futures Exchange, LLC",
+   "confidence": "confirmed",
+   "evidence": "filing 64796 (https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/64796): document names MIAX Futures Exchange, LLC; read 2026-10-20"
+  },
+  "FMX": {
+   "slug": null,
+   "name": "FMX Futures Exchange, L.P.",
+   "confidence": "confirmed",
+   "evidence": "filing 61878 (https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/61878): document names FMX Futures Exchange, L.P.; read 2026-10-20"
   }
+ }
 }

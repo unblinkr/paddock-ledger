@@ -1,20 +1,155 @@
 {
-  "_about": "Every US prediction-market platform the Ledger records or tracks. `collector` names the module in collectors/ that captures it, or null when nothing public is exposed yet. `cftc_org` is the organization code the CFTC uses on its filings lists. Edit by pull request; never delete a row, set `status` instead.",
-  "platforms": [
-    {"slug": "kalshi", "name": "Kalshi", "kind": "dcm", "cftc_org": "KEX", "collector": "kalshi", "api": "https://api.elections.kalshi.com/trade-api/v2", "status": "live", "notes": "Events with nested markets; multivariate (combo) collections excluded from the record and counted separately."},
-    {"slug": "polymarket-us", "name": "Polymarket US", "kind": "dcm", "cftc_org": null, "collector": "polymarket_us", "api": "https://gateway.polymarket.us/v1", "status": "live", "notes": "Public gateway. `limit` caps at 500; `offset` pages; `page` is ignored by the server."},
-    {"slug": "gemini", "name": "Gemini Predictions", "kind": "dcm", "cftc_org": "GMNI", "collector": "gemini", "api": "https://api.gemini.com/v1/prediction-markets", "status": "live", "notes": "Events with nested contracts and top-of-book. Every query is capped at 1,000 events; the collector walks per category and flags truncation."},
-    {"slug": "novig", "name": "Novig", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Sports Trading API announced Oct 2026; access terms not yet read. Not captured."},
-    {"slug": "prophetx", "name": "ProphetX", "kind": "dcm", "cftc_org": null, "collector": null, "api": "https://cash.api.prophetx.co/partner", "status": "live", "notes": "Market data needs an affiliate key. Not captured."},
-    {"slug": "rothera", "name": "Rothera", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Robinhood and Susquehanna. No public market-data API found yet."},
-    {"slug": "dkex", "name": "DKeX", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "DraftKings, on Railbird. No public market-data API found yet."},
-    {"slug": "forecastex", "name": "ForecastEx", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Interactive Brokers. Not captured."},
-    {"slug": "cdna", "name": "CDNA", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Crypto.com. Not captured."},
-    {"slug": "udx", "name": "UDX", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Not captured."},
-    {"slug": "small-exchange", "name": "Small Exchange", "kind": "dcm", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Kraken. Not captured."},
-    {"slug": "public", "name": "Public", "kind": "broker", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Routes to Kalshi; Kalshi's record covers its listings."},
-    {"slug": "webull", "name": "Webull", "kind": "broker", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Routes to Kalshi."},
-    {"slug": "og", "name": "OG.com", "kind": "app", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "Crypto.com-backed app."},
-    {"slug": "tribal-apps", "name": "Tribal apps on Kalshi", "kind": "app", "cftc_org": null, "collector": null, "api": null, "status": "live", "notes": "SaltTrade, PokkeTrades, Sovereign Edge, Greenville, AIR Markets. Kalshi's record covers their listings."}
-  ]
+ "_about": "Every US prediction-market platform the Ledger records or tracks. `collector` names the module in collectors/ that captures it, or null when nothing public is exposed yet. `cftc_org` is the organization code the CFTC uses on its filings lists. Edit by pull request; never delete a row, set `status` instead.",
+ "platforms": [
+  {
+   "slug": "kalshi",
+   "name": "Kalshi",
+   "kind": "dcm",
+   "cftc_org": "KEX",
+   "collector": "kalshi",
+   "api": "https://api.elections.kalshi.com/trade-api/v2",
+   "status": "live",
+   "notes": "Events with nested markets; multivariate (combo) collections excluded from the record and counted separately."
+  },
+  {
+   "slug": "polymarket-us",
+   "name": "Polymarket US",
+   "kind": "dcm",
+   "cftc_org": "QCEX",
+   "collector": "polymarket_us",
+   "api": "https://gateway.polymarket.us/v1",
+   "status": "live",
+   "notes": "Public gateway. `limit` caps at 500; `offset` pages; `page` is ignored by the server."
+  },
+  {
+   "slug": "gemini",
+   "name": "Gemini Predictions",
+   "kind": "dcm",
+   "cftc_org": "GMNI",
+   "collector": "gemini",
+   "api": "https://api.gemini.com/v1/prediction-markets",
+   "status": "live",
+   "notes": "Events with nested contracts and top-of-book. Every query is capped at 1,000 events; the collector walks per category and flags truncation."
+  },
+  {
+   "slug": "novig",
+   "name": "Novig",
+   "kind": "dcm",
+   "cftc_org": "LEX",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "DCM is Ludlow Exchange (CFTC code LEX). No public market-data API; the app's endpoint is internal. Not captured; its filings are in the ledger."
+  },
+  {
+   "slug": "prophetx",
+   "name": "ProphetX",
+   "kind": "dcm",
+   "cftc_org": "PROPHX",
+   "collector": null,
+   "api": "https://cash.api.prophetx.co/partner",
+   "status": "live",
+   "notes": "Market data needs an affiliate key. Not captured."
+  },
+  {
+   "slug": "rothera",
+   "name": "Rothera",
+   "kind": "dcm",
+   "cftc_org": "ROTHDCM",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Robinhood and Susquehanna. No public market-data API found yet."
+  },
+  {
+   "slug": "dkex",
+   "name": "DKeX",
+   "kind": "dcm",
+   "cftc_org": "REX",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "DraftKings; DCM is Railbird Exchange (REX). No public market-data API found."
+  },
+  {
+   "slug": "forecastex",
+   "name": "ForecastEx",
+   "kind": "dcm",
+   "cftc_org": "FEX",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Interactive Brokers. Not captured."
+  },
+  {
+   "slug": "cdna",
+   "name": "CDNA",
+   "kind": "dcm",
+   "cftc_org": "CDNA",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Crypto.com; DCM is North American Derivatives Exchange (CDNA). Not captured."
+  },
+  {
+   "slug": "udx",
+   "name": "UDX (Aristotle Exchange)",
+   "kind": "dcm",
+   "cftc_org": "ARST",
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Underdog; DCM is Aristotle Exchange (ARST). Not captured."
+  },
+  {
+   "slug": "small-exchange",
+   "name": "Small Exchange",
+   "kind": "dcm",
+   "cftc_org": null,
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Kraken. Not captured."
+  },
+  {
+   "slug": "public",
+   "name": "Public",
+   "kind": "broker",
+   "cftc_org": null,
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Routes to Kalshi; Kalshi's record covers its listings."
+  },
+  {
+   "slug": "webull",
+   "name": "Webull",
+   "kind": "broker",
+   "cftc_org": null,
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Routes to Kalshi."
+  },
+  {
+   "slug": "og",
+   "name": "OG.com",
+   "kind": "app",
+   "cftc_org": null,
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "Crypto.com-backed app."
+  },
+  {
+   "slug": "tribal-apps",
+   "name": "Tribal apps on Kalshi",
+   "kind": "app",
+   "cftc_org": null,
+   "collector": null,
+   "api": null,
+   "status": "live",
+   "notes": "SaltTrade, PokkeTrades, Sovereign Edge, Greenville, AIR Markets. Kalshi's record covers their listings."
+  }
+ ]
 }
