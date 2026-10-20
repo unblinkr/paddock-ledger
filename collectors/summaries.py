@@ -107,6 +107,27 @@ def kalshi_series(day_file: Path) -> dict:
     return {"snapshot": day_file.name.split(".")[0], "series": out}
 
 
+def kalshi_week(n_days: int = 7, top_per_topic: int = 10) -> dict:
+    """Kalshi volume by topic over the last n daily snapshots (the sum of each
+    day's 24-hour volume), and the busiest markets per topic on the latest
+    day. Small enough for a page to read on every render."""
+    files = sorted((OUT / "kalshi-series").glob("2*.json"))[-n_days:]
+    totals: dict[str, float] = defaultdict(float)
+    latest_top: dict[str, list] = defaultdict(list)
+    for i, f in enumerate(files):
+        d = json.loads(f.read_text())
+        for key, s in d["series"].items():
+            totals[s["topic"]] += s["volume_24h"]
+            if i == len(files) - 1:
+                for m in s["top"]:
+                    latest_top[s["topic"]].append({**m, "series": key})
+    return {
+        "days": [f.name.split(".")[0] for f in files],
+        "volume_by_topic": {k: round(v) for k, v in totals.items()},
+        "top_by_topic": {k: sorted(v, key=lambda m: -m["volume_24h"])[:top_per_topic] for k, v in latest_top.items()},
+    }
+
+
 def main() -> int:
     started = utcnow()
     OUT.mkdir(parents=True, exist_ok=True)
@@ -120,6 +141,7 @@ def main() -> int:
             target = OUT / "kalshi-series" / f"{d.name.split('.')[0]}.json"
             write_atomic(target, json.dumps(kalshi_series(d), ensure_ascii=False, sort_keys=True).encode())
             written += 1
+        write_atomic(OUT / "kalshi-week.json", json.dumps(kalshi_week(), ensure_ascii=False, sort_keys=True).encode())
         idx = sorted(p.name.split(".")[0] for p in (OUT / "kalshi-series").glob("*.json") if p.name != "index.json")
         write_atomic(OUT / "kalshi-series" / "index.json", json.dumps({"days": idx}).encode())
         record_run("summaries", source="live", counts={"filings": len(fr["rows"]), "kalshi_days_written": written}, started=started)
