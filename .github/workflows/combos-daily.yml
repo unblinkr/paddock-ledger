@@ -1,0 +1,31 @@
+# Daily Kalshi combo (multivariate) collections as served, 07:40 UTC, after
+# settlements-daily (07:10).
+name: combos-daily
+on:
+  schedule:
+    - cron: "40 7 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ledger-commit
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: echo "RUN_LOG_NAME=combos" >> "$GITHUB_ENV"
+      - run: python collectors/kalshi_combos.py || true
+      - name: Commit
+        run: |
+          git config user.name "paddock-ledger[bot]"
+          git config user.email "hello@paddock.finance"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "combos: $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; git rebase --abort 2>/dev/null || true; sleep 15; done; echo "push failed after 5 tries"; exit 1

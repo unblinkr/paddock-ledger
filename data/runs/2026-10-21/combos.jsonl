@@ -1,0 +1,1 @@
+{"collector": "kalshi-combos:daily", "counts": {"bytes_gz": 210814, "collections": 1406, "ended_on_empty_cursor": true, "file": "data/kalshi/combos/2026-10-21.jsonl.gz", "page_size": 1000, "pages": 2}, "finished": "2026-10-21T14:18:14Z", "http": {"requests": 2, "retries": 0}, "source": "live", "started": "2026-10-21T14:18:13Z", "store": "git"}

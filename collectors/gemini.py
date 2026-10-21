@@ -19,6 +19,39 @@ Each contract carries bestBid, bestAsk, lastTradePrice and buy/sell prices,
 so one walk is both the listings snapshot and the hourly book. Depth exists
 at GET /v1/book/{instrumentSymbol} but is one request per contract and is not
 captured in this version.
+
+Settlements (--mode settled), verified 2026-10-21:
+  status=settled is honoured and carries the same 1,000 per query cap
+  (`pagination.total: 1000` for Weather, Crypto, Commodities).
+  No date filter exists. resolvedAfter, since, resolvedAt and startTime were
+  each sent with status=settled and every one returned the same ids as the
+  unfiltered query (ignored). order, sort, sortOrder, orderBy, direction,
+  series, subcategory and tag were ignored the same way.
+  What the 1,000 are: the most recent settled events, in no strict order.
+  Weather's 1,000 spanned 2026-10-01 to 2026-10-21; Crypto's 1,000 spanned
+  only 2026-10-20T22:45Z to 2026-10-21T14:05Z (hourly markets), so a category
+  that settles more than 1,000 events between runs loses the older ones.
+  That loss is disclosed as `truncated: true` per category in the run record,
+  not hidden. The walk keeps every row it is given; it does not trim to 36
+  hours, and a row seen twice across runs is a reader's dedupe problem.
+  Category=Sports with status=settled returned 503 "Service temporarily
+  unavailable" on every request tried (limit 1, 3, 10, 50, 500; offsets 0,
+  500, 990; also lower case). The same request with status=active works. A
+  category that fails is recorded in `categories_failed` and the run is
+  `partial`; the other categories are still captured. See QUESTIONS.md.
+  Keys on a settled event beyond EVENT_FIELDS (union over 3,081 events read
+  2026-10-21): description, featuredImageUrl, imageUrl, participants,
+  resolvedAt, settlement, socialImageUrl, sourceDetails, template, termsLink,
+  volumeDelta24hPct.
+  Keys on a settled contract beyond CONTRACT_FIELDS (union over 17,998
+  contracts): color, createdAt, description (the rules text), imageUrl,
+  priceMinimum, prices, quantityIncrement, quoteAssetPrecision,
+  resolutionSide, resolvedAt, settlementValue, sortOrder, source. The outcome
+  is resolutionSide ("yes" | "no") with resolvedAt; settlementValue (a string,
+  e.g. the reference price a crypto contract settled against) is present on
+  some categories only.
+  Settlement rows keep every key the API returned for the event and the
+  contract (rule 1: when unsure, keep the field).
 """
 
 from __future__ import annotations
@@ -91,10 +124,85 @@ def compact(events: list[dict], at: str, hourly: bool) -> list[dict]:
     return rows
 
 
+def compact_settled(events: list[dict], at: str) -> list[dict]:
+    """One row per contract, with the event and contract as served (every key kept, nothing derived)."""
+    rows = []
+    for e in events:
+        ev = {k: v for k, v in e.items() if k != "contracts"}
+        for c in e.get("contracts") or []:
+            rows.append({
+                "event_id": e.get("id"),
+                "instrument": c.get("instrumentSymbol"),
+                "contract_ticker": c.get("ticker"),
+                "market_state": c.get("marketState"),
+                "is_combo": c.get("isCombo"),
+                "resolution_side": c.get("resolutionSide"),
+                "resolved_at": c.get("resolvedAt"),
+                "contract": c,
+                "event": ev,
+                "at": at,
+            })
+    return rows
+
+
+def run_settled(started, http: Http, at: str) -> int:
+    mode = "settled"
+    per_cat: dict[str, dict] = {}
+    failed: dict[str, str] = {}
+    seen: dict[str, dict] = {}
+    unknown_categories: set[str] = set()
+    try:
+        base_events, base_walk = walk(http, None, status="settled")
+    except Exception as e:  # noqa: BLE001
+        record_run(f"{SLUG}:{mode}", source="unavailable", counts={}, note=repr(e), http=http, started=started)
+        return 1
+    per_cat["(all)"] = base_walk
+    for e in base_events:
+        seen[e["id"]] = e
+        if e.get("category") and e["category"] not in CATEGORIES:
+            unknown_categories.add(e["category"])
+    rejected: list[str] = []
+    for cat in CATEGORIES + sorted(unknown_categories):
+        try:
+            evs, w = walk(http, cat, status="settled")
+        except FetchError as fe:
+            if "400 " in str(fe):
+                rejected.append(cat)
+            else:
+                failed[cat] = str(fe)[:200]  # e.g. the Sports 503; the other categories still run
+            continue
+        per_cat[cat] = w
+        for e in evs:
+            seen[e["id"]] = e
+    events = list(seen.values())
+    rows = compact_settled(events, at)
+    path = DATA / SLUG / "settlements" / f"{day(started)}.jsonl.gz"
+    n, size = write_jsonl_gz(path, rows)
+    truncated = [c for c, w in per_cat.items() if w.get("truncated") and c != "(all)"]
+    counts = {
+        "events": len(events),
+        "contracts": n,
+        "combos": sum(1 for r in rows if r.get("is_combo")),
+        "bytes_gz": size,
+        "file": str(path.relative_to(REPO)) if path.is_relative_to(REPO) else str(path),
+        "query_cap": CAP,
+        "categories_at_cap": truncated,
+        "categories_failed": failed,
+        "unknown_categories_seen": sorted(unknown_categories),
+        "categories_rejected_by_api": rejected,
+        "per_category": per_cat,
+    }
+    source = "partial" if (truncated or failed) else "live"
+    record_run(f"{SLUG}:{mode}", source=source, counts=counts, http=http, started=started, store="git")
+    return 0 if source == "live" else 2
+
+
 def run(mode: str, out_root: Path) -> int:
     started = utcnow()
     http = Http(min_interval_s=0.6)
     at = stamp(started)
+    if mode == "settled":
+        return run_settled(started, http, at)
     per_cat: dict[str, dict] = {}
     seen: dict[str, dict] = {}
     unknown_categories: set[str] = set()
@@ -151,7 +259,7 @@ def run(mode: str, out_root: Path) -> int:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--mode", choices=["daily", "hourly"], default="hourly")
+    ap.add_argument("--mode", choices=["daily", "hourly", "settled"], default="hourly")
     ap.add_argument("--out", default=str(REPO / "books"))
     a = ap.parse_args(argv)
     return run(a.mode, Path(a.out))
