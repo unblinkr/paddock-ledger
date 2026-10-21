@@ -18,7 +18,7 @@ Sister repository: `unblinkr/openclaw-news` (paddock.finance, the site). Its CLA
 6. **Combos are counted, never mixed in.** Kalshi multivariate markets are skipped from the single-leg record and counted; the collections themselves are captured daily in data/kalshi/combos/. Gemini combos are flagged; Polymarket US comboEnabled is kept as a field.
 7. **No secrets in output.** R2 keys live only in repository secrets, referenced by name in `env:`. Nothing prints an environment variable.
 8. **Pace requests.** One a second with backoff is the default. A 429 is a signal to slow down, never to retry faster.
-9. **Public repository.** Nothing here may identify a person. Platform data is public data; keep it that way.
+9. **Public repository, private record.** The code, tests, run records, summaries and CFTC ledger are public. Platform snapshots, books, settlements and combos go to R2 under `record/` and `books/` and are never committed. Nothing here may identify a person.
 
 ## Layout
 
@@ -26,11 +26,13 @@ Sister repository: `unblinkr/openclaw-news` (paddock.finance, the site). Its CLA
 collectors/      one module per source; common.py is the shared plumbing
 data/cftc/       the listings ledger (append-only JSONL) and filing details
 data/platforms/  the platform registry
-data/<platform>/listings/   daily snapshots (gzipped JSONL)
-data/<platform>/settlements/   daily settlements, 36 hour window (gzipped JSONL)
-data/kalshi/combos/   daily Kalshi combo collections (gzipped JSONL)
+data/summaries/  small daily aggregates the site reads, built from the record
 data/runs/       one line per collector run
+record/<platform>/listings/      daily snapshots, written by the collectors, uploaded to R2, gitignored
+record/<platform>/settlements/   daily settlements, 36 hour window, same
+record/kalshi/combos/            daily combo collections, same
 books/           hourly books, written by the collectors, uploaded to R2, gitignored
+tasks/           Code task briefs with their QUESTIONS.md and REPORT.md
 tests/           parser tests on real saved responses
 .github/workflows/  the schedules
 ```

@@ -65,7 +65,7 @@ import hashlib
 import sys
 from pathlib import Path
 
-from common import DATA, REPO, Http, day, hour, record_run, stamp, utcnow, write_jsonl_gz
+from common import RECORD, REPO, Http, day, hour, record_run, stamp, utcnow, write_jsonl_gz
 
 BASE = "https://api.elections.kalshi.com/trade-api/v2"
 PAGE = 200  # events per page; the API's maximum for this endpoint
@@ -194,7 +194,7 @@ def run_settled(started, http: Http, at: str) -> int:
         record_run(f"{SLUG}:{mode}", source="unavailable", counts={"window_hours": WINDOW_HOURS, "min_close_ts": min_close_ts}, note=repr(e), http=http, started=started)
         return 1
     rows, skipped = compact_settled(markets, at)
-    path = DATA / SLUG / "settlements" / f"{day(started)}.jsonl.gz"
+    path = RECORD / SLUG / "settlements" / f"{day(started)}.jsonl.gz"
     n, size = write_jsonl_gz(path, rows)
     counts = {
         "markets_returned": len(markets),
@@ -208,7 +208,7 @@ def run_settled(started, http: Http, at: str) -> int:
         **walk,
     }
     source = "live" if walk["ended_on_empty_cursor"] else "partial"
-    record_run(f"{SLUG}:{mode}", source=source, counts=counts, http=http, started=started, store="git")
+    record_run(f"{SLUG}:{mode}", source=source, counts=counts, http=http, started=started, store="record")
     return 0 if source == "live" else 2
 
 
@@ -227,8 +227,8 @@ def run(mode: str, out_root: Path) -> int:
     n_mve = sum(1 for e in events for m in (e.get("markets") or []) if m.get("mve_collection_ticker"))
     if mode == "daily":
         rows = compact(events, MARKET_FIELDS, at)
-        path = DATA / SLUG / "listings" / f"{day(started)}.jsonl.gz"
-        store = "git"
+        path = RECORD / SLUG / "listings" / f"{day(started)}.jsonl.gz"
+        store = "record"
     else:
         rows = compact(events, BOOK_FIELDS, at)
         path = out_root / SLUG / day(started) / f"{started.strftime('%H')}.jsonl.gz"

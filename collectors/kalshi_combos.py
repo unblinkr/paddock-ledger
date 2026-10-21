@@ -26,7 +26,7 @@ from __future__ import annotations
 
 import sys
 
-from common import DATA, REPO, Http, day, record_run, stamp, utcnow, write_jsonl_gz
+from common import RECORD, REPO, Http, day, record_run, stamp, utcnow, write_jsonl_gz
 
 BASE = "https://api.elections.kalshi.com/trade-api/v2"
 PAGE = 1000
@@ -73,7 +73,7 @@ def run() -> int:
         record_run(f"{SLUG}:daily", source="unavailable", counts={}, note=repr(e), http=http, started=started)
         return 1
     rows = compact(items, at)
-    path = DATA / "kalshi" / "combos" / f"{day(started)}.jsonl.gz"
+    path = RECORD / "kalshi" / "combos" / f"{day(started)}.jsonl.gz"
     n, size = write_jsonl_gz(path, rows)
     counts = {
         "collections": n,
@@ -82,7 +82,7 @@ def run() -> int:
         **w,
     }
     source = "live" if w["ended_on_empty_cursor"] else "partial"
-    record_run(f"{SLUG}:daily", source=source, counts=counts, http=http, started=started, store="git")
+    record_run(f"{SLUG}:daily", source=source, counts=counts, http=http, started=started, store="record")
     return 0 if source == "live" else 2
 
 

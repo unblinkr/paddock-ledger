@@ -20,6 +20,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Data under data/ and the books: Creative Commons Attribution 4.0 International
-(CC BY 4.0), https://creativecommons.org/licenses/by/4.0/. Attribute
-"Paddock Ledger" and the commit.
+The CFTC filings ledger (data/cftc/), the platform registry (data/platforms/),
+the summaries (data/summaries/) and the run records (data/runs/) in this
+repository: Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/. Attribute "Paddock Ledger" and
+the commit.
+
+The platform record (listings, books, settlements and combo collections, kept
+on R2 and not in this repository) is not covered by that licence. It is
+available under licence from Paddock; write to the address on
+paddock.finance/venues.

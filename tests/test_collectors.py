@@ -229,3 +229,90 @@ def test_polymarket_us_resolved_rows_keep_status_and_final_side_prices():
         assert r["status"] == "MARKET_STATUS_RESOLVED"
         assert r["sides"] and all(isinstance(s["price"], str) for s in r["sides"])
         assert r["outcomePrices"] == m["outcomePrices"]
+
+
+# ---- The record never lands in data/ (2026-10-21: snapshots moved to R2 under record/) ----
+
+import common  # noqa: E402
+import store  # noqa: E402
+
+
+def _redirect(monkeypatch, tmp_path):
+    """Point every output root at tmp_path and silence the network: each walk returns its fixture."""
+    data = tmp_path / "data"
+    record = tmp_path / "record"
+    monkeypatch.setattr(common, "RUNS", data / "runs")
+    for mod in (kalshi, gemini, polymarket_us, kalshi_combos):
+        monkeypatch.setattr(mod, "RECORD", record)
+        monkeypatch.setattr(mod, "REPO", tmp_path)
+    ev = json.loads((FX / "kalshi-events.json").read_text())["events"]
+    monkeypatch.setattr(kalshi, "walk_events", lambda http, **kw: (ev, {"pages": 1, "short_pages": 1, "page_size": kalshi.PAGE, "ended_on_empty_cursor": True}))
+    singles = json.loads((FX / "kalshi-settled-singles.json").read_text())["markets"]
+    monkeypatch.setattr(kalshi, "walk_settled", lambda http, ts, **kw: (singles, {"pages": 1, "page_size": 1000, "ended_on_empty_cursor": True}))
+    gev = json.loads((FX / "gemini-events.json").read_text())["data"]
+    gset = json.loads((FX / "gemini-settled-weather.json").read_text())["data"]
+    monkeypatch.setattr(gemini, "walk", lambda http, cat, status="active": ((gset if status == "settled" else gev), {"pages": 1, "truncated": False, "total_reported": 1}))
+    pm = json.loads((FX / "polymarket-us-markets.json").read_text())["markets"]
+    pmr = json.loads((FX / "polymarket-us-resolved.json").read_text())["markets"]
+    monkeypatch.setattr(polymarket_us, "walk", lambda http, **kw: (pm, {"pages": 1, "page_size": polymarket_us.LIMIT, "ended_on_short_page": True}))
+    monkeypatch.setattr(polymarket_us, "walk_resolved", lambda http, lo, hi: (pmr, {"pages": 1, "page_size": polymarket_us.LIMIT, "ended_on_short_page": True}))
+    combos = json.loads((FX / "kalshi-combos.json").read_text())["multivariate_contracts"]
+    monkeypatch.setattr(kalshi_combos, "walk", lambda http, **kw: (combos, {"pages": 1, "page_size": 100, "ended_on_empty_cursor": True}))
+    return data, record
+
+
+def test_daily_settled_and_combo_runs_write_only_run_records_under_data(monkeypatch, tmp_path):
+    data, record = _redirect(monkeypatch, tmp_path)
+    books = tmp_path / "books"
+    kalshi.run("daily", books)
+    kalshi.run("settled", books)
+    gemini.run("daily", books)
+    gemini.run("settled", books)
+    polymarket_us.run("daily", books)
+    polymarket_us.run("resolved", books)
+    kalshi_combos.run()
+    under_data = sorted(str(p.relative_to(data)) for p in data.rglob("*") if p.is_file())
+    assert under_data, "every run writes a run record"
+    assert all(p.startswith("runs/") for p in under_data), under_data
+    written = sorted(str(p.relative_to(record)) for p in record.rglob("*.jsonl.gz"))
+    assert written == [
+        "gemini/listings/" + written[0].split("/")[-1],
+        "gemini/settlements/" + written[1].split("/")[-1],
+        "kalshi/combos/" + written[2].split("/")[-1],
+        "kalshi/listings/" + written[3].split("/")[-1],
+        "kalshi/settlements/" + written[4].split("/")[-1],
+        "polymarket-us/listings/" + written[5].split("/")[-1],
+        "polymarket-us/settlements/" + written[6].split("/")[-1],
+    ]
+    runs = [json.loads(l) for f in (data / "runs").rglob("*.jsonl") for l in f.read_text().splitlines()]
+    for r in runs:
+        assert r["store"] == "record", r["collector"]
+        assert r["counts"]["file"].startswith("record/"), r["counts"]["file"]
+
+
+def test_hourly_books_still_go_to_the_books_root(monkeypatch, tmp_path):
+    data, record = _redirect(monkeypatch, tmp_path)
+    books = tmp_path / "books"
+    kalshi.run("hourly", books)
+    assert list(books.rglob("*.jsonl.gz")) and not list(record.rglob("*"))
+    assert all(str(p.relative_to(data)).startswith("runs/") for p in data.rglob("*") if p.is_file())
+
+
+def test_legacy_migration_maps_only_the_three_snapshot_kinds(monkeypatch, tmp_path):
+    data = tmp_path / "data"
+    for rel in ("kalshi/listings/2026-10-20.jsonl.gz", "kalshi/settlements/2026-10-21.jsonl.gz", "kalshi/combos/2026-10-21.jsonl.gz",
+                "gemini/listings/2026-10-20.jsonl.gz", "cftc/x.jsonl.gz", "runs/2026-10-21/x.jsonl.gz", "summaries/x.jsonl.gz", "platforms/x.jsonl.gz"):
+        p = data / rel
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_bytes(b"x")
+    monkeypatch.setattr(store, "DATA", data)
+    monkeypatch.setattr(store, "REPO", tmp_path)
+    keys = sorted(k for _, k in store.legacy_files())
+    assert keys == ["record/gemini/listings/2026-10-20.jsonl.gz", "record/kalshi/combos/2026-10-21.jsonl.gz",
+                    "record/kalshi/listings/2026-10-20.jsonl.gz", "record/kalshi/settlements/2026-10-21.jsonl.gz"]
+    # Without R2 configured the migration uploads nothing, deletes nothing, and says so.
+    monkeypatch.setattr(common, "RUNS", data / "runs")
+    for v in store.R2_VARS:
+        monkeypatch.delenv(v, raising=False)
+    assert store.migrate_legacy() == 3
+    assert all(p.exists() for p in data.rglob("*.jsonl.gz"))

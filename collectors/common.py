@@ -36,6 +36,7 @@ from typing import Any, Iterable, Optional
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data"
+RECORD = REPO / "record"  # platform snapshots: written locally, uploaded to R2, never committed
 RUNS = DATA / "runs"
 
 USER_AGENT = "PaddockLedger/0.1 (+https://paddock.finance/venues; hello@paddock.finance)"

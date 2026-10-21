@@ -1,4 +1,5 @@
 books/
+record/
 *.tmp
 __pycache__/
 .pytest_cache/

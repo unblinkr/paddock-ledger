@@ -1,0 +1,40 @@
+# One-off, by hand: copy the snapshots that were committed under data/ before
+# 2026-10-21 to R2 under record/, and commit the manifest (every file and its
+# size) as a run record. Nothing is deleted here. Removing those files from
+# git is a separate commit, made after this manifest has been checked.
+name: migrate-record
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ledger-commit
+  cancel-in-progress: false
+env:
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: ${{ secrets.R2_BUCKET }}
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: echo "RUN_LOG_NAME=migrate-record" >> "$GITHUB_ENV"
+      - name: Upload the legacy snapshots to R2
+        run: |
+          if [ -z "$R2_ACCOUNT_ID" ]; then echo "R2 is not configured; set the four R2_* secrets first"; exit 1; fi
+          pip install -q boto3
+          python collectors/store.py --migrate-legacy
+      - name: Commit the manifest
+        run: |
+          git config user.name "paddock-ledger[bot]"
+          git config user.email "hello@paddock.finance"
+          git add data/runs/
+          git diff --cached --quiet && exit 0
+          git commit -m "runs: $(date -u +%Y-%m-%d) migrate-record manifest"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; git rebase --abort 2>/dev/null || true; sleep 15; done; echo "push failed after 5 tries"; exit 1

@@ -1,7 +1,7 @@
 """Daily health check: reads the last 24 hours of run records and says what
 is missing. Opens one GitHub issue (via the GITHUB_TOKEN the workflow has)
-when a collector missed an hour, reported "unavailable", or when books are
-still going to Actions artifacts instead of R2.
+when a collector missed an hour, reported "unavailable", or when the record
+(books or snapshots) is still going to Actions artifacts instead of R2.
 
 Reads data/runs/*.jsonl only. Never fetches an upstream. Exit 0 when clean,
 2 when something needs a person, 1 on its own failure.
@@ -59,9 +59,9 @@ def assess(rows: list[dict]) -> list[str]:
             problems.append(f"{c}: no {'/'.join(accepted)} run in the last 24 hours")
     stores = [r for r in rows if r["collector"] == "store"]
     if stores and all(r.get("store") == "actions_artifact" for r in stores):
-        problems.append("books: every hour went to an Actions artifact (R2 not configured). Artifacts expire after 90 days; set the four R2_* secrets.")
+        problems.append("store: every run went to an Actions artifact (R2 not configured). Artifacts expire after 90 days; set the four R2_* secrets.")
     if any(r.get("store") == "r2" and r["source"] == "unavailable" for r in stores):
-        problems.append("books: at least one R2 upload failed in the last 24 hours")
+        problems.append("store: at least one R2 upload failed in the last 24 hours (books or record)")
     return problems
 
 
