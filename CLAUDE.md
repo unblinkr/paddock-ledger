@@ -28,9 +28,11 @@ data/cftc/       the listings ledger (append-only JSONL) and filing details
 data/platforms/  the platform registry
 data/summaries/  small daily aggregates the site reads, built from the record
 data/runs/       one line per collector run
+data/novig/etags.json   which Novig files are captured (kind, date, ETag, bytes); no data
 record/<platform>/listings/      daily snapshots, written by the collectors, uploaded to R2, gitignored
 record/<platform>/settlements/   daily settlements, 36 hour window, same
 record/kalshi/combos/            daily combo collections, same
+record/novig/<trades|markets>/   Novig's daily files as served, gzipped, same
 books/           hourly books, written by the collectors, uploaded to R2, gitignored
 tasks/           Code task briefs with their QUESTIONS.md and REPORT.md
 tests/           parser tests on real saved responses

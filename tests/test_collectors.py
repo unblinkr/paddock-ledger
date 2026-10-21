@@ -5,6 +5,7 @@ so an upstream shape change fails here before it quietly empties a day.
 """
 
 import hashlib
+import io
 import json
 import re
 import sys
@@ -316,3 +317,67 @@ def test_legacy_migration_maps_only_the_three_snapshot_kinds(monkeypatch, tmp_pa
         monkeypatch.delenv(v, raising=False)
     assert store.migrate_legacy() == 3
     assert all(p.exists() for p in data.rglob("*.jsonl.gz"))
+
+
+# ---- Novig daily exchange files (fixtures saved 2026-10-21: the real manifest and the first 25 rows of each file) ----
+
+import gzip as _gzip  # noqa: E402
+
+import novig  # noqa: E402
+
+
+def test_novig_manifest_lists_both_kinds_and_tolerates_missing_market_dates():
+    idx = json.loads((FX / "novig-index.json").read_text())
+    files = novig.manifest_files(idx)
+    assert len(files) == len(idx["dates"]) + len(idx["marketDates"])
+    assert files[0] == ("trades", "2026-08-03")
+    assert novig.manifest_files({"dates": ["2026-08-03"]}) == [("trades", "2026-08-03")]
+
+
+def test_novig_plan_takes_new_and_corrected_files_and_never_renames_the_first():
+    listed = [("trades", "2026-10-19"), ("markets", "2026-10-19"), ("trades", "2026-10-20")]
+    heads = {("trades", "2026-10-19"): {"etag": "aaaa1111"}, ("markets", "2026-10-19"): {"etag": "bbbb2222"},
+             ("trades", "2026-10-20"): {"etag": "cccc3333"}}
+    state = {"files": [{"kind": "trades", "date": "2026-10-19", "etag": "aaaa1111", "bytes": 1},
+                       {"kind": "markets", "date": "2026-10-19", "etag": "old00000", "bytes": 1}]}
+    todo = novig.plan(listed, heads, state)
+    assert [(t["kind"], t["date"], t["name"], t["correction"]) for t in todo] == [
+        ("markets", "2026-10-19", "2026-10-19.bbbb2222.csv.gz", True),
+        ("trades", "2026-10-20", "2026-10-20.csv.gz", False),
+    ]
+    assert novig.plan(listed, {}, {"files": []}) == []  # a file whose HEAD failed is not planned
+
+
+def test_novig_bytes_are_kept_exactly_and_rows_and_combos_are_counted(tmp_path):
+    raw = (FX / "novig-trades-head.csv").read_bytes()
+    c = novig.RowCounter()
+    for i in range(0, len(raw), 37):  # odd chunk sizes split lines mid-row
+        c.feed(raw[i:i + 37])
+    c.close()
+    assert c.header[:3] == ["timestamp", "outcomeId", "marketId"] and "tradeType" in c.header
+    assert c.rows == raw.count(b"\n") - 1
+    assert c.combo_rows == sum(1 for l in raw.decode().splitlines()[1:] if l.split(",")[6] == "COMBO") > 0
+    m = novig.RowCounter()
+    m.feed((FX / "novig-markets-head.csv").read_bytes())
+    m.close()
+    assert m.header[:2] == ["date", "marketId"] and m.combo_rows == 0 and m.rows == 25
+
+
+def test_novig_fetch_writes_the_served_bytes_gzipped(monkeypatch, tmp_path):
+    raw = (FX / "novig-markets-head.csv").read_bytes()
+
+    class Resp(io.BytesIO):
+        headers = {"ETag": '"abc123"', "Content-Length": str(len(raw))}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    monkeypatch.setattr(novig.urllib.request, "urlopen", lambda req, timeout: Resp(raw))
+    monkeypatch.setattr(novig, "MIN_INTERVAL_S", 0)
+    out = tmp_path / "record" / "novig" / "markets" / "2026-10-20.csv.gz"
+    got = novig.Paced().fetch_to_gz("https://example.invalid/x.csv", out)
+    assert _gzip.decompress(out.read_bytes()) == raw
+    assert got["etag"] == "abc123" and got["bytes"] == len(raw) and got["rows"] == 25

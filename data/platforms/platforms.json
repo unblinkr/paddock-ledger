@@ -36,10 +36,10 @@
    "name": "Novig",
    "kind": "dcm",
    "cftc_org": "LEX",
-   "collector": null,
-   "api": null,
+   "collector": "novig",
+   "api": "https://data.novig.com/reporting/trade-data/index.json",
    "status": "live",
-   "notes": "DCM is Ludlow Exchange (CFTC code LEX). No public market-data API; the app's endpoint is internal. Not captured; its filings are in the ledger."
+   "notes": "DCM is Ludlow Exchange (CFTC code LEX). Captured from Novig's public daily exchange files (trades and markets CSVs, no key), kept as served, from 2026-08-03. The keyed API (docs.novig.com) is not captured yet."
   },
   {
    "slug": "prophetx",

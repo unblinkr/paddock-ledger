@@ -1,0 +1,56 @@
+# Novig's two daily exchange files (trades and markets), as published at
+# data.novig.com around 09:06 UTC for the previous Eastern day. 10:20 UTC.
+# Files go to R2 under record/novig/; the public list of what was captured
+# (data/novig/etags.json) is committed only after the upload succeeds, so a
+# failed upload is retried on the next run. A run downloads at most
+# max_files files; the first runs backfill from 2026-08-03.
+name: novig-daily
+on:
+  schedule:
+    - cron: "20 10 * * *"
+  workflow_dispatch:
+    inputs:
+      max_files:
+        description: "Most files to download this run"
+        default: "60"
+permissions:
+  contents: write
+concurrency:
+  group: ledger-commit
+  cancel-in-progress: false
+env:
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  R2_BUCKET: ${{ secrets.R2_BUCKET }}
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: echo "RUN_LOG_NAME=novig" >> "$GITHUB_ENV"
+      - run: python collectors/novig.py --max-files "${{ github.event.inputs.max_files || '60' }}" || true
+      - name: Store the record (R2 when configured)
+        id: store
+        run: |
+          if [ ! -d record ]; then echo "rc=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if [ -n "$R2_ACCOUNT_ID" ]; then pip install -q boto3; fi
+          set +e
+          python collectors/store.py record
+          rc=$?
+          set -e
+          echo "rc=$rc" >> "$GITHUB_OUTPUT"
+      - name: Commit run records, and the captured list only if stored on R2
+        run: |
+          git config user.name "paddock-ledger[bot]"
+          git config user.email "hello@paddock.finance"
+          if [ "${{ steps.store.outputs.rc }}" != "0" ]; then git checkout -- data/novig/etags.json 2>/dev/null || git rm -q --cached data/novig/etags.json 2>/dev/null || rm -f data/novig/etags.json; fi
+          git add data/runs/
+          [ -f data/novig/etags.json ] && git add data/novig/etags.json
+          git diff --cached --quiet && exit 0
+          git commit -m "runs: $(date -u +%Y-%m-%d) novig"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && exit 0; git rebase --abort 2>/dev/null || true; sleep 15; done; echo "push failed after 5 tries"; exit 1

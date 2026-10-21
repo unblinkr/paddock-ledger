@@ -13,12 +13,13 @@ Maintained by [Paddock](https://paddock.finance/venues). Started October 2026.
 | Books: top-of-book (or the platform's published price, where no book is exposed) for every open market | each platform's public API | hourly | Cloudflare R2 `books/<platform>/YYYY-MM-DD/HH.jsonl.gz` (access on request) |
 | Settlements: every market that closed in the last 36 hours with its outcome, settlement value, settlement stamp and rules hash | each platform's public API | daily, 07:10 UTC | Cloudflare R2 `record/<platform>/settlements/YYYY-MM-DD.jsonl.gz` (access on request) |
 | Combo collections: every Kalshi multivariate collection with the events it spans, its size limits and the price structure as published | Kalshi public API | daily, 07:40 UTC | Cloudflare R2 `record/kalshi/combos/YYYY-MM-DD.jsonl.gz` (access on request) |
+| Novig daily files: every trade and every market's open interest, volume, open, high, low, close and status, as Novig publishes them | data.novig.com public files | daily, 10:20 UTC | Cloudflare R2 `record/novig/<kind>/YYYY-MM-DD.csv.gz` (kind: trades or markets) (access on request); what was captured is listed in `data/novig/etags.json` |
 | Run records: one line per collector run with counts, caps hit, and a `source` marker | this repository | every run | `data/runs/YYYY-MM-DD/<job>.jsonl` |
 | Summaries: small daily aggregates the site reads (filings by exchange, Kalshi volume by topic) | built from the record, no fetches | daily, with listings | `data/summaries/` |
 
 The public repository holds the method, the tests, the run records and the CFTC filings ledger. The platform record (listings, books, settlements and combo collections) is kept on R2 and is available under licence; write to the address on paddock.finance/venues.
 
-Platforms with a collector today: Kalshi, Polymarket US, Gemini Predictions. The full list, with the ones not yet captured and why, is `data/platforms/platforms.json`. The CFTC ledger covers every designated contract market whether or not it has a collector.
+Platforms with a collector today: Kalshi, Polymarket US, Gemini Predictions, Novig. The full list, with the ones not yet captured and why, is `data/platforms/platforms.json`. The CFTC ledger covers every designated contract market whether or not it has a collector.
 
 ## How to read it
 
@@ -46,11 +47,12 @@ python collectors/kalshi.py --mode settled   # last 36 hours of settlements
 python collectors/gemini.py --mode settled
 python collectors/polymarket_us.py --mode resolved
 python collectors/kalshi_combos.py           # combo collections into record/
+python collectors/novig.py --max-files 4     # Novig's daily files into record/novig/
 python collectors/store.py record            # upload record/ to R2 (needs the R2_* variables)
 python -m pytest -q
 ```
 
-Workflows: `cftc-daily`, `listings-daily`, `settlements-daily`, `combos-daily`, `books-hourly`, `health-daily` (opens an issue on a missed hour), `tests`, and `migrate-record` (by hand, once: copies the snapshots committed before 2026-10-21 to R2).
+Workflows: `cftc-daily`, `listings-daily`, `settlements-daily`, `combos-daily`, `novig-daily`, `books-hourly`, `health-daily` (opens an issue on a missed hour), `tests`, and `migrate-record` (by hand, once: copies the snapshots committed before 2026-10-21 to R2).
 
 Local runs without the R2 variables still work: the collectors write under `books/` and `record/` (both gitignored) and `store.py` says it is not configured.
 

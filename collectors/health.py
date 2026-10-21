@@ -19,7 +19,7 @@ from common import RUNS, read_jsonl, utcnow
 
 HOURLY = ("kalshi:hourly", "gemini:hourly", "polymarket-us:hourly")
 DAILY = ("cftc:products", "cftc:product-rules", "kalshi:daily", "gemini:daily", "polymarket-us:daily",
-         "kalshi:settled", "gemini:settled", "polymarket-us:resolved", "kalshi-combos:daily")
+         "kalshi:settled", "gemini:settled", "polymarket-us:resolved", "kalshi-combos:daily", "novig:daily")
 
 
 # Gemini's settled walk is `partial` by construction while its 1,000 per query cap and the
