@@ -60,7 +60,7 @@ import argparse
 import sys
 from pathlib import Path
 
-from common import DATA, REPO, FetchError, Http, day, record_run, stamp, utcnow, write_jsonl_gz
+from common import RECORD, REPO, FetchError, Http, day, record_run, stamp, utcnow, write_jsonl_gz
 
 BASE = "https://api.gemini.com/v1/prediction-markets"
 LIMIT = 500
@@ -176,7 +176,7 @@ def run_settled(started, http: Http, at: str) -> int:
             seen[e["id"]] = e
     events = list(seen.values())
     rows = compact_settled(events, at)
-    path = DATA / SLUG / "settlements" / f"{day(started)}.jsonl.gz"
+    path = RECORD / SLUG / "settlements" / f"{day(started)}.jsonl.gz"
     n, size = write_jsonl_gz(path, rows)
     truncated = [c for c, w in per_cat.items() if w.get("truncated") and c != "(all)"]
     counts = {
@@ -193,7 +193,7 @@ def run_settled(started, http: Http, at: str) -> int:
         "per_category": per_cat,
     }
     source = "partial" if (truncated or failed) else "live"
-    record_run(f"{SLUG}:{mode}", source=source, counts=counts, http=http, started=started, store="git")
+    record_run(f"{SLUG}:{mode}", source=source, counts=counts, http=http, started=started, store="record")
     return 0 if source == "live" else 2
 
 
@@ -231,8 +231,8 @@ def run(mode: str, out_root: Path) -> int:
     events = list(seen.values())
     rows = compact(events, at, hourly=(mode == "hourly"))
     if mode == "daily":
-        path = DATA / SLUG / "listings" / f"{day(started)}.jsonl.gz"
-        store = "git"
+        path = RECORD / SLUG / "listings" / f"{day(started)}.jsonl.gz"
+        store = "record"
     else:
         path = out_root / SLUG / day(started) / f"{started.strftime('%H')}.jsonl.gz"
         store = "books"

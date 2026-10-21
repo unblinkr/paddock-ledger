@@ -12,7 +12,9 @@
       busiest markets. Volume is Kalshi's own `volume_24h_fp` (contracts) at
       snapshot time; combos are not in the snapshot.
 
-No fetches. Reads data/cftc/*.jsonl and data/kalshi/listings/*.jsonl.gz.
+No fetches. Reads data/cftc/*.jsonl and the Kalshi listings under record/
+(the local copy written by that day's run; earlier days' series files are
+already in git and are not rewritten).
 """
 
 from __future__ import annotations
@@ -24,7 +26,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from common import DATA, record_run, utcnow, write_atomic
+from common import DATA, RECORD, record_run, utcnow, write_atomic
 from topics import is_sport, topic
 
 OUT = DATA / "summaries"
@@ -135,7 +137,7 @@ def main() -> int:
         fr = filings_recent()
         write_atomic(OUT / "filings-recent.json", json.dumps(fr, ensure_ascii=False, sort_keys=True).encode())
         write_atomic(OUT / "org-topics.json", json.dumps(org_topics(), ensure_ascii=False, sort_keys=True).encode())
-        days = sorted((DATA / "kalshi" / "listings").glob("*.jsonl.gz"))
+        days = sorted((RECORD / "kalshi" / "listings").glob("*.jsonl.gz"))
         written = 0
         for d in days:
             target = OUT / "kalshi-series" / f"{d.name.split('.')[0]}.json"
