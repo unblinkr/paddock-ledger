@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "PMUS - CPCHYPE - (2026.10.20) - 40.6 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635284.pdf"
+},
+{
+"title": "PMUS - CPCHYPE - (2026.10.20) - 40.6a - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635281.pdf"
+},
+{
+"title": "PMUS - CPCHYPED - (2026.10.20) - 40.6d - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635282.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:24Z",
+"fields": {
+"date": "2026-10-20 00:00:00",
+"description": "Clarifying the Terms and Conditions of the Contracts as well as the Explanation and Analysis, including clarification on source agencies, payout criterion, and settlement procedures",
+"official_receipt_date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65527,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65527"
+}

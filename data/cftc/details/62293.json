@@ -1,0 +1,20 @@
+{
+"documents": [
+{
+"title": "NYMEX Submission No. 26-362",
+"url": "https://www.cftc.gov/filings/orgrules/rules07312613522.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:37Z",
+"fields": {
+"date": "2026-08-14 00:00:00",
+"description": "Amendments to Rule XXX101. (\"Contract Specifications\") & XXX102.E. (\"Termination of Trading\") of the LNG North West Europe Marker (Platts) Futures and the LNG North West Europe Marker (Platts) BALMO Futures Products Affected:",
+"official_receipt_date": "2026-07-31 00:00:00",
+"organization": "NYMEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 62293,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/62293"
+}

@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635172.pdf"
+},
+{
+"title": "Will the greatest seeding upset margin in <time period> of <event> be <above/below/exactly/at least/between> <value>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635171.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635169.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:28Z",
+"fields": {
+"date": "2026-10-20 00:00:00",
+"description": "Straightforward amendment to the \"Will the greatest seeding upset margin in <time period> of <event> be <above/below/exactly/at least/between> <value>?\" Contract",
+"official_receipt_date": "2026-10-20 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65508,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65508"
+}

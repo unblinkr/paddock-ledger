@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will <either team/team> score in the first inning of <game>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635143.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635141.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635144.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:32Z",
+"fields": {
+"date": "2026-10-20 00:00:00",
+"description": "Straightforward amendment to the \"Will <either team/team> score in the first inning of <game>?\" Contract",
+"official_receipt_date": "2026-10-20 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65504,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65504"
+}

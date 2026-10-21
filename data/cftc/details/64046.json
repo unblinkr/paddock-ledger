@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Confidential Appendices",
+"url": "https://www.cftc.gov/filings/orgrules/rules09152626141.pdf"
+},
+{
+"title": "Will <team> win <time period> of <basketball game>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules09152626143.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules09152626144.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:34Z",
+"fields": {
+"date": "2026-09-29 00:00:00",
+"description": "Straightforward amendment to the \"Will <team> win <time period> of <basketball game>?\" Contract Products Affected:",
+"official_receipt_date": "2026-09-15 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 64046,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/64046"
+}

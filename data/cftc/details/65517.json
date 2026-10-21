@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - NJBC - (2026.10.20) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635223.pdf"
+},
+{
+"title": "PMUS - NJBC - (2026.10.20) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635224.pdf"
+},
+{
+"title": "PMUS - NJBC - (2026.10.20) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635225.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:58Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Next James Bond Contracts (NJBC)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65517,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65517"
+}

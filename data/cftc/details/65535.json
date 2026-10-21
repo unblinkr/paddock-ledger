@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - NCAA MB Margin (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635340.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NCAA MB Margin (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635341.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:07Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "GMNI",
+"product_name": "Will {team} cover a {threshold} point spread in {NCAA game}?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65535,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65535"
+}

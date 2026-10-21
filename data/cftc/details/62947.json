@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules08182618128.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules08182618127.pdf"
+},
+{
+"title": "Will <weather event> happen in <area> in <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules08182618125.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:36Z",
+"fields": {
+"date": "2026-09-01 00:00:00",
+"description": "Straightforward amendment to the \"Will <weather event> happen in <area> in <time period>?\" Contract Products Affected:",
+"official_receipt_date": "2026-08-18 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "Certified"
+},
+"id": 62947,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/62947"
+}

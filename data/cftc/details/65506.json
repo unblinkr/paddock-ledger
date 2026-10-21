@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635158.pdf"
+},
+{
+"title": "Will <game> record <over/under> <count> points during <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635156.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635157.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:30Z",
+"fields": {
+"date": "2026-10-20 00:00:00",
+"description": "Straightforward amendment to the \"Will <game> record <over/under> <count> points during <time period>?\" Contract",
+"official_receipt_date": "2026-10-20 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65506,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65506"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NCAA MB Win-Lose (ND-Nova)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635188.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NCAA MB Win-Lose (ND-Nova)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635190.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:54Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Notre Dame Fighting Irish win the Notre Dame-Villanova game on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65511,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65511"
+}

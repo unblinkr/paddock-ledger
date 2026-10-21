@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - NCLPHC - (2026.10.20) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635259.pdf"
+},
+{
+"title": "PMUS - NCLPHC - (2026.10.20) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635258.pdf"
+},
+{
+"title": "PMUS - NCLPHC - (2026.10.20) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635256.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:04Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Next Congressional Leadership Position Holder Contracts (NCLPHC)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65523,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65523"
+}

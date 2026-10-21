@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - RDCCUS - (2026.10.20) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635214.pdf"
+},
+{
+"title": "PMUS - RDCCUS - (2026.10.20) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635212.pdf"
+},
+{
+"title": "PMUS - RDCCUS - (2026.10.20) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635211.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:56Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Rate Dissent Count Contracts (RDCCUS)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65515,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65515"
+}

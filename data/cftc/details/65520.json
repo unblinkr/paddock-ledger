@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - PCC - (2026.10.20) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635242.pdf"
+},
+{
+"title": "PMUS - PCC - (2026.10.20) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635240.pdf"
+},
+{
+"title": "PMUS - PCC - (2026.10.20) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635241.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:01Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Presidential Clemency Contracts (PCC)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65520,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65520"
+}

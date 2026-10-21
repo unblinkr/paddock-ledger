@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will the <admissions rate/applicant number> at Brown for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635094.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635095.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:46Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "KEX",
+"product_name": "Will the <admissions rate/applicant number> at Brown for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65496,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65496"
+}

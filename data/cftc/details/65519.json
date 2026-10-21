@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NCAA MB Champ (Duke)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635234.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NCAA MB Champ (Duke)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635235.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:00Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Duke Blue Devils win the 2027 NCAA Men's Basketball National Championship?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65519,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65519"
+}

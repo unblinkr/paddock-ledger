@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NCAA WBB Spread",
+"url": "https://www.cftc.gov/filings/ptc/ptc10172634451.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:21Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-17 00:00:00",
+"organization": "PROPHX",
+"product_name": "NCAA Division I Women's Basketball Spread Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65364,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65364"
+}

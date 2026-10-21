@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - PCCD - (2026.10.20) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635252.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:03Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Presidential Clemency Contracts (PCCD)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65522,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65522"
+}

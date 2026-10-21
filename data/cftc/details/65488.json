@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635049.pdf"
+},
+{
+"title": "VALORANT Game Changers Championship Futures Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635048.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:16Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Team Liquid Brazil win the VALORANT Game Changers Championship 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65488,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65488"
+}

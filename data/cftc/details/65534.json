@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NCAA MB Margin (ND-Nova)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635333.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NCAA MB Margin (ND-Nova)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635335.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:06Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Villanova Wildcats cover a -5.5 point spread in the Notre Dame-Villanova game on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65534,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65534"
+}

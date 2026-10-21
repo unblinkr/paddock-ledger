@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635019.pdf"
+},
+{
+"title": "VALORANT Game Changers Championship Total Maps Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192635017.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:14Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will more than 2.5 maps be played in the SK Nebula vs Nova Esports GC Upper Bracket Round 1 match at the VALORANT Game Changers Championship 2026 on October 22, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65482,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65482"
+}

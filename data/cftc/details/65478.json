@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634995.pdf"
+},
+{
+"title": "Will the <admissions rate/applicant number> at Johns Hopkins for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10192634994.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:12Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-19 00:00:00",
+"organization": "KEX",
+"product_name": "Will the <admissions rate/applicant number> at Johns Hopkins for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65478,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65478"
+}

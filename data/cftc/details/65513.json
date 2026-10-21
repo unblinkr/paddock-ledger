@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - PACUS - (2026.10.20) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635203.pdf"
+},
+{
+"title": "PMUS - PACUS - (2026.10.20) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635200.pdf"
+},
+{
+"title": "PMUS - PACUS - (2026.10.20) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635201.pdf"
+}
+],
+"fetched": "2026-10-21T06:31:08Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Presidential Announcement Contracts: US (PACUS)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65513,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65513"
+}

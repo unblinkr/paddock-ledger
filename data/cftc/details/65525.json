@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "PMUS - CPCNEAR - (2026.10.20) - 40.6 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635270.pdf"
+},
+{
+"title": "PMUS - CPCNEAR - (2026.10.20) - 40.6a - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635267.pdf"
+},
+{
+"title": "PMUS - CPCNEARD - (2026.10.20) - 40.6d - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules10202635268.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:26Z",
+"fields": {
+"date": "2026-10-20 00:00:00",
+"description": "Clarifying the Terms and Conditions of the Contracts as well as the Explanation and Analysis, including clarification on source agencies, payout criterion, and settlement procedures",
+"official_receipt_date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65525,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65525"
+}

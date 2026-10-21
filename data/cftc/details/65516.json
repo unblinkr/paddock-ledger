@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - RDCCUSD - (2026.10.20) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635218.pdf"
+}
+],
+"fetched": "2026-10-21T06:30:57Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "QCEX",
+"product_name": "Rate Dissent Count Contract (RDCCUSD)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65516,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65516"
+}
