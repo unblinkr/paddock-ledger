@@ -15,7 +15,7 @@ Sister repository: `unblinkr/openclaw-news` (paddock.finance, the site). Its CLA
 3. **Name every cap and assert the response, not the request.** A server that ignores a parameter does not complain, it uses its default. `page` is ignored by both Gemini and Polymarket US; `limit` is silently reduced by Polymarket US; Gemini caps every query at 1,000. Each collector's docstring records what was verified and when. Re-verify before relying on a parameter that is not listed there.
 4. **Append only. Never rewrite history.** Ledger rows are never edited or deleted; a changed status is a new row. Daily and hourly files are new files. If a bug produced bad rows, add a correction file and a note; do not rewrite.
 5. **Prices stay strings.** No float arithmetic in a collector. Analysis happens elsewhere.
-6. **Combos are counted, never mixed in.** Kalshi multivariate markets are skipped and counted; Gemini combos are flagged; Polymarket US `comboEnabled` is kept as a field.
+6. **Combos are counted, never mixed in.** Kalshi multivariate markets are skipped from the single-leg record and counted; the collections themselves are captured daily in data/kalshi/combos/. Gemini combos are flagged; Polymarket US comboEnabled is kept as a field.
 7. **No secrets in output.** R2 keys live only in repository secrets, referenced by name in `env:`. Nothing prints an environment variable.
 8. **Pace requests.** One a second with backoff is the default. A 429 is a signal to slow down, never to retry faster.
 9. **Public repository.** Nothing here may identify a person. Platform data is public data; keep it that way.
@@ -27,6 +27,8 @@ collectors/      one module per source; common.py is the shared plumbing
 data/cftc/       the listings ledger (append-only JSONL) and filing details
 data/platforms/  the platform registry
 data/<platform>/listings/   daily snapshots (gzipped JSONL)
+data/<platform>/settlements/   daily settlements, 36 hour window (gzipped JSONL)
+data/kalshi/combos/   daily Kalshi combo collections (gzipped JSONL)
 data/runs/       one line per collector run
 books/           hourly books, written by the collectors, uploaded to R2, gitignored
 tests/           parser tests on real saved responses

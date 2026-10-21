@@ -18,7 +18,14 @@ from datetime import timedelta
 from common import RUNS, read_jsonl, utcnow
 
 HOURLY = ("kalshi:hourly", "gemini:hourly", "polymarket-us:hourly")
-DAILY = ("cftc:products", "cftc:product-rules", "kalshi:daily", "gemini:daily", "polymarket-us:daily")
+DAILY = ("cftc:products", "cftc:product-rules", "kalshi:daily", "gemini:daily", "polymarket-us:daily",
+         "kalshi:settled", "gemini:settled", "polymarket-us:resolved", "kalshi-combos:daily")
+
+
+# Gemini's settled walk is `partial` by construction while its 1,000 per query cap and the
+# Sports 503 stand (see gemini.py); the run record discloses it. For this job a partial run
+# counts as having run, and only an absent or unavailable run is a missed day.
+PARTIAL_OK = ("gemini:settled",)
 
 
 def last_24h() -> list[dict]:
@@ -46,9 +53,10 @@ def assess(rows: list[dict]) -> list[str]:
         if partial:
             problems.append(f"{c}: {len(partial)} partial run(s) (a cap or an unfinished walk); see counts in data/runs")
     for c in DAILY:
-        ok = [r for r in rows if r["collector"] == c and r["source"] == "live"]
+        accepted = ("live", "partial") if c in PARTIAL_OK else ("live",)
+        ok = [r for r in rows if r["collector"] == c and r["source"] in accepted]
         if not ok:
-            problems.append(f"{c}: no live run in the last 24 hours")
+            problems.append(f"{c}: no {'/'.join(accepted)} run in the last 24 hours")
     stores = [r for r in rows if r["collector"] == "store"]
     if stores and all(r.get("store") == "actions_artifact" for r in stores):
         problems.append("books: every hour went to an Actions artifact (R2 not configured). Artifacts expire after 90 days; set the four R2_* secrets.")
