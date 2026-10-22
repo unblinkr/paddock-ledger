@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635393.pdf"
+},
+{
+"title": "PGL Counter Strike 2 Major Championship Match Winner Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635391.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:34Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Team Vitality win Map 1 of its Stage 3 Round 1 match at the PGL CS2 Major Singapore 2026 on December 2, 2026?",
+"remarks": "",
+"status": "Withdrawn",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65542,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65542"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635465.pdf"
+},
+{
+"title": "How many <stat> will <entity> record <time period> of <NBA game>? (Scalar)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635464.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:23Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "KEX",
+"product_name": "How many <stat> will <entity> record <time period> of <NBA game>? (Scalar)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65555,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65555"
+}

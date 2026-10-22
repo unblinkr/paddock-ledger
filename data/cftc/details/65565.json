@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NFL Worst Record (MIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635543.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NFL Worst Record (MIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635544.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:17Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Miami Dolphins have the worst record in the 2026-27 NFL regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65565,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65565"
+}

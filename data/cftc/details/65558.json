@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635487.pdf"
+},
+{
+"title": "T20IWIN - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635486.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "REX",
+"product_name": "T20IWIN",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65558,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65558"
+}

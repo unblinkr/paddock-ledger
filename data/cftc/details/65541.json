@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635387.pdf"
+},
+{
+"title": "PGL Counter Strike 2 Major Championship Statistics Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635385.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will more than 21.5 rounds be played on Map 1 of Team Vitality's Stage 3 Round 1 match at the PGL CS2 Major Singapore 2026 on December 2, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65541,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65541"
+}

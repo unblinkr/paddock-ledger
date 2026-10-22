@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635471.pdf"
+},
+{
+"title": "ODIWIN-ENGPAK-15MAY2027 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635470.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "REX",
+"product_name": "ODIWIN-ENGPAK-15MAY2027",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65556,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65556"
+}

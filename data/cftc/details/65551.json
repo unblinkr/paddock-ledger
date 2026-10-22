@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PGL Counter Strike 2 Major Championship Map Spread Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635443.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:27Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "PROPHX",
+"product_name": "PGL Counter Strike 2 Major Championship Map Spread Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65551,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65551"
+}

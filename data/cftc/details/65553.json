@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PGL Counter-Strike 2 Major Championship Futures Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635453.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:25Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "PROPHX",
+"product_name": "PGL Counter-Strike 2 Major Championship Futures Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65553,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65553"
+}

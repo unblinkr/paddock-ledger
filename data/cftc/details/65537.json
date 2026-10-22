@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - NCAA MB Total Points (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635363.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NCAA MB Total Points (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10202635365.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:36Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-20 00:00:00",
+"organization": "GMNI",
+"product_name": "Will {NCAA game} have more than {threshold} total points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65537,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65537"
+}

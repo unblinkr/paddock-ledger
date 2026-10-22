@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635439.pdf"
+},
+{
+"title": "PGL Counter Strike 2 Major Championship Map Spread Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635438.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:28Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Team Vitality win its Playoffs Quarterfinal match at the PGL CS2 Major Singapore 2026 by more than 1.5 maps?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65550,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65550"
+}

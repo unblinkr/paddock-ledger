@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will <political party> control the Attorney Generalship of <state> after the election of <election year>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10212635518.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10212635519.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10212635521.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:11Z",
+"fields": {
+"date": "2026-10-21 00:00:00",
+"description": "Straightforward amendment to the \"Will <political party> control the Attorney Generalship of <state> after the election of <election year>?\" Contract",
+"official_receipt_date": "2026-10-21 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65562,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65562"
+}

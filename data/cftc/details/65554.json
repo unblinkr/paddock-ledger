@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635459.pdf"
+},
+{
+"title": "How many <stat> will <entity> record <time period> of the Golden State Warriors first regular-season home game of the 2026-2027 season? (Scalar)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10212635458.pdf"
+}
+],
+"fetched": "2026-10-22T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "KEX",
+"product_name": "How many <stat> will <entity> record <time period> of the Golden State Warriors first regular-season home game of the 2026-2027 season? (Scalar)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65554,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65554"
+}
