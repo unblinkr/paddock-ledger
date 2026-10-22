@@ -4,6 +4,8 @@ name: health-daily
 on:
   schedule:
     - cron: "15 8 * * *"
+    # 14:20 UTC so the week-folder-missing check (fires only after 14:00) can run
+    - cron: "20 14 * * *"
   workflow_dispatch:
 permissions:
   contents: read
