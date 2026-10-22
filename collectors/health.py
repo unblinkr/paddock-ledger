@@ -12,10 +12,11 @@ from __future__ import annotations
 import json
 import os
 import sys
+import urllib.parse
 import urllib.request
 from datetime import timedelta
 
-from common import RUNS, read_jsonl, utcnow
+from common import DATA, RUNS, iso_monday, read_jsonl, utcnow
 
 HOURLY = ("kalshi:hourly", "gemini:hourly", "polymarket-us:hourly")
 DAILY = ("cftc:products", "cftc:product-rules", "kalshi:daily", "gemini:daily", "polymarket-us:daily",
@@ -65,6 +66,57 @@ def assess(rows: list[dict]) -> list[str]:
     return problems
 
 
+WEEK_CHECK_AFTER_HOUR_UTC = 14
+
+
+def week_problem(now, weeks_dir=None) -> str | None:
+    """After 14:00 UTC, the ISO Monday's week folder must exist with its meta.json."""
+    if now.hour < WEEK_CHECK_AFTER_HOUR_UTC:
+        return None
+    monday = iso_monday(now.date())
+    if (((weeks_dir or DATA / "summaries" / "weeks") / monday / "meta.json")).exists():
+        return None
+    return monday
+
+
+def gate_problem(rows: list[dict]) -> dict | None:
+    """The newest summaries run in the window, if it failed the Kalshi topic map gate."""
+    runs = sorted((r for r in rows if r["collector"] == "summaries"), key=lambda r: r.get("finished", ""))
+    if runs and runs[-1]["source"] == "gate_failed":
+        return runs[-1]
+    return None
+
+
+def gate_issue(run: dict, kalshi_week: dict, day: str) -> tuple[str, str]:
+    share = run.get("counts", {}).get("sports_other_share")
+    pct = "n/a" if share is None else f"{share:.2%}"
+    top = kalshi_week.get("sports_other_top", [])
+    lines = [f"- `{r['series']}`: {r['title']} ({r['volume_24h']:,} contracts)" for r in top] or ["- none listed"]
+    body = ("The summaries run wrote its daily files but no week folder, because the unmapped share of Kalshi sports "
+            "volume is above the gate.\n\nTop unmapped series:\n" + "\n".join(lines) +
+            "\n\nFix: add a rule in collectors/topics.py. Source: data/runs/ and data/summaries/kalshi-week.json. "
+            "Opened by collectors/health.py.")
+    return f"Kalshi topic map gate failed: {pct} unmapped on {day}", body
+
+
+def issue_exists(title: str) -> bool:
+    """True when an issue with exactly this title is already in the repository, open or closed.
+    Fails open (returns False) so a search outage never hides a problem."""
+    token = os.environ.get("GITHUB_TOKEN")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not (token and repo):
+        return False
+    q = urllib.parse.quote(f'repo:{repo} in:title type:issue "{title}"')
+    req = urllib.request.Request(f"https://api.github.com/search/issues?q={q}&per_page=30",
+                                 headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return any(i["title"] == title for i in json.loads(r.read()).get("items", []))
+    except Exception as e:  # noqa: BLE001
+        print(f"issue search failed: {e!r}", file=sys.stderr)
+        return False
+
+
 def open_issue(title: str, body: str) -> None:
     token = os.environ.get("GITHUB_TOKEN")
     repo = os.environ.get("GITHUB_REPOSITORY")
@@ -86,8 +138,29 @@ def main() -> int:
     problems = assess(rows)
     summary = {"runs_seen": len(rows), "problems": problems}
     print(json.dumps(summary, indent=1))
+    now = utcnow()
+    day = now.strftime("%Y-%m-%d")
+    extra = 0
+    monday = week_problem(now)
+    if monday:
+        title = f"Week folder missing for {monday}"
+        if not issue_exists(title):
+            open_issue(title, f"data/summaries/weeks/{monday}/meta.json does not exist after {WEEK_CHECK_AFTER_HOUR_UTC}:00 UTC. "
+                              "Either no summaries run passed the Kalshi topic map gate this week or no run happened. "
+                              "Source: data/runs/. Opened by collectors/health.py.")
+        extra += 1
+    failed = gate_problem(rows)
+    if failed:
+        kw_path = DATA / "summaries" / "kalshi-week.json"
+        kw = json.loads(kw_path.read_text()) if kw_path.exists() else {}
+        title, body = gate_issue(failed, kw, day)
+        if not issue_exists(title):
+            open_issue(title, body)
+        extra += 1
+    if extra and not problems:
+        print(json.dumps({"week_or_gate_problems": extra}))
+        return 2
     if problems:
-        day = utcnow().strftime("%Y-%m-%d")
         open_issue(f"Capture check {day}: {len(problems)} problem(s)", "\n".join(f"- {p}" for p in problems) + "\n\nSource: data/runs/. This issue was opened by collectors/health.py.")
         return 2
     return 0

@@ -12,6 +12,26 @@
       busiest markets. Volume is Kalshi's own `volume_24h_fp` (contracts) at
       snapshot time; combos are not in the snapshot.
 
+  data/summaries/kalshi-week.json
+      Kalshi volume by topic over the last seven snapshots, the latest day's
+      market counts and volume by topic, and the health of the topic map:
+      `sports_other_share` is the summed volume_24h of series with category
+      "Sports" and topic "Other" divided by the summed volume_24h of all
+      series with category "Sports", on the latest day. Topic "Other sports"
+      (rugby, darts, cycling and the like) is a label, so it counts as mapped;
+      only "Other" is unmapped. Topics are re-derived from the committed series
+      files at read time for series stored as Other or Other sports, so a rule
+      change in topics.py takes effect without the local listings. The stored
+      files for past days are never rewritten.
+
+  data/summaries/weeks/<YYYY-MM-DD>/ and weeks/latest.json
+      The three files above, byte for byte, frozen under the ISO Monday of the
+      week of the first run that passes the gate (sports_other_share <= 0.02).
+      Never rewritten. A run that fails the gate writes the daily files, no
+      week folder, and records source "gate_failed". The share and threshold
+      are pipeline facts: they live in kalshi-week.json, meta.json and run
+      records, never on a page.
+
 No fetches. Reads data/cftc/*.jsonl and the Kalshi listings under record/
 (the local copy written by that day's run; earlier days' series files are
 already in git and are not rewritten).
@@ -21,15 +41,18 @@ from __future__ import annotations
 
 import gzip
 import json
+import shutil
 import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from common import DATA, RECORD, record_run, utcnow, write_atomic
+from common import DATA, RECORD, iso_monday, record_run, utcnow, write_atomic
 from topics import is_sport, topic
 
 OUT = DATA / "summaries"
+GATE_MAX_OTHER_SHARE = 0.02  # a week folder is written only at or below this share of unmapped Kalshi sports volume
+DAILY_FILES = ("filings-recent.json", "org-topics.json", "kalshi-week.json")
 
 
 def _num(x) -> float:
@@ -109,25 +132,93 @@ def kalshi_series(day_file: Path) -> dict:
     return {"snapshot": day_file.name.split(".")[0], "series": out}
 
 
+def effective_topic(key: str, s: dict) -> str:
+    """A series' topic as of the current rule list. A series stored as Other or
+    Other sports is re-read with the ticker and event title it was stored with,
+    so a new rule applies to days already in git without rewriting them. A
+    topic that was already mapped is kept: the stored label was derived with
+    the market title too, which the series file does not carry."""
+    stored = s["topic"]
+    if stored in ("Other", "Other sports"):
+        t = topic(key, s.get("title"))
+        if t != "Other":
+            return t
+    return stored
+
+
 def kalshi_week(n_days: int = 7, top_per_topic: int = 10) -> dict:
     """Kalshi volume by topic over the last n daily snapshots (the sum of each
     day's 24-hour volume), and the busiest markets per topic on the latest
-    day. Small enough for a page to read on every render."""
+    day. Small enough for a page to read on every render.
+
+    Also on the latest day: markets_by_topic, volume_by_topic_last_day and the
+    topic map's health (sports_other_share, sports_other_top; see the module
+    docstring). sports_other_share is None when the latest day has no sports
+    volume, which fails the gate: absent is not zero."""
     files = sorted((OUT / "kalshi-series").glob("2*.json"))[-n_days:]
     totals: dict[str, float] = defaultdict(float)
     latest_top: dict[str, list] = defaultdict(list)
+    markets: dict[str, int] = defaultdict(int)
+    last_vol: dict[str, float] = defaultdict(float)
+    sports_total = 0.0
+    other: list[dict] = []
     for i, f in enumerate(files):
         d = json.loads(f.read_text())
+        last = i == len(files) - 1
         for key, s in d["series"].items():
-            totals[s["topic"]] += s["volume_24h"]
-            if i == len(files) - 1:
+            t = effective_topic(key, s)
+            totals[t] += s["volume_24h"]
+            if last:
+                markets[t] += s["markets"]
+                last_vol[t] += s["volume_24h"]
                 for m in s["top"]:
-                    latest_top[s["topic"]].append({**m, "series": key})
+                    latest_top[t].append({**m, "series": key})
+                if s.get("category") == "Sports":
+                    sports_total += s["volume_24h"]
+                    if t == "Other":
+                        other.append({"series": key, "title": s.get("title"), "volume_24h": s["volume_24h"]})
+    other.sort(key=lambda r: (-r["volume_24h"], r["series"]))
+    share = round(sum(r["volume_24h"] for r in other) / sports_total, 4) if sports_total > 0 else None
     return {
+        "generated": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "days": [f.name.split(".")[0] for f in files],
         "volume_by_topic": {k: round(v) for k, v in totals.items()},
+        "markets_by_topic": dict(markets),
+        "volume_by_topic_last_day": {k: round(v) for k, v in last_vol.items()},
+        "sports_other_share": share,
+        "sports_other_top": other[:10],
         "top_by_topic": {k: sorted(v, key=lambda m: -m["volume_24h"])[:top_per_topic] for k, v in latest_top.items()},
     }
+
+
+def gate_passes(share: float | None) -> bool:
+    return share is not None and share <= GATE_MAX_OTHER_SHARE
+
+
+def pin_week(monday: str) -> dict:
+    """Freeze the three daily files under weeks/<monday>/ if this week has no
+    folder yet and the gate passes. Returns the run-record fields. Never touches
+    an existing folder; latest.json changes only when a folder is written."""
+    kw = json.loads((OUT / "kalshi-week.json").read_text())
+    share = kw.get("sports_other_share")
+    weeks = OUT / "weeks"
+    final = weeks / monday
+    if final.exists():
+        return {"source": "live", "week_written": False, "week_reason": "exists", "week": monday, "sports_other_share": share}
+    if not gate_passes(share):
+        return {"source": "gate_failed", "week_written": False, "week_reason": "gate", "week": monday, "sports_other_share": share}
+    tmp = weeks / f"{monday}.tmp"  # built beside the final name, renamed in one step, so a killed run never leaves a partial week
+    if tmp.exists():
+        shutil.rmtree(tmp)
+    tmp.mkdir(parents=True)
+    for name in DAILY_FILES:
+        shutil.copyfile(OUT / name, tmp / name)
+    fr = json.loads((OUT / "filings-recent.json").read_text())
+    meta = {"monday": monday, "generated": kw["generated"], "filings_generated": fr["generated"], "kalshi_days": kw["days"], "sports_other_share": share}
+    (tmp / "meta.json").write_bytes(json.dumps(meta, ensure_ascii=False, sort_keys=True).encode())
+    tmp.rename(final)
+    write_atomic(weeks / "latest.json", json.dumps({"monday": monday}).encode())
+    return {"source": "live", "week_written": True, "week_reason": "written", "week": monday, "sports_other_share": share}
 
 
 def main() -> int:
@@ -146,7 +237,9 @@ def main() -> int:
         write_atomic(OUT / "kalshi-week.json", json.dumps(kalshi_week(), ensure_ascii=False, sort_keys=True).encode())
         idx = sorted(p.name.split(".")[0] for p in (OUT / "kalshi-series").glob("*.json") if p.name != "index.json")
         write_atomic(OUT / "kalshi-series" / "index.json", json.dumps({"days": idx}).encode())
-        record_run("summaries", source="live", counts={"filings": len(fr["rows"]), "kalshi_days_written": written}, started=started)
+        pin = pin_week(iso_monday(utcnow().date()))
+        counts = {"filings": len(fr["rows"]), "kalshi_days_written": written, **{k: v for k, v in pin.items() if k != "source"}}
+        record_run("summaries", source=pin["source"], counts=counts, started=started)
         return 0
     except Exception as e:  # noqa: BLE001
         record_run("summaries", source="unavailable", counts={}, note=repr(e), started=started)

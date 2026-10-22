@@ -30,7 +30,7 @@ import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable, Optional
 
@@ -52,6 +52,11 @@ def stamp(dt: Optional[datetime] = None) -> str:
 
 def day(dt: Optional[datetime] = None) -> str:
     return (dt or utcnow()).strftime("%Y-%m-%d")
+
+
+def iso_monday(d: date) -> str:
+    """The ISO Monday of the week containing d, as YYYY-MM-DD. A Monday maps to itself."""
+    return (d - timedelta(days=d.weekday())).strftime("%Y-%m-%d")
 
 
 def hour(dt: Optional[datetime] = None) -> str:
@@ -152,8 +157,10 @@ def record_run(collector: str, *, source: str, counts: dict[str, Any], note: str
                started: Optional[datetime] = None, store: Optional[str] = None) -> dict:
     """One line per run in data/runs/YYYY-MM-DD.jsonl. `source` is the disclosure
     marker: "live" means the fetch succeeded and the data on disk is from this
-    run; "unavailable" means it did not, and nothing was written for it."""
-    assert source in ("live", "unavailable", "partial")
+    run; "unavailable" means it did not, and nothing was written for it. "gate_failed"
+    (summaries only) means the daily files were written but the Kalshi topic map
+    left too much sports volume unmapped, so no week folder was pinned."""
+    assert source in ("live", "unavailable", "partial", "gate_failed")
     row = {
         "collector": collector,
         "started": stamp(started),
