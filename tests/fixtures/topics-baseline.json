@@ -1,0 +1,3023 @@
+{
+"filings": {
+"5-Year Euro Interest Rate Swap Futures": "Economics",
+"? \"Will <crop> <statistic> be <above/below/exactly/at least/between> <value> <units> in <month> for <time period>?\"?": "Props",
+"?\"Will <area> have a storm with <above/below/between/exactly/at least> <count> inches of snow??": "Weather",
+"?\"Will <crypto token/coin> perform buybacks before <date>?\"?": "Crypto",
+"?\"Will <fighter> be on the UFC <event> card?\"?": "Combat sports",
+"?\"Will <person/party> experience a <gain/loss> of <above/below/between/exactly/at least> <count> seats in <election>?\"?": "Elections and politics",
+"?\"Will <player> be selected for the <year> Ryder Cup?\"?": "Golf",
+"?\"Will Solana reserves be <above/below/between/exactly/at least> <value> before <date>?\"?": "Crypto",
+"?\"Will baseball <game> have <above/below/between/exactly/at least> <count> runs in <time period>?\"?": "MLB",
+"?\"Will the first 7 figure WNBA player salary contract happen before <date>?\"?": "WNBA",
+"ANR, Oklahoma Natural Gas (Platts IFERC) Basis Futures": "Financials",
+"ATP Oil & Gas Corporation": "Tennis",
+"ATP PLAYOFF FUTURE": "Tennis",
+"ATP Prop Series": "Props",
+"ATP Spread": "Tennis",
+"ATP Total": "Tennis",
+"ATP Total Series": "Tennis",
+"ATP WINNER": "Tennis",
+"ATP Winner Series": "Tennis",
+"Additional Event Contract Swaps on College Basketball": "College basketball",
+"Additional Event Contract Swaps on College Football": "College football",
+"Additional Event Contract Swaps on Golf Tournaments": "Golf",
+"Additional Event Contract Swaps on Pro Golf Tournaments": "Golf",
+"Additional Event Contract Swaps on Pro Tennis Tournaments": "Tennis",
+"Additional Event Contract Swaps on Women's College Basketball": "College basketball",
+"Additional Listing of Event Contract Swaps on International Soccer, and Related Exchange Listed Combos and Pro Tennis Tournaments": "Tennis",
+"Adjusted Interest Rate Nasdaq-100 Total Return Indexr Futures": "Economics",
+"Adjusted Interest Rate Russell 1000r Total Return Index Futures": "Economics",
+"Adjusted Interest Rate Russell 2000r Total Return Index Futures": "Economics",
+"Album Sales Contract (ADWSC)": "Entertainment",
+"Alumina FOB Australia (Metal Bulletin) Futures": "Companies and tech",
+"Aluminium European Premium Duty-Paid (Metal Bulletin) Futures": "Companies and tech",
+"Amazon.com, Inc. - Div": "Companies and tech",
+"Apple Computer Corp": "Companies and tech",
+"Argus 62-Grade NYH ULSD vs Heating Oil 1st Line Future": "Financials",
+"Argus Bakken (Clearbrook) Crude Oil Future": "Financials",
+"Argus LLS vs WTI Trade Month Balmo Future": "Financials",
+"Argus WCS (Cushing) Crude Oil Trade Month Future": "Financials",
+"Argus WTI Cushing Trade Month Future": "Financials",
+"Argus WTI Houston vs WTI 1st Line Balmo Future": "Financials",
+"BMO Single Stock Futures": "Financials",
+"BOXING TOTAL": "Combat sports",
+"BOXING WINNER": "Combat sports",
+"BUNDESLIGA PROP": "Props",
+"BUNDESLIGA SPREAD": "Soccer",
+"BUNDESLIGA TOTAL": "Soccer",
+"BUNDESLIGA WINNER": "Soccer",
+"Bakken Patoka (EMDA) vs. WTI Trade Month Futures": "Financials",
+"Baseball Exact Score Contract (EXSCBB)": "MLB",
+"Billboard Ranking Contracts (BBRC)": "Entertainment",
+"Biofuel Outright - British Columbia Low Carbon Fuel Standard (OPIS) 1st Line Future": "Other",
+"Bitcoin Cash US Dollar Spot Contract": "Crypto",
+"Bitcoin Euro Futures": "Crypto",
+"Bitcoin Futures": "Crypto",
+"Bitcoin US Dollar Centi Perpetual Futures": "Crypto",
+"Bloomberg Commodity Petroleum Subindex Futures": "Other",
+"Brent-Crude Oil vs.Dubai Crude Oil (Platts) Futures": "Financials",
+"CARDANO (ADA) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"CBOE Gold ETF Volatility Index": "Financials",
+"CBOT Dow Jones-UBS Excess Return Commodity Index": "Financials",
+"CME European Monthly HDD Index, Barcelona": "Other",
+"CME FSPI NHL Team Index Futures": "NHL",
+"CME Hurricane Index Seasonal Gulf Coast Binary Contract": "Weather",
+"CME Hurricane Index Second Event Seasonal Maximum: Florida (AL/FL Border to Fernandina Beach, FL)": "Weather",
+"CME Hurricane Index Second Event Seasonal Maximum: Florida Gold Coast (Card Sound Bridge, FL to Jupiter Inlet, FL)": "Weather",
+"CME Hurricane Index, Southern Atlantic Coast": "Weather",
+"CME Rainfall Index (Monthly): Jacksonville International Airport": "Weather",
+"CME Seasonal Strip Cooling Degree Days Index: Washington/Reagan": "Other",
+"CME Seasonal Strip Rainfall Index: Raleigh/Durham International Airport": "Weather",
+"CME Weekly Average Temperature Index Futures: Cincinnati Northern Kentucky (Covington) Airport": "Weather",
+"CME Weekly Average Temperature Index Futures: Dallas-Fort Worth International Airport": "Weather",
+"CME Weekly Average Temperature Index Futures: Detroit International Airport": "Weather",
+"CME Weekly Average Temperature Index Futures: Kansas City International Airport": "Weather",
+"CME Weekly Average Temperature Index Futures: Tucson International Airport": "Weather",
+"CME Weekly Average Temperature Index: Los Angeles Downtown USC Campus": "Weather",
+"COLLEGEBASKETBALLENTITYSTAT": "Props",
+"COLLEGEBASKETBALLOUTRIGHT": "College basketball",
+"COLLEGEBASKETBALLSPREAD-KANUK-10NOV2026": "College basketball",
+"COLLEGEBASKETBALLWIN": "College basketball",
+"COLLEGEBASKETBALLWIN-KANUK-10NOV2026": "College basketball",
+"COLLEGEFOOTBALLAWARD": "College football",
+"COLLEGEFOOTBALLAWARD-HEISMAN-SMITH-2026": "College football",
+"COLLEGEFOOTBALLENTITYACHIEVEMENT": "College football",
+"COLLEGEFOOTBALLENTITYSTAT": "Props",
+"COLLEGEFOOTBALLENTITYSTAT-SMITH-RECYDS-28NOV2026": "Props",
+"COLLEGEFOOTBALLOUTRIGHT": "College football",
+"COLLEGEFOOTBALLOUTRIGHT-CFP-OSU-2026": "College football",
+"COLLEGEFOOTBALLSPREAD": "College football",
+"COLLEGEFOOTBALLSPREAD-MICHOSU-28NOV2026": "College football",
+"COLLEGEFOOTBALLTOTALS": "College football",
+"COLLEGEFOOTBALLTOTALS-MICHOSU-28NOV2026": "College football",
+"COLLEGEFOOTBALLWIN": "College football",
+"COLLEGEFOOTBALLWIN-MICHOSU-28NOV2026": "College football",
+"CONCACAF WINNER": "Soccer",
+"CPI Contracts (CPIC)": "Economics",
+"Calamos Strategic Total Return Fund": "Other",
+"Callaway Golf Company": "Golf",
+"Cardano Price Forecast Contract": "Crypto",
+"Cavium Networks Inc. - Div": "Other",
+"Cboe Bitcoin Continuous Futures": "Crypto",
+"Certification of Commercial Economic Event Contract (Fed Funds Rate Hike) - Submission Pursuant to Commission Regulation 40.2(a)": "Economics",
+"Cia Brasileira de Distribuicao SA": "Other",
+"Cia Brasileira de Distribuicao SA - Div": "Other",
+"Circuit City Stores, Inc.": "Other",
+"Climate Action Reserve (CAR) Option": "Weather",
+"Cobalt Metal (Fastmarkets) Futures": "Companies and tech",
+"CoinDesk Jumbo Bitcoin Futures": "Crypto",
+"CoinDesk XRP Futures": "Crypto",
+"Combat Sports Player Statistic Contracts": "Props",
+"Conway Natural Gasoline (OPIS) BALMO": "Financials",
+"Corn Yields; Soybean Yields; Crude Oil Inventories Change; Natural Gas Net Change; CPI - All Items Less Food & Energy; CPI - Food at Home; CPI - Food Away From Home; CPI; Federal Balance Sheet Total Assets; New Home Sales; Retail Sales Change Binaries": "Economics",
+"Cricket Athletic Advancement Contract (AADCC)": "Cricket",
+"Cricket Exact Score Contract (EXSCC)": "Cricket",
+"Cricket Player Next Team Contract (PNTCC)": "Cricket",
+"Crude Diff - WTI ex-Basin vs HOU Trade Month (GX) Future": "Financials",
+"D6 RIN 2025 Vintage Future": "Other",
+"DOGELON MARS (ELON) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"Daily Aggregate Snowfall Index Swaps": "Weather",
+"Delek US Holdings, Inc.": "Other",
+"Dogecoin (DOGE) Cryptocurrency Event Contracts": "Crypto",
+"Dogecoin Futures contract": "Crypto",
+"Dow Jones Palo Verde Electricity Price Index 5 MW Off-Peak": "Financials",
+"Dow Jones Utility Average Index": "Financials",
+"Dubai Crude Oil (Platts) Financial Futures": "Financials",
+"E-mini S&P Composite 1500 Index Futures": "Financials",
+"ENTITYSTAT": "Props",
+"EPL PROP": "Props",
+"EPL SPREAD": "Soccer",
+"ERCOT HB_HOUSTON Monthly Real Time HE 10-17 (7x) Power": "Other",
+"Empresa Brasileira De Ae-ADR": "Other",
+"Esports Exact Score Contract (EXSCE)": "Esports",
+"EuroLeague Basketball Moneyline Contracts": "Other basketball",
+"EuroLeague Basketball Point Spread Contracts": "Other basketball",
+"EuroLeague Basketball Total Points Contracts": "Other basketball",
+"Eurozone GDP Forecast Contract": "Economics",
+"Event Contract Swaps on College Basketball Season Champion": "College basketball",
+"Event Contract Swaps on College Football Game Point Spread": "College football",
+"Event Contract Swaps on College Football Game Total Points": "College football",
+"Event Contract Swaps on College Football Games": "College football",
+"Event Contract Swaps on College Football Season Champion": "College football",
+"Event Contract Swaps on Golf Tournaments": "Golf",
+"Event Contract Swaps on International Baseball": "MLB",
+"Event Contract Swaps on Men's College Basketball Games": "College basketball",
+"Event Contract Swaps on Olympic Competitions": "Other sports",
+"Event Contract Swaps on Pro Football Championship Combos": "NFL",
+"Event Contract Swaps on Pro Football Championship First Touchdown and Time-Interval Touchdown": "Props",
+"Event Contract Swaps on Pro Football Game Point Spread": "NFL",
+"Event Contract Swaps on Pro Football Game Total Points": "NFL",
+"Event Contract Swaps on Pro Golf Tournaments": "Golf",
+"Event Contract Swaps on Pro Hockey Games": "NHL",
+"Event Contract Swaps on Pro Tennis Tournaments": "Tennis",
+"Event Contract Swaps on U.S. Elections - Democratic Presidential Nominee (Jon Ossoff)": "Elections and politics",
+"Event Contract Swaps on Women's College Basketball Season Champion": "College basketball",
+"Event Contracts on Bitcoin Futures": "Crypto",
+"Event Mentions Contracts (EMC)": "Mentions",
+"F1 PLACEMENT": "Motorsport",
+"FIBA Basketball Moneyline Event Contracts": "Other basketball",
+"FIBA SPREAD": "Other basketball",
+"FIBA TOTAL": "Other basketball",
+"FIBA WINNER": "Other basketball",
+"FLOKI (FLOKI) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"Fed-CPI Conditional Forecast Contract": "Economics",
+"First Round Election Winner Contracts: Brazil (FREWCBRD)": "Elections and politics",
+"First Round Election Winner Contracts: United States House (FREWCUSHD)": "Elections and politics",
+"Fixed for Floating Interest Rate Swaps": "Economics",
+"Football Playoff Series": "NFL",
+"Football Spread Series": "NFL",
+"Football Stat": "Props",
+"Football Stat Anchor": "Props",
+"Football Stat Series": "Props",
+"Football Total Series": "NFL",
+"Formula 1 Racing Futures Contracts": "Motorsport",
+"GOLF1": "Golf",
+"Gasoline Diff - Gulf Coast Unl 87 Gasoline Prompt Pipeline (Platts) vs. Argus Euro-Bob Oxy FOB Rotterdam Barges Future (349.86 conversion)": "Soccer",
+"Genesee & Wyoming Inc. - Div.": "Other",
+"Globe Specialty Metals Inc - Div": "Companies and tech",
+"Golf Athletic Retirement Contract (ARCG)": "Golf",
+"Golf Exact Score Contract (EXSCG)": "Golf",
+"Golf Futures Contracts": "Golf",
+"Gulf Coast Heating Oil (Platts) Futures": "Financials",
+"Gulf Coast Unl 87 (OPIS) vs. RBOB Gasoline Futures": "Soccer",
+"Gulf Coast Unl 87 Gasoline M1 (Platts) Futures": "Soccer",
+"Gulf Coast Unl 87 Gasoline M2 (Argus) Futures": "Soccer",
+"Gulf Coast Unl 87 Gasoline M2 (Platts) vs. RBOB Gasoline Futures": "Soccer",
+"HALOZYME THERAPEUTICS INC - Div": "Other",
+"Hedera Hashgraph (HBAR) CRYPTOCURRENCY EVENT CONTRACTS": "Crypto",
+"Henry Schein Inc": "Other",
+"Hockey Athletic Advancement Contract (AADCH)": "NHL",
+"How many Constitutional Court judges will vote in favor of removing President Yoon from office": "Elections and politics",
+"How many FOMC dissenting votes will there be in time period": "Economics",
+"How many days in a row will songalbum have the 1 spot on Spotify chart": "Entertainment",
+"How many people in group will leave their position because of topic": "Other",
+"How many times will person tweettruth about topic in period": "Combat sports",
+"How much will the next budget reconciliation bill reduce healthcare coverage": "Elections and politics",
+"IDEX USD Forward Start Defined Roll Interest Rate Swap Future": "Economics",
+"IPO Contract (IPOC)": "Companies and tech",
+"ISE-Revere Natural Gas": "Financials",
+"Ice Hockey Athletic Retirement Contract (ARCIH)": "NHL",
+"Ice Hockey Player Next Team Contract (PNTCIH)": "NHL",
+"Inflation Rate": "Economics",
+"Initial Listing of Event Contract Swaps on Pro Tennis Tournament": "Tennis",
+"Interest Rate Swap Contracts (Off-the Run) (Class Filing British Pound)": "Economics",
+"Interest Rate Swap Contracts (Off-the Run) (Class Filing US Dollar)": "Economics",
+"Interest Rate Swap Contracts (On-the Run) (Euro 2-Year)": "Economics",
+"Interest Rate Swap Contracts (On-the Run) (Euro 6-Year)": "Economics",
+"Interest Rate Swap Contracts (On-the Run) (US Dollar 30-Year)": "Economics",
+"Interest Rate Swap Contracts (On-the Run) (US Dollar 4-Year)": "Economics",
+"Interest Rate Swap Contracts (On-the Run) (US Dollar 9-Year)": "Economics",
+"Interest Rate Swap, 30 Year": "Economics",
+"Jacksonville Hourly Temperature Forecast Contract": "Weather",
+"KBO SPREAD": "MLB",
+"Kapa'a Live Hurricane Speed Forecast Contract": "Weather",
+"Kennametal Inc": "Companies and tech",
+"LALIGA PROP": "Props",
+"LALIGA SPREAD": "Soccer",
+"LALIGA TOTAL": "Soccer",
+"LALIGA WINNER": "Soccer",
+"LIGA MX PROP": "Props",
+"LIGA MX SPREAD": "Soccer",
+"LIGA MX TOTAL": "Soccer",
+"LIGA MX WINNER": "Soccer",
+"LIGUE 1 WINNER": "Soccer",
+"League of Legends World Championship Game Winner Contracts": "Esports",
+"League of Legends World Championship Match Winner Contracts": "Esports",
+"League of Legends World Championship Statistics Contracts": "Esports",
+"LedgerX Prepaid Day-Ahead USDBTC Mini Futures": "Other",
+"LedgerX USD BTC Weekly Mini Options": "Crypto",
+"Live Hurricane Location Forecast Contract": "Weather",
+"M-RETS Renewable Energy Certificates from CRS-Listed Canadian Sited Wind Energy Facilities - Vintage 2027 Front Half Future": "Other",
+"MELANIA (MELANIA) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"MENTION1": "Mentions",
+"MISO_RTO.IPL.16PETEE3_month_off_dac-Day Ahead Congestion + Energy": "Cricket",
+"MISO_RTO.IPL.16PETEE3_month_on_dac-Day Ahead Congestion + Energy": "Cricket",
+"MISO_RTO.IPL.16STOU7O7_month_off_dac-Day Ahead Congestion + Energy": "Cricket",
+"MISO_RTO.IPL.16STOU7O7_month_on_dac-Day Ahead Congestion + Energy": "Cricket",
+"MISO_RTO.IPL.IPL_month_off_dac-Day Ahead Congestion + Energy": "Cricket",
+"MISO_RTO.IPL.IPL_month_on_dac-Day Ahead Congestion + Energy": "Cricket",
+"MLB AWARD ACHIEVEMENT": "MLB",
+"MLB Award Series": "MLB",
+"MLB Baseball Futures Contracts": "MLB",
+"MLB Baseball Mainline Contracts": "MLB",
+"MLB Playoff Anchor": "MLB",
+"MLB Playoff Series": "MLB",
+"MLB Spread": "MLB",
+"MLB Spread Series": "MLB",
+"MLB Total": "MLB",
+"MLB Total Series": "MLB",
+"MLB Winner": "MLB",
+"MLB Winner Series": "MLB",
+"MLBAWARD": "MLB",
+"MLBENTITYACHIEVEMENT": "MLB",
+"MLBOAK": "MLB",
+"MLBOUTRIGHT": "Combat sports",
+"MLBTOTALS": "MLB",
+"MLS Prop Series": "Props",
+"MSCI Europe Climate Paris Aligned (NTR) Index": "Weather",
+"Malin Natural Gas (Platts Gas Daily/Platts IFERC) Index Futures": "Financials",
+"Marathon Oil Corp. - Dividend Adjusted": "Financials",
+"Marriott International Inc. - Div.": "Other",
+"Massachusetts CES-E Certificate Vintage 2021 Future": "Other",
+"Merger & Acquisition, Yahoo/Microsoft": "Companies and tech",
+"Metalico, Inc.": "Companies and tech",
+"Micro CME FSPI MLB Team Index Futures": "MLB",
+"Micro CME FSPI MLB Team Index Week One Futures": "MLB",
+"Micro CME FSPI NHL Team Index Futures": "NHL",
+"Micro CME FSPI NHL Team Index Week Three Futures": "NHL",
+"Micro E-mini Dow Jones Industrial Average Index Futures": "Financials",
+"Micro Henry Hub Natural Gas Futures": "Financials",
+"Micro Ultra U.S. Treasury Bond Futures": "Financials",
+"Microsoft": "Companies and tech",
+"Microsoft Corporation": "Companies and tech",
+"Momenta Pharmaceuticals, Inc. - Div": "Other",
+"Monday Weekly Options on SOL Futures - Weeks 1-5": "Crypto",
+"Monthly CPI Forecast Contract": "Economics",
+"Monthly Temperatures Forecast Contract": "Weather",
+"NAR Registered Renewable Energy Certificates from CRS Listed Wind Energy Facilities - Vintage 2029 Front Half Future": "Other",
+"NASCAR PLACEMENT": "Motorsport",
+"NBA Basketball Futures Contracts": "NBA",
+"NBA Basketball Player Statistic Contracts": "Props",
+"NBA Basketball Point Spread Contracts": "NBA",
+"NBA PLAYOFF ACHIEVEMENT": "NBA",
+"NBA WINNER": "NBA",
+"NBAENTITYACHIEVEMENT": "NBA",
+"NBAENTITYACHIEVEMENT-BRUNSON-FIRSTPOINTS-20OCT2026": "NBA",
+"NBAENTITYOUTPERFORM": "NBA",
+"NBAOUTRIGHT": "NBA",
+"NBAOUTRIGHT-TITLE-OKC-202627": "NBA",
+"NBASPREAD": "NBA",
+"NBATOTALS-PHINYK-20OCT2026": "NBA",
+"NBAWIN": "NBA",
+"NBAWIN-PHINYK-20OCT2026": "NBA",
+"NCAA Division I Men's Basketball Championship Futures Contracts": "College basketball",
+"NCAA Division I Men's Basketball Moneyline Contracts": "College basketball",
+"NCAA Division I Men's Basketball Player Statistics Contracts": "Props",
+"NCAA Division I Men's Basketball Spread Contracts": "College basketball",
+"NCAA Division I Women's Basketball Moneyline Contracts": "College basketball",
+"NCAA Division I Women's Basketball Spread Contracts": "College basketball",
+"NCAA Division I Women's Basketball Total Points Contracts": "College basketball",
+"NCAAF AWARD": "College football",
+"NCAAF PLAYOFF FUTURE": "College football",
+"NCAAF SPREAD": "College football",
+"NCAAF SPREAD 2.0": "College football",
+"NCAAF TOTAL": "College football",
+"NCAAF TOTAL 2.0": "College football",
+"NCAAF WINNER": "College football",
+"NCAAM PLAYOFF ACHIEVEMENT": "College basketball",
+"NCAAW PLAYOFF ACHIEVEMENT": "College basketball",
+"NCAAW SPREAD": "College basketball",
+"NCAAW TOTAL": "College basketball",
+"NFL American Football Player Participation Contracts (APACNFL)": "NFL",
+"NFL American Football Player Participation Contracts (APACNFLD)": "NFL",
+"NFL American Football Starter Designation Contracts (SDCNFL)": "NFL",
+"NFL American Football Starter Designation Contracts (SDCNFLD)": "NFL",
+"NFL Football": "NFL",
+"NFL Football First Team to Score Contracts": "NFL",
+"NFL Football Point Spread Contracts": "NFL",
+"NFL PROP": "Props",
+"NFL Sunday First Touchdown by Game Clock Contracts": "Props",
+"NFL Weekly Scorigami Contracts": "NFL",
+"NFX RBOB Gasoline Penultimate Financial Futures": "Other",
+"NHL Hockey Mainline Contracts": "NHL",
+"NHL PLAYOFF ACHIEVEMENT": "NHL",
+"NHL PROP": "Props",
+"NHL SPREAD": "NHL",
+"NHL TOTAL": "NHL",
+"NHLENTITYACHIEVEMENT": "NHL",
+"NHLENTITYACHIEVEMENT-CONNOR-FIRSTGOAL-25OCT2026": "NHL",
+"NHLENTITYSTAT-CONNOR-GOALS-25OCT2026": "Props",
+"NHLEXACTSCORE": "NHL",
+"NHLEXACTSCORE-WPGMTL-25OCT2026": "NHL",
+"NHLGOALTIMING": "NHL",
+"NHLGOALTIMING-WPGMTL-25OCT2026": "NHL",
+"NHLOUTRIGHT": "NHL",
+"NHLOVERTIME-WPGMTL-25OCT2026": "NHL",
+"NHLTOTALS": "NHL",
+"NHLWIN": "NHL",
+"NHLWIN-WPGMTL-25OCT2026": "NHL",
+"NPB SPREAD": "MLB",
+"NVIDIA Revenue Breakdown Forecast Contract": "Companies and tech",
+"NYMEX Crude Oil MACI Index": "Financials",
+"National Renewable Energy Certificates from CRS Listed Wind Energy Facilities Vintage 2029 Back Half Future": "Other",
+"Netflix, Inc. - Div": "Entertainment",
+"New Jersey Compliance Renewable Energy Certificate Class 2 Vintage 2033 Future": "Other",
+"New York 1% Fuel Oil Future": "Financials",
+"Newfield Exploration Co": "Other",
+"Nonfarm Payroll Contract (NFPC)": "Economics",
+"Nonfarm Payrolls": "Economics",
+"Nvidia Corporation - Div": "Companies and tech",
+"OLN1D": "Other",
+"Ohio Solar Renewable Energy Certificate Vintage 2026 Future": "Other",
+"Option on California Carbon Allowance Future Vintage 2024 (Futures Style Margining)": "Other",
+"Option on PJM BGE Zone Day-Ahead Peak Fixed Price Future": "Other",
+"Option on PJM PECO Zone Day-Ahead Peak Fixed Price Future": "Other",
+"Options on Dow Jones U.S. Real Estate Index Futures": "Financials",
+"PEPE (PEPE) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"PETROLEO BRASILEIRO S.A. - ADR - Div": "Other",
+"PGA Head to Head": "Golf",
+"PGA Head to Head Series": "Golf",
+"PGA Stat": "Golf",
+"PGL Counter Strike 2 Major Championship Map Spread Contracts": "Esports",
+"PGL Counter Strike 2 Major Championship Map Winner Contracts": "Esports",
+"PGL Counter Strike 2 Major Championship Match Winner Contracts": "Esports",
+"PGL Counter Strike 2 Major Championship Statistics Contracts": "Esports",
+"PGL Counter Strike 2 Major Championship Total Maps Contracts": "Esports",
+"PGL Counter-Strike 2 Major Championship Futures Contracts": "Esports",
+"PIMCO 25+ Yr Zero Coupon US Treasury Index - Div": "Financials",
+"PIMCO Investment Grade Corp Bond Index Fund": "Other",
+"PJM AEP-DAYTON HUB Daily Real Time Off-Peak Power Contract": "Other",
+"PJM WESTERN HUB Real Time HE12 Power Contract": "Other",
+"PJM.LINDEN18 KV1101 CT_month_off_dac-Day Ahead Congestion + Energy": "Other",
+"Party Nominee Event Contract": "Elections and politics",
+"Petroleo Brasileiro S.A. ADR": "Other",
+"Petroleo Brasileiro SA": "Other",
+"Petroleo Brasileiro SA - Div": "Other",
+"Pfizer Inc Stock Futures": "Financials",
+"PowerShares DB Precious Metals Fund (ETF) - Div.": "Companies and tech",
+"PowerShares Dynamic Oil & Gas Services Portfolio": "Financials",
+"ProShares Short 20+ Year Treasury": "Financials",
+"ProShares Ultra Basic Materials": "Other",
+"ProShares UltraShort Yen - Div": "Other",
+"Rotten Tomatoes Contracts (ROTCD)": "Entertainment",
+"Rugby Player Next Team Contract (PNTCRU)": "Other sports",
+"S&P/GRA Commercial Real Estate Index, Office": "Financials",
+"SEI Event Contract": "Other",
+"SOL Futures": "Crypto",
+"SPDR Barclays Capital High Yield Bond ETF- Div.": "Financials",
+"SPDR METALS & MINING ETF - Div": "Companies and tech",
+"Short-Term U.S. Treasury Note Futures": "Financials",
+"Singapore CPI Forecast Contract": "Economics",
+"Snowfall Index, Monthly, New York LaGuardia Airport": "Weather",
+"Snowfall Index, Seasonal, Newark International Airport": "Weather",
+"Snowfall, Monthly, Chicago O'Hare International Airport": "Weather",
+"Snowfall, Monthly, New York La Guardia Airport": "Weather",
+"Snowfall, Seasonal, Chicago O'Hare International Airport": "Weather",
+"Snowfall, Seasonal, Minneapolis/St. Paul Airport": "Weather",
+"Soccer Achievement Event Contract": "Soccer",
+"Soccer Player Next Team Contract (PNTCS)": "Soccer",
+"Soccer Player Statistics Contracts": "Props",
+"Solana (SOL) CRYPTOCURRENCY EVENT CONTRACTS": "Crypto",
+"Solana Price Forecast Contract": "Crypto",
+"Solana Threshold Forecast Contract": "Crypto",
+"Solana US Dollar Hecto Futures": "Crypto",
+"Solana US Dollar Spot Contract": "Crypto",
+"Solana US Dollar Unit Perpetual Futures": "Crypto",
+"Spotify Ranking Contracts (SPOTRC)": "Entertainment",
+"Standard Coupon & Standard Maturity Interest Rate Swap (USD 10-Year)": "Economics",
+"Super Bowl Announced Headliner Contracts (AAHCSB)": "NFL",
+"Supreme Court Ruling Forecast Contract": "Elections and politics",
+"TESLA Motors, Inc. - Div": "Companies and tech",
+"TRUMP (TRUMP) CRYPTOCURRENCY \"TOUCH BRACKET\" VARIABLE PAYOUT CONTRACTS": "Crypto",
+"TTCUPWIN": "Table tennis",
+"TTCUPWIN-BENBRO-16NOV2026": "Table tennis",
+"TTELITEWIN": "Table tennis",
+"TTELITEWIN-FOLWED-16NOV2026": "Table tennis",
+"Table Tennis Exact Score Contract (EXSCTT)": "Table tennis",
+"Tennis Athletic Advancement Contract (AADCT)": "Tennis",
+"Tennis Athletic Retirement Contract (ARCT)": "Tennis",
+"Tennis Exact Score Contract (EXSCT)": "Tennis",
+"Tennis Futures Contracts": "Tennis",
+"Tennis Mainline Contracts": "Tennis",
+"Tennis Outcome Event Contract": "Tennis",
+"Texas Compliance Solar Renewable Energy Certificate from CRS ListedT Facilities Back Half Specific Future": "Other",
+"Thursday Options on Bitcoin Futures - Weeks 1-5": "Crypto",
+"Thursday Weekly Options on XRP Futures - Weeks 1-5": "Crypto",
+"Tokyo Olympics Occurrence Contract": "Other sports",
+"TownBank / Portsmouth VA": "WNBA",
+"UCL SPREAD": "Soccer",
+"UCL WINNER": "Soccer",
+"UEL PROP": "Props",
+"UFC Combat Sports Next Opponent Contract (NOCUFCD)": "Combat sports",
+"UFC Combat Sports Next Opponent Contracts (NOCUFC)": "Combat sports",
+"UFC Prop Series": "Props",
+"UFC Stat": "Combat sports",
+"UFC Total": "Combat sports",
+"UFC Total Series": "Combat sports",
+"UFC Winner": "Combat sports",
+"UFC Winner Series": "Combat sports",
+"UNL PROP": "Props",
+"UNL WINNER": "Soccer",
+"US Real GDP Forecast Contract": "Economics",
+"US Senate Control Forecast Contract": "Elections and politics",
+"US Unemployment Rate Forecast Contract": "Economics",
+"USD Flex Tenor Spot Interest Rate Swaps": "Economics",
+"University Tuition Forecast Contract": "Education",
+"VALORANT Game Changers Championship Futures Contracts": "Esports",
+"VALORANT Game Changers Championship Map Spread Contracts": "Esports",
+"VALORANT Game Changers Championship Match Winner Contracts": "Esports",
+"VALORANT Game Changers Championship Total Maps Contracts": "Esports",
+"Validus Holdings Ltd": "Other",
+"Volleyball Exact Score Contract (EXSCV)": "Other sports",
+"WNBA Basketball Futures Contracts": "WNBA",
+"WNBA Basketball Mainline Contracts": "WNBA",
+"WNBA Basketball Player Statistic Contracts": "Props",
+"WNBA PLAYOFF ACHIEVEMENT": "WNBA",
+"WNBA Spread": "WNBA",
+"WNBA Spread Series": "WNBA",
+"WNBA Stat": "WNBA",
+"WNBA Total": "WNBA",
+"WNBA Total Series": "WNBA",
+"WNBA WINNER": "WNBA",
+"WNBA Winner": "WNBA",
+"WNBA Winner Series": "WNBA",
+"WTA PLAYOFF FUTURE": "Tennis",
+"WTA Spread": "Tennis",
+"WTA Spread Series": "Tennis",
+"WTA WINNER": "Tennis",
+"WTA Winner": "Tennis",
+"WTA Winner Series": "Tennis",
+"WTI 1st Line Balmo Future": "Financials",
+"WTI Ex-Pipe (Argus) vs. WTI Trade Month Futures": "Financials",
+"WTTWIN": "Table tennis",
+"WTTWIN-WANHAR-05NOV2026": "Table tennis",
+"Wednesday Weekly Options on Micro Bitcoin Futures - Week 2": "Crypto",
+"What products will Apple announce at event": "Companies and tech",
+"What will the lowest federal funds rate set by the Federal Reserve be by date?": "Economics",
+"Which bank will be the lead-left underwriter on <company>'s IPO <time period>?": "Companies and tech",
+"Which topic in set will account post about next": "Combat sports",
+"Who will be Prime Minister following the next Japanese House of Councillors election": "Elections and politics",
+"Who will be position of country pursuant to election": "Elections and politics",
+"Who will win at the Grammys?": "Entertainment",
+"Will <EuroLeague game> go to <above/below/between/exactly/at least> <count> overtime periods?": "Other basketball",
+"Will <FIBA game> go to <above/below/between/exactly/at least> <count> overtime periods?": "Other basketball",
+"Will <NBA game> go to <above/below/between/exactly/at least> <count> overtime periods?": "NBA",
+"Will <NBL game> go to above/below/between/exactly/at least <count> overtime periods?": "Other basketball",
+"Will <NCAA hockey game> go to <above/below/between/exactly/at least> <count> overtime periods?": "NHL",
+"Will <NFL game> go to <above/below/exactly/between/at least> <count> overtime periods?": "NFL",
+"Will <NHL game> go to <above/below/between/exactly/at least> <count> overtime periods?": "NHL",
+"Will <NHL game> go to shootouts?": "NHL",
+"Will <WNBA game> go to <above/below/between/exactly/at least> <count> overtime periods?": "WNBA",
+"Will <WNBA team> be officially named <team name> <time period>?": "WNBA",
+"Will <above/below/exactly/at least/at most/between> <count> finalists for <award> at the 2027 Billboard Latin Music Awards be women?": "Entertainment",
+"Will <above/below/exactly/at least/at most/between> <count> finalists for <award> at the <year> Billboard Latin Music Awards be <characteristic>?": "Entertainment",
+"Will <above/below/exactly/at least/between> <count> coaches total be out in the NBA <time period>?": "NBA",
+"Will <artist> receive <above/below/exactly/between/at least> <count> nominations at the <Grammy Awards ceremony>?": "Entertainment",
+"Will <artist> receive <above/below/exactly/between/at least> <count> nominations at the <Latin Grammy Awards ceremony>?": "Entertainment",
+"Will <artist> release a/an <album> in <time period>?": "Entertainment",
+"Will <baseball team> win by <condition> <count> runs in <baseball game>? Event Contract": "MLB",
+"Will <baseball team> win the <baseball game>? Event Contract": "MLB",
+"Will <basketball team> win <year> NBA Championship Event Contract": "NBA",
+"Will <basketball team> win <year> NBA Conference Championship Event Contract": "NBA",
+"Will <bout> conclude in <time period>?": "Combat sports",
+"Will <college basketball game> go to <above/below/between/exactly/at least> <count> overtime periods?": "College basketball",
+"Will <college basketball team> advance to the <year> NCAA Tournament? Event Contract": "College basketball",
+"Will <college basketball team> win <year> <conference> Regular Season Championship Event Contract": "College basketball",
+"Will <college basketball team> win the <year> <conference> Tournament Championship Event Contract": "College basketball",
+"Will <college basketball team> win the <year> NCAA Tournament Championship Event Contract": "College basketball",
+"Will <college football game> go to <above/below/between/exactly/at least> <count> overtime periods?": "College football",
+"Will <college football team> advance to the <year> College Football Playoff? Event Contract": "College football",
+"Will <college team> win <college football game>? Event Contract": "College football",
+"Will <competitor 1> beat <competitor 2> in <session> at <formula one event>?": "Motorsport",
+"Will <competitor> hold the UFC <title> on <date>?": "Combat sports",
+"Will <competitor> win <bout> by <method> in <time period>?": "Combat sports",
+"Will <competitor> win the UFC <fight> by <method> during <time period>?": "Combat sports",
+"Will <competitor> win the UFC <fight> during <time period>?": "Combat sports",
+"Will <entity> hold shares carrying more votes per share than the shares sold to the public immediately following Anthropic's IPO?": "Elections and politics",
+"Will <entity> record <above/below/between/exactly/at least> <count> <stat> in <time period> of <game> (Covered)?": "Props",
+"Will <entity> record <above/below/exactly/at least/between> <count> <stat> in <time period> of <soccer game>?": "Props",
+"Will <entity> record the best <score> among <golfer category> during <time period> of <golf tournament>?": "Golf",
+"Will <entity> record the most <stat> among all members of <football category> in <time period> of <game>?": "Props",
+"Will <entity> win <time period> of <esports event> by <above/below/exactly/at least/between> <count> <scoring unit>?": "Esports",
+"Will <entity> win <time period> of <esports event>?": "Esports",
+"Will <entity> win La Liga <award> for <season>?": "Soccer",
+"Will <entity> win Liga MX <award> for <season>?": "Soccer",
+"Will <entity> win NCAA women's basketball <award> for <season>?": "College basketball",
+"Will <entity> win WNBA <award> for <season>?": "WNBA",
+"Will <football body> publicly <position> FIFA's private investment plan before <time period>?": "Soccer",
+"Will <golf team> score <condition> points than <opponent> on <competition date> at the <year> Presidents Cup? Event Contract": "Golf",
+"Will <golf team> win the <year> Presidents Cup? Event Contract": "Golf",
+"Will <golfer 1> finish with the best score among <golfer 1>, <golfer 2>, and <golfer 3> in <event>?": "Golf",
+"Will <hockey team> win the <hockey game>? Event Contract": "NHL",
+"Will <hockey team> win the <year> NHL Championship? Event Contract": "NHL",
+"Will <hockey team> win the <year> NHL Conference Championship Event Contract": "NHL",
+"Will <metric> for <participant> in <event> at the <year> Winter Olympics be <above/below/between/exactly/at least/at most> <threshold>?": "Other sports",
+"Will <metric> for <participant> in <event> at the <year> Winter Olympics be <above/below/between/exactly/at least/at most> threshold?": "Other sports",
+"Will <nominee> receive <above/below/exactly/between/at least> <count> nominations at the <PGA Awards ceremony>?": "Golf",
+"Will <occurrence> occur in <event> at the <year> Winter Olympics?": "Other sports",
+"Will <organization> have the top AI model <time period>?": "Companies and tech",
+"Will <participant 1> outperform <participant 2> in <event> at the <year> Winter Olympics?": "Other sports",
+"Will <participant> achieve <achievement> at the <year> Winter Olympics?": "Other sports",
+"Will <participant> be in <position> after <phase> in <event> at the <year> Winter Olympics?": "Other sports",
+"Will <person> win <time period> of <UFC match>?": "Combat sports",
+"Will <person> win <time period> of the Joaquin Buckley vs. Mike Malott bout at UFC Fight Night: Buckley vs. Malott on October 17, 2026?": "Combat sports",
+"Will <player/athlete> exceed their preseason fantasy football projection by the most points for the <time period> NFL season?": "NFL",
+"Will <player/athlete> have the most fantasy football points among <player group> for the <time period> NFL season?": "NFL",
+"Will <player/team> finish <ranking condition> in <statistic> among <peer group> for the <time period> NFL season?": "Props",
+"Will <player> win <scope> of <tennis match> by <above/below/exactly/between/at least> <count> <metric>?": "Tennis",
+"Will <player> win <table tennis match> at a WTT Champions event?": "Table tennis",
+"Will <player> win <table tennis match> in the Setka Cup?": "Table tennis",
+"Will <player> win <table tennis match> in the TT Elite Series?": "Table tennis",
+"Will <player> win <table tennis match> in the TT Star Series?": "Table tennis",
+"Will <player> win ATP <award> for <season>?": "Tennis",
+"Will <player> win ITF <award> for <season>?": "Tennis",
+"Will <player> win the <year> <golf tournament>? Event Contract": "Golf",
+"Will <pro basketball player> win the <year> NBA Cup MVP? Event Contract": "NBA",
+"Will <pro basketball player> win the <year> NBA League MVP? Event Contract": "NBA",
+"Will <pro basketball team> advance to the <year> NBA Cup Playoff? Event Contract": "NBA",
+"Will <pro football team> win by <condition> <count> points in <pro football game>? Event Contract": "NFL",
+"Will <pro hockey player> win the <year> NHL MVP? Event Contract": "NHL",
+"Will <scope> of <tennis match> have <above/below/exactly/between/at least> <count> <games>?": "Tennis",
+"Will <stat> be recorded by <entity> in <time period> of <basketball game>?": "Props",
+"Will <team> record the fastest pit stop at <F1 race>?": "Motorsport",
+"Will <team> record the fastest pit stop at the 2026 United States Grand Prix?": "Motorsport",
+"Will <team> record the fastest pit stop during the 2027 NTT INDYCAR SERIES season of Firestone Pit Stop Performance Award?": "Motorsport",
+"Will <team> win <time period> of <cricket match>?": "Cricket",
+"Will <team> win <time period> of <men's college lacrosse game>?": "Other sports",
+"Will <team> win <time period> of <men's college volleyball match>?": "Other sports",
+"Will <team> win <time period> of <test cricket match>?": "Cricket",
+"Will <team> win <time period> of <women's college lacrosse game>?": "Other sports",
+"Will <team> win <time period> of <women's college volleyball match>?": "Other sports",
+"Will <team> win <time period> of Penn State's first home game of the 2027 NCAA Division I Men's Volleyball season?": "Other sports",
+"Will <women's college basketball game> go to <above/below/between/exactly/at least> <count> overtime periods?": "College basketball",
+"Will AFA Argentina Primera Division match between Talleres and Belgrano originally scheduled for 4:00 p.m. ET on October 4, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will AFA Argentina Primera Division match between Vlez Sarsfield and Tigre originally scheduled for 8:30 p.m. ET on September 20, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will AFA River Plate record above 9.5 wins in the 2026 Argentina Primera Division Clausura regular season?": "Soccer",
+"Will AFA River Plate win the 2026 Argentina Primera Division Clausura championship?": "Soccer",
+"Will AFA Talleres record at least 0.5 goals during the entire game excluding extra time of AFA Argentina Primera Division match between Talleres and Belgrano originally scheduled for 4:00 p.m. ET on October 4, 2026?": "Soccer",
+"Will AFA Talleres score at least 0.5 more goals during the entire game excluding extra time of AFA Argentina Primera Division match between Talleres and Belgrano originally scheduled for 4:00 p.m. ET on October 4, 2026?": "Soccer",
+"Will AFA Talleres score more goals during the entire game excluding extra time of AFA Argentina Primera Division match between Talleres and Belgrano originally scheduled for 4:00 p.m. ET on October 4, 2026?": "Soccer",
+"Will AFA Vlez Sarsfield record at least 0.5 goals during the entire game excluding extra time of AFA Argentina Primera Division match between Vlez Sarsfield and Tigre originally scheduled for 8:30 p.m. ET on September 20, 2026?": "Soccer",
+"Will AFA Vlez Sarsfield score at least 0.5 more goals during the entire game excluding extra time of AFA Argentina Primera Division match between Vlez Sarsfield and Tigre originally scheduled for 8:30 p.m. ET on September 20, 2026?": "Soccer",
+"Will AFA Vlez Sarsfield score more goals during the entire game excluding extra time of AFA Argentina Primera Division match between Vlez Sarsfield and Tigre originally scheduled for 8:30 p.m. ET on September 20, 2026?": "Soccer",
+"Will ATP <player> win <above/below/between/exactly/at least> <count> more games than their opponent during <time period> of <match>?": "Tennis",
+"Will ATP <player> win the <season> <title>?": "Tennis",
+"Will Alabama advance to the 2026/2027 College Football Playoff? Event Contract": "College football",
+"Will Anthony Hernandez hold the UFC Middleweight Championship on August 22, 2026?": "Combat sports",
+"Will Anthony Hernandez win the UFC Fight Night: Hernandez vs. Rodrigues middleweight main-event fight originally scheduled for August 22, 2026 by submission during the entire fight?": "Combat sports",
+"Will Anthony Hernandez win the UFC Fight Night: Hernandez vs. Rodrigues middleweight main-event fight originally scheduled for August 22, 2026 during the entire fight?": "Combat sports",
+"Will Apple be banned from selling and importing the Apple Watch Series 9 and Ultra 2 on date?": "Companies and tech",
+"Will Apple launch the Apple Vision Pro by date?": "Companies and tech",
+"Will Aryna Sabalenka win the Aryna Sabalenka vs. Polina Iatcenko tennis match on September 2, 2026? Event Contract": "Tennis",
+"Will Beyonce's next album appear on the Billboard chart?": "Entertainment",
+"Will Bitcoin gain quantum safety before year": "Crypto",
+"Will Bitcoin replace SHA-256 before date?": "Crypto",
+"Will Brazilian Supreme Court Minister Alexandre de Moraes be impeached before date": "Elections and politics",
+"Will Bundesliga <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of Bundesliga <game>?": "Props",
+"Will Bundesliga <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will Bundesliga <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "Soccer",
+"Will Bundesliga <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of Bundesliga <game>?": "Soccer",
+"Will Bundesliga <team> score more goals during <time period> of Bundesliga <game>?": "Soccer",
+"Will Bundesliga <team> win the <season> <title>?": "Soccer",
+"Will Bundesliga Bayern Munich record above 24.5 regular season wins in the 2026/27 Bundesliga regular season?": "Soccer",
+"Will Bundesliga Bayern Munich record at least 0.5 goals during the entire game excluding extra time of 2026/27 Bundesliga Matchday 1 match between Bayern Munich and VfB Stuttgart originally scheduled for 2:30 p.m. ET on August 28, 2026?": "Soccer",
+"Will Bundesliga Bayern Munich score at least 0.5 more goals during the entire game excluding extra time of Bundesliga Matchday 1 match between Bayern Munich and VfB Stuttgart in the 2026/27 season originally scheduled for 2:30 p.m. ET on August 28, 2026?": "Soccer",
+"Will Bundesliga Bayern Munich score more goals during the entire game excluding extra time of Bundesliga Matchday 1 match between Bayern Munich and VfB Stuttgart in the 2026/27 season originally scheduled for 2:30 p.m. ET on August 28, 2026?": "Soccer",
+"Will Bundesliga Bayern Munich win the 2026/27 Bundesliga championship?": "Soccer",
+"Will Bundesliga Matchday 1 match between Bayern Munich and VfB Stuttgart in the 2026/27 season originally scheduled for 2:30 p.m. ET on August 28, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will CBF <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of CBF <game>?": "Props",
+"Will CONMEBOL <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of CONMEBOL <game>?": "Soccer",
+"Will CONMEBOL Sudamericana semifinal first-leg match between Boca Juniors and Vasco da Gama originally scheduled for October 14, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will CS2/CS:GO ESL Pro League Season 24 CS2 Swiss first-round series between Vitality and 1win originally scheduled for October 3, 2026 have above 2.5 maps during the entire series, including overtime?": "Esports",
+"Will Chip Ganassi Racing record <above/below/exactly/at least/at most/between> <value> points during the 2027 NTT INDYCAR SERIES season of Firestone Pit Stop Performance Award?": "Motorsport",
+"Will Cloud9 record more than 10 total kills in Game 1 of its Play-In Stage Round 1 match at the 2026 League of Legends World Championship on October 15, 2026?": "Esports",
+"Will Cloud9 win Game 1 of its Play-In Stage Round 1 match at the 2026 League of Legends World Championship on October 15, 2026?": "Esports",
+"Will Cloud9 win the 2026 League of Legends World Championship?": "Esports",
+"Will DIMAYOR <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will DIMAYOR Atltico Nacional record above 10.5 wins in the 2026 DIMAYOR Colombia Primera A Finalizacin regular season?": "Soccer",
+"Will DIMAYOR Atltico Nacional record at least 0.5 goals during the entire game excluding extra time of DIMAYOR Colombia Primera A Finalizacin match between Atltico Nacional and Millonarios originally scheduled for 8:30 p.m. ET on September 24, 2026?": "Soccer",
+"Will DIMAYOR Atltico Nacional score at least 0.5 more goals during the entire game excluding extra time of DIMAYOR Colombia Primera A Finalizacin match between Atltico Nacional and Millonarios originally scheduled for 8:30 p.m. ET on September 24, 2026": "Soccer",
+"Will DIMAYOR Atltico Nacional score more goals during the entire game excluding extra time of DIMAYOR Colombia Primera A Finalizacin match between Atltico Nacional and Millonarios originally scheduled for 8:30 p.m. ET on September 24, 2026?": "Soccer",
+"Will DIMAYOR Atltico Nacional win the 2026 DIMAYOR Colombia Primera A Finalizacin championship?": "Soccer",
+"Will DIMAYOR Colombia Primera A Finalizacin match between Atltico Nacional and Millonarios originally scheduled for 8:30 p.m. ET on September 24, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will Donald Trump post negatively about person on Truth Social before date": "Combat sports",
+"Will Dota 2 <game> have <above/below/between/exactly/at least> <count> maps during <time period>?": "Esports",
+"Will Dota 2 <team> win <time period> of <game>?": "Esports",
+"Will Dota 2 Aurora win the entire series of BLAST SLAM VIII Dota 2 Group D upper-bracket final involving Aurora originally scheduled for October 1, 2026?": "Esports",
+"Will Dota 2 BLAST SLAM VIII Dota 2 Group D upper-bracket final involving Aurora originally scheduled for October 1, 2026 have above 2.5 maps during the entire series?": "Esports",
+"Will EFL <team> score more goals during <time period> of EFL <game>?": "Soccer",
+"Will EPL <team> win the <season> <title>?": "Soccer",
+"Will Enes Kanter Freedom be drafted in the 2027 WNBA Draft?": "WNBA",
+"Will Enes Kanter Freedom play in a game during the 2027 WNBA season?": "WNBA",
+"Will F1 <competitor> win <race>?": "Motorsport",
+"Will F1 <driver> finish in <count> in <race>?": "Motorsport",
+"Will F1 <driver> record the fastest lap in <race>?": "Motorsport",
+"Will F1 Charles Leclerc finish in the top 3 in the 2026 Italian Grand Prix originally scheduled for 9:00 a.m. ET on September 6, 2026?": "Motorsport",
+"Will F1 Charles Leclerc record the fastest lap in the 2026 Italian Grand Prix originally scheduled for 9:00 a.m. ET on September 6, 2026?": "Motorsport",
+"Will F1 Charles Leclerc win the 2026 Italian Grand Prix originally scheduled for 9:00 a.m. ET on September 6, 2026?": "Motorsport",
+"Will FIFA Poland win the FIFA U-20 Women's World Cup Poland 2026 championship?": "Soccer",
+"Will FIFA's private investment plan be approved <time period>?": "Soccer",
+"Will Formula 1 announce a fourth grand prix in the United States before date": "Motorsport",
+"Will Germany (Women's) win their Group Stage Game versus Japan (Women's) at the 2026 FIBA Women's Basketball World Cup on September 5th, 2026?": "Other basketball",
+"Will Gigi Sohn be confirmed to be a Member of the Federal Communications Commission?": "Other",
+"Will Hannah Hidalgo record over 24.5 points in the NCAA Division I Women's Basketball game between Notre Dame and Villanova on November 1, 2026?": "College basketball",
+"Will Harvard admissions be above below count in year?": "Education",
+"Will ITF <player> win <above/below/between/exactly/at least> <count> more games than their opponent during <time period> of <match>?": "Tennis",
+"Will ITF <player> win <match>?": "Tennis",
+"Will ITF <player> win <set> of <match>?": "Tennis",
+"Will ITF <player> win the <season> <title>?": "Tennis",
+"Will JD Vances approval rating be abovebelowbetweenexactlyat least percentage points on date according to FiveThirtyEight": "Elections and politics",
+"Will Jalen Brunson win the 2026/2027 NBA Cup MVP? Event Contract": "NBA",
+"Will James Cook record the most Points-Per-Reception (PPR) fantasy points among all NFL running backs in the 2026-27 NFL regular season?": "NFL",
+"Will Jaxon Smith-Njigba record at least 75 Receiving Yards in the New England Patriots at Seattle Seahawks game on September 9, 2026": "Props",
+"Will Josh Allen record the most Points-Per-Reception (PPR) fantasy points among all NFL quarterbacks in the 2026-27 NFL regular season?": "NFL",
+"Will Julian Sayin record Over 300.5 Passing Yards in the Ball State Cardinals at Ohio State Buckeyes game on September 5th, 2027?": "Props",
+"Will La Liga <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of La Liga <game>?": "Props",
+"Will La Liga <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will La Liga <game> have a score of <score> during <time period>?": "Soccer",
+"Will La Liga <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "Soccer",
+"Will La Liga <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of La Liga <game>?": "Soccer",
+"Will La Liga <team> score more goals during <time period> of La Liga <game>?": "Soccer",
+"Will La Liga <team> win the <season> <title>?": "Soccer",
+"Will League of Legends <game> have <above/below/between/exactly/at least> <count> maps during <time period>?": "Esports",
+"Will League of Legends <team> win <time period> of <game>?": "Esports",
+"Will League of Legends KT Rolster win the entire series of TJ Sports and Huya Demacia Cup Global Invitational 2026 League of Legends Swiss first-round match between KT Rolster and Shopify Rebellion originally scheduled for October 3, 2026?": "Esports",
+"Will Liga MX <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of Liga MX <game>?": "Props",
+"Will Liga MX <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will Liga MX <game> have a score of <score> during <time period>?": "Soccer",
+"Will Liga MX <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "Soccer",
+"Will Liga MX <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of Liga MX <game>?": "Soccer",
+"Will Liga MX <team> score more goals during <time period> of Liga MX <game>?": "Soccer",
+"Will Liga MX <team> win the <season> <title>?": "Soccer",
+"Will LigaPro Ecuador <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of LigaPro Ecuador <game>?": "Props",
+"Will LigaPro Ecuador <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will LigaPro Ecuador <team> record <above/below/between/exactly/at least> <count> wins in <season>?": "Other",
+"Will LigaPro Ecuador <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of LigaPro Ecuador <game>?": "Soccer",
+"Will LigaPro Ecuador <team> score more goals during <time period> of LigaPro Ecuador <game>?": "Soccer",
+"Will LigaPro Ecuador <team> win the <season> <title>?": "Other",
+"Will LigaPro Ecuador Barcelona SC record above 4.5 wins in the 2026 LigaPro Serie A championship hexagonal?": "Soccer",
+"Will LigaPro Ecuador Barcelona SC win the 2026 LigaPro Serie A championship?": "Soccer",
+"Will LigaPro Ecuador Independiente Juniors record at least 0.5 goals during the entire game excluding extra time of LigaPro Ecuador Serie B promotion-round match between Independiente Juniors and Vinotinto originally scheduled for 4:30 p.m. ET on Septembe": "Soccer",
+"Will LigaPro Ecuador Independiente Juniors score at least 0.5 more goals during the entire game excluding extra time of LigaPro Ecuador Serie B promotion-round match between Independiente Juniors and Vinotinto originally scheduled for 4:30 p.m. ET on Sept": "Soccer",
+"Will LigaPro Ecuador Independiente Juniors score more goals during the entire game excluding extra time of LigaPro Ecuador Serie B promotion-round match between Independiente Juniors and Vinotinto originally scheduled for 4:30 p.m. ET on September 23, 202": "Soccer",
+"Will LigaPro Ecuador Serie B promotion-round match between Independiente Juniors and Vinotinto originally scheduled for 4:30 p.m. ET on September 23, 2026 have above 2.5 goals during the entire game excluding extra time?": "Soccer",
+"Will MLB <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "MLB",
+"Will MLB <team> score <above/below/between/exactly/at least> <count> more runs during <time period> of MLB <game>?": "MLB",
+"Will MLB <team> score more runs during <time period> of MLB <game>?": "MLB",
+"Will MLB <team> win MLB <game> without its win probability falling below <threshold>?": "MLB",
+"Will MLB Los Angeles Dodgers win MLB San Diego Padres at Los Angeles Dodgers game originally scheduled for September 23, 2026 without its win probability falling below 20%?": "MLB",
+"Will MLB have a new CBA before <date>?": "MLB",
+"Will MLS <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "Soccer",
+"Will MLS <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of MLS <game>?": "Soccer",
+"Will MLS <team> win the <season> <title>?": "Soccer",
+"Will Max Verstappen Win the Heineken Dutch Grand Prix on August 23 2026": "Motorsport",
+"Will Meta family daily active people average above/below/between count at the end of quarter?": "Companies and tech",
+"Will Microsoft close its Chinese AI lab?": "Companies and tech",
+"Will NASCAR <competitor> finish in <count> in <race>?": "Motorsport",
+"Will NASCAR <competitor> have the largest position gain in <race>?": "Motorsport",
+"Will NASCAR <competitor> record the fastest lap in <race>?": "Motorsport",
+"Will NASCAR <competitor> win <race>?": "Motorsport",
+"Will NASCAR Kyle Larson finish in the top 3 in the 2026 NASCAR Cup Series Bass Pro Shops Night Race originally scheduled for 7:30 p.m. ET on September 19, 2026?": "Motorsport",
+"Will NASCAR Kyle Larson have the largest position gain in the 2026 NASCAR Cup Series Bass Pro Shops Night Race originally scheduled for 7:30 p.m. ET on September 19, 2026?": "Motorsport",
+"Will NASCAR Kyle Larson record the fastest lap in the 2026 NASCAR Cup Series Bass Pro Shops Night Race originally scheduled for 7:30 p.m. ET on September 19, 2026?": "Motorsport",
+"Will NASCAR Kyle Larson win the 2026 NASCAR Cup Series Bass Pro Shops Night Race originally scheduled for 7:30 p.m. ET on September 19, 2026?": "Motorsport",
+"Will NBA <team> win NBA <game> without its point differential being above <count>?": "NBA",
+"Will NBA <team> win NBA <game> without its win probability falling below <threshold>?": "NBA",
+"Will NBA New York Knicks win NBA Philadelphia 76ers at New York Knicks game originally scheduled for October 20, 2026 without its point differential being above 9.5?": "NBA",
+"Will NBA New York Knicks win NBA Philadelphia 76ers at New York Knicks game originally scheduled for October 20, 2026 without its win probability falling below 20%?": "NBA",
+"Will NCAA women's basketball <team> record <above/below/between/exactly/at least> <count> regular se": "College basketball",
+"Will NCAA women's basketball <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "College basketball",
+"Will NCAA women's basketball <team> score <above/below/between/exactly/at least> <count> more points during <time period> of NCAA women's basketball <game>?": "College basketball",
+"Will NCAA women's basketball <team> score more points during <time period> of NCAA women's basketbal": "College basketball",
+"Will NCAA women's basketball <team> score more points during <time period> of NCAA women's basketball <game>?": "College basketball",
+"Will NCAA women's basketball <team> win the <season> <title>?": "College basketball",
+"Will NFL <team> win NFL <game> without its win probability falling below <threshold>?": "NFL",
+"Will NFL Green Bay Packers win NFL Atlanta Falcons at Green Bay Packers game originally scheduled for September 24, 2026 without its win probability falling below 20%?": "NFL",
+"Will NHL <game> have <above/below/between/exactly/at least> <count> goals during <time period>?": "NHL",
+"Will NHL <team> achieve <title> for <season>?": "NHL",
+"Will NHL <team> record <above/below/between/exactly/at least> <count> wins in <season>?": "NHL",
+"Will NHL <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of <game>?": "NHL",
+"Will NHL Toronto Maple Leafs achieve the Stanley Cup championship for 2026-27 NHL season?": "NHL",
+"Will NHL Toronto Maple Leafs record above 44.5 wins in 2026-27 NHL regular season?": "NHL",
+"Will NHL regular-season game between the Montreal Canadiens and Toronto Maple Leafs originally scheduled for 7:00 p.m. ET on September 29, 2026 have above 5.5 goals during the entire game including overtime and a shootout?": "NHL",
+"Will Netflix subscribers change by above/below/between count subscribers in quarter?": "Entertainment",
+"Will New York Knicks win 2027 NBA Conference Championship Event Contract": "NBA",
+"Will New York Knicks win 2027 NBA Division Championship Event Contract": "NBA",
+"Will New York State pass into law an `inflation relief' tax refund?": "Economics",
+"Will Notre Dame win the NCAA Division I Men's Basketball game against Villanova on November 1, 2026?": "College basketball",
+"Will Notre Dame win the NCAA Division I Women's Basketball game against Villanova on November 1, 2026 by more than 9.5 points?": "College basketball",
+"Will OpenAI claim to have achieved AGI by date?": "Companies and tech",
+"Will OpenAI possess the top AI model <time period>?": "Companies and tech",
+"Will PGA TOUR <golfer> <make/miss> the cut in <tournament>?": "Golf",
+"Will PGA TOUR <golfer> beat <opponent> during <time period> of <tournament>?": "Golf",
+"Will PGA TOUR <golfer> finish in <count> at <time period> of <tournament>?": "Golf",
+"Will PGA TOUR <golfer> win <tournament>?": "Golf",
+"Will PGA TOUR Jackson Koivun beat Jacob Bridgeman during Round 1 of the 2026 Biltmore Championship Asheville originally scheduled for September 17-20, 2026?": "Golf",
+"Will PGA TOUR Jackson Koivun finish in the top 5 at the end of Round 1 of the 2026 Biltmore Championship Asheville originally scheduled for September 17-20, 2026?": "Golf",
+"Will PGA TOUR Jackson Koivun make the cut in the 2026 Biltmore Championship Asheville originally scheduled for September 17-20, 2026?": "Golf",
+"Will PGA TOUR Jackson Koivun win the 2026 Biltmore Championship Asheville originally scheduled for September 17-20, 2026?": "Golf",
+"Will Pitchfork give album a ranking of abovebelowbetweenexactlyat least count": "Entertainment",
+"Will President Trump rescind President Biden's Executive Order regarding AI before date?": "Elections and politics",
+"Will Real Madrid win by more than 1.5 points in its EuroLeague Basketball game versus Dubai Basketball on September 24, 2026?": "Other basketball",
+"Will Real Madrid win its EuroLeague Basketball game versus Dubai Basketball on September 24, 2026?": "Other basketball",
+"Will Rhamondre Stevenson record at least 50 Rushing Yards in the New England Patriots at Seattle Seahawks game on September 9, 2026?": "Props",
+"Will Rick Jackson win the Georgia gubernatorial election on November 3, 2026?": "Elections and politics",
+"Will SAFF <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of SAFF <game>?": "Props",
+"Will SAFF <team> win the <season> <title>?": "Soccer",
+"Will SAFF Al Qadsiah win the 2026/27 Saudi Pro League championship?": "Soccer",
+"Will SK Nebula win its Upper Bracket Round 1 match against Nova Esports GC at the VALORANT Game Changers Championship 2026 on October 22, 2026 by more than 1.5 maps?": "Esports",
+"Will SK Nebula win its Upper Bracket Round 1 match against Nova Esports GC at the VALORANT Game Changers Championship 2026 on October 22, 2026?": "Esports",
+"Will Sean Strickland hold the UFC Middleweight Championship on December 31, 2026?": "Combat sports",
+"Will Seattle receive an NBA expansion team before January 1, 2028?": "NBA",
+"Will Serie A <team> score more goals during <time period> of Serie A <game>?": "Soccer",
+"Will Serie A <team> win the <season> <title>?": "Soccer",
+"Will Shai Gilgeous-Alexander record <above/below/exactly/at least/at most/between> <count> <stat> <time period> of the Denver Nuggets at Oklahoma City Thunder game on October 22, 2026 (Covered)?": "Props",
+"Will Snowbird Ski Resort close for the <season> ski season <time period>?": "Weather",
+"Will TV show announce that it is ending or that it is having its final season": "Entertainment",
+"Will Taylor Swift announce a new album before date?": "Entertainment",
+"Will Team Vitality win Map 1 of its Stage 3 Round 1 match at the PGL CS2 Major Singapore 2026 on December 2, 2026?": "Esports",
+"Will Team Vitality win its Stage 3 Round 1 match at the PGL CS2 Major Singapore 2026 on December 2, 2026?": "Esports",
+"Will Team Vitality win the PGL CS2 Major Singapore 2026?": "Esports",
+"Will Telluride Ski Resort open for the <season> ski season <time period>?": "Weather",
+"Will Tesla announce a low-cost electric vehicle before date?": "Companies and tech",
+"Will Tesla energy storage deployments be abovebelowbetweenexactlyat least count in quarter": "Companies and tech",
+"Will Tesla model have abovebelowbetweenexactlyat least deliveriesproduction in quarter": "Companies and tech",
+"Will Tesla produce abovebelowbetweenexactlyat least count GWh of energy storage deployment before quarter": "Companies and tech",
+"Will Tesla release the Robotaxi to the public before date?": "Companies and tech",
+"Will The New York Times settle its copyright infringement claims against OpenAI?": "Companies and tech",
+"Will Tom Brady play in the NFL again before date?": "NFL",
+"Will Trump host the golf US Open Championship": "Golf",
+"Will Trumps next Fed Board of Governors nominee also be nominated to replace Powell as Fed Chair": "Economics",
+"Will UConn win the 2027 NCAA Division I Women's Basketball Championship?": "College basketball",
+"Will UEFA Atltico Madrid score at least 0.5 more goals during the entire game excluding extra time of 2026/27 UEFA Champions League match between Atltico Madrid and Manchester United originally scheduled for 3:00 p.m. ET on October 13, 2026?": "Soccer",
+"Will UEFA Atltico Madrid score more goals during the entire game excluding extra time of 2026/27 UEFA Champions League match between Atltico Madrid and Manchester United originally scheduled for 3:00 p.m. ET on October 13, 2026?": "Soccer",
+"Will VALORANT <game> have <above/below/between/exactly/at least> <count> maps during <time period>?": "Esports",
+"Will VALORANT <team> win <time period> of <game>?": "Esports",
+"Will VALORANT Riot Games VALORANT Champions 2026 Group C elimination series between Team Liquid and TYLOO originally scheduled for October 1, 2026 have above 2.5 maps during the entire series, including overtime?": "Esports",
+"Will VALORANT Team Liquid win the entire series, including overtime of Riot Games VALORANT Champions 2026 Group C elimination series between Team Liquid and TYLOO originally scheduled for October 1, 2026?": "Esports",
+"Will WNBA <game> have <above/below/between/exactly/at least> <count> points during <time period>?": "WNBA",
+"Will WNBA <team> record <above/below/between/exactly/at least> <count> regular season wins in <season>?": "WNBA",
+"Will WNBA <team> score <above/below/between/exactly/at least> <count> more points during <time period> of WNBA <game>?": "WNBA",
+"Will WNBA <team> score more points during <time period> of WNBA <game>?": "WNBA",
+"Will WNBA <team> win the <season> <title>?": "WNBA",
+"Will WTA <player> win <above/below/between/exactly/at least> <count> more games than their opponent during <time period> of <match>?": "Tennis",
+"Will WTA <player> win <set> of <match>?": "Tennis",
+"Will Wang Chuqin win his first match on or after August 21, 2026 at a WTT Champions event?": "Table tennis",
+"Will Wild Horse Nine receive <above/below/exactly/between/at least> <count> nominations at the 36th Annual Gotham Awards?": "Other sports",
+"Will Wild Horse Nine receive <above/below/exactly/between/at least> <count> nominations at the 80th British Academy Film Awards?": "Other sports",
+"Will a Chinese company have an LLM ranked higher overall than Google, Anthropic, and OpenAI LLMs before date?": "Companies and tech",
+"Will a UFC fight take place on White House grounds before date": "Combat sports",
+"Will a bill become law expanding the judiciary before date?": "Elections and politics",
+"Will a court order a break-up or divestiture of Alphabet in United States v. Google LLC (2020) before date?": "Companies and tech",
+"Will a hurricane category hurricane hit New Jersey?": "Weather",
+"Will a hurricane_category hurricane hit Norfolk?": "Weather",
+"Will a new NBA franchise be established before date?": "NBA",
+"Will a new Star Wars film be released in theaters before date?": "Entertainment",
+"Will a playoff occur to determine the PGA TOUR winner of <tournament>?": "Golf",
+"Will a playoff occur to determine the PGA TOUR winner of the 2026 Biltmore Championship Asheville originally scheduled for September 17-20, 2026?": "Golf",
+"Will a run be recorded in the first inning of {MLB game}?": "MLB",
+"Will a speed hurricane hit California?": "Weather",
+"Will a top count NBA draft pick win award for the year season": "NBA",
+"Will a tornado, earthquake, flood, or hurricane affect Jackson?": "Weather",
+"Will above/below/between/exactly/at least count persons watch the year Super Bowl?": "NFL",
+"Will album have above/below/between count streams on Spotify on date?": "Entertainment",
+"Will album have abovebelowbetweenexactlyat least count sales in time period": "Entertainment",
+"Will an African country host a Formula 1 grand prix before date": "Motorsport",
+"Will an objection successfully be filed against the election results of any states in election year?": "Elections and politics",
+"Will any monthly U.S. unemployment rate be above/below percent this year?": "Economics",
+"Will artist be announced as the headliner for the next Super Bowl halftime show": "NFL",
+"Will artist be named as #rank pop artist of the 21st century by Billboard?": "Entertainment",
+"Will artist be named as in the top five pop artists of the 21st century by Billboard?": "Entertainment",
+"Will artist be the artist with the most monthly listeners on Spotify on date": "Entertainment",
+"Will artist be the top Spotify artist of year?": "Entertainment",
+"Will artist release a new song on Spotify before date": "Entertainment",
+"Will artist sing the next World Cup song": "Soccer",
+"Will artist win awards at the number Grammys?": "Entertainment",
+"Will artist win awards at the number Oscars?": "Entertainment",
+"Will at least <count> coaches total be out in the NBA during the 2026-27 NBA season?": "NBA",
+"Will at least count members of Trump's Cabinet leave before date?": "Elections and politics",
+"Will athlete be on the main global cover of NBA 2K year": "NBA",
+"Will baseball <entity> record <above/below/between/exactly/at least> <count> <stat> during <time period> of baseball <game>?": "Props",
+"Will baseball <team> score <above/below/between/exactly/at least> <count> more runs during <time period> of baseball <game>?": "MLB",
+"Will candidate win the first round of the next Polish presidential election": "Elections and politics",
+"Will candidate win the nomination of political party in the New York City Mayoral election of election year?": "Elections and politics",
+"Will candidateparty win election": "Elections and politics",
+"Will commencement at university be canceled?": "Education",
+"Will company accept cryptocurrency as a form of payment in geography by date": "Crypto",
+"Will core Personal Consumption Expenditures price index inflation be above below between percent in month?": "Economics",
+"Will core inflation be above below between percent for the 12 months ending month?": "Economics",
+"Will count Supreme Court vote for the petitioner in case": "Elections and politics",
+"Will country meet its treaty obligations": "Other",
+"Will entity record above/below/exactly/at least/between count stat in time period of cricket match?": "Cricket",
+"Will entity record above/below/exactly/at least/between count statistic in time period of esports event?": "Esports",
+"Will entity record above/below/exactly/at least/between count statistic in time period of golf event?": "Golf",
+"Will existential AI risk be mentioned at a White House briefing meeting before date?": "Mentions",
+"Will geography recognize cryptocurrency as legal tender before date": "Crypto",
+"Will golfer 1 beat golfer 2 in event?": "Golf",
+"Will golfer 1 finish with the lowest score among golfer 1, golfer 2, and golfer 3 in event?": "Golf",
+"Will golfer lead by above/below/between/within/exactly/at least/at most count strokes in time period at tournament?": "Golf",
+"Will inflation in Argentina be above/below/between percent in period?": "Economics",
+"Will it snow in Phoenix, AZ in period?": "Weather",
+"Will lyric appear in songalbum": "Entertainment",
+"Will more than 2.5 maps be played in the SK Nebula vs Nova Esports GC Upper Bracket Round 1 match at the VALORANT Game Changers Championship 2026 on October 22, 2026?": "Esports",
+"Will more than 21.5 rounds be played on Map 1 of Team Vitality's Stage 3 Round 1 match at the PGL CS2 Major Singapore 2026 on December 2, 2026?": "Esports",
+"Will more than 3.5 games be played in Cloud9's Play-In Stage Round 1 match at the 2026 League of Legends World Championship on October 15, 2026?": "Esports",
+"Will movie be announced before date?": "Entertainment",
+"Will nominee withdraw or be replaced before date?": "Elections and politics",
+"Will occurrence occur in event at the year Winter Olympics?": "Other sports",
+"Will participant achieve <achievement> at the <year> Winter Olympics?": "Other sports",
+"Will participant achieve achievement at the year Winter Olympics?": "Other sports",
+"Will participant be in position after phase in event at the year Winter Olympics?": "Other sports",
+"Will participant score/record above/below/between/exactly/at least/at most count statistic in event at the year Winter Olympic Games?": "Other sports",
+"Will participant win the vote at the Eurovision Song Contest year": "Elections and politics",
+"Will party official leave office before date": "Elections and politics",
+"Will party win a majority in the next French National Assembly general election": "Elections and politics",
+"Will party win the count most seats in the 2025 Canadian federal election": "Elections and politics",
+"Will performer sing song at the Super Bowl in year?": "NFL",
+"Will person appear in a movie this year": "Entertainment",
+"Will person attend the Super Bowl in year?": "NFL",
+"Will person be appointed to a Senate-confirmed position within government using the recess appointment power of the President before date?": "Elections and politics",
+"Will person be elected President of Honduras": "Elections and politics",
+"Will person be mentioned at a White House briefing meeting before date?": "Mentions",
+"Will person be on the national broadcast of the Super Bowl in year?": "NFL",
+"Will person be the CEO of OpenAI by date?": "Companies and tech",
+"Will person be the next CEO of Microsoft?": "Companies and tech",
+"Will person direct movie": "Entertainment",
+"Will person win the golf grand slam before date": "Golf",
+"Will person_1 post negatively about person_2 on X before date?": "Combat sports",
+"Will player win any of the four tennis Grand Slams in year": "Tennis",
+"Will player win set in tennis match?": "Tennis",
+"Will player/athlete's fantasy football Average Draft Position be above/below/between/exactly/at least value for the time period NFL season?": "NFL",
+"Will political party win the American presidential election in state in election year?": "Elections and politics",
+"Will showmovie be rank on Netflix on date": "Entertainment",
+"Will song have above/below/between count streams on Spotify over period?": "Entertainment",
+"Will song/artist be ranks on the Spotify chart on date?": "Entertainment",
+"Will song/artist be the top of the Spotify chart on date?": "Entertainment",
+"Will songartist be rank on the Spotify chart on date": "Entertainment",
+"Will sport be included in Olympics": "Other sports",
+"Will stat be recorded by entity in time period of baseball game?": "MLB",
+"Will statistic be recorded by entity in time period of golf event?": "Golf",
+"Will team win time period of baseball game?": "MLB",
+"Will team win time period of lacrosse game by above/below/exactly/at least/between count goals?": "Other sports",
+"Will tennis match be decided in above/below/exactly/between/at least count sets?": "Tennis",
+"Will the <admissions rate/applicant number> at Brown for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Caltech for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Carnegie Mellon for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Columbia for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Cornell for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Dartmouth for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Duke for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Harvard for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Johns Hopkins for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at MIT for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Northwestern for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Notre Dame for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Penn for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Princeton for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Rice for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Stanford for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at UC Berkeley for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at UCLA for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at UChicago for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Vanderbilt for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at WashU for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <admissions rate/applicant number> at Yale for the <year> admissions season be <above/below/exactly/at least/at most/between> <value>?": "Education",
+"Will the <difference> between the starting and ending position of Alex Palou in Race 1 at the 2026 Snap-on INDYCAR Weekend at the Milwaukee Mile on August 29, 2026 be <above/below/exactly/at least/between> <count>?": "Motorsport",
+"Will the <difference> between the starting and ending position of Max Verstappen in the Grand Prix at 2026 Dutch Grand Prix on August 23, 2026 be <above/below/exactly/at least/between> <count>?": "Motorsport",
+"Will the American presidential election popular vote be in favor of political party in state in election year by above/below/between/at least percent?": "Elections and politics",
+"Will the CEO of Google leave by date?": "Companies and tech",
+"Will the CEO of Tesla leave by date?": "Companies and tech",
+"Will the Colorado Avalanche advance to the 2026/2027 NHL Playoffs?": "NHL",
+"Will the Congress approval rating be abovebelowbetween percentage points on date according to FiveThirtyEight": "Elections and politics",
+"Will the Dallas Wings win the 2027 WNBA Championship?": "WNBA",
+"Will the Department of Justice sue an AAU university for failing to comply with Students For Fair Admission v Harvard before date": "Education",
+"Will the Duke Blue Devils win the 2027 NCAA Men's Basketball National Championship?": "College basketball",
+"Will the EPA set biomassbased diesel renewable volume obligation for year at abovebelowbetweenexactlyat least count": "Other",
+"Will the FBI have UFC train FBI agents before date": "Combat sports",
+"Will the Federal Reserve be abolished before date?": "Economics",
+"Will the Federal Reserve do action at meeting?": "Economics",
+"Will the Giants D/ST record the most Fantasy Points among all NFL Defense/Special Teams (D/ST) units in the 2026-27 NFL regular season?": "NFL",
+"Will the Joe Rogan Experience ever not be the top-ranked podcast on Spotify before date?": "Entertainment",
+"Will the Kalshi Weather Index for Houston be <above/below/at least/at most/exactly/between> <value> <in/at> <time period>?": "Weather",
+"Will the Kalshi Weather Index for Puget Sound be <above/below/at least/at most/exactly/between> <value> <in/at> <time period>?": "Weather",
+"Will the Needle Drop review album before date": "Entertainment",
+"Will the New York Knicks advance to the 2026/2027 NBA Cup Playoff? Event Contract": "NBA",
+"Will the New York Knicks win the 2027 NBA Championship? Event Contract": "NBA",
+"Will the Philadelphia Eagles score the first touchdown, by game clock, in the 1 PM ET NFL games on Sunday, October 18, 2026?": "Props",
+"Will the Pittsburgh Steelers win the NFL Championship Game following the 2026-27 NFL season?": "NFL",
+"Will the President pull federal funding for collegesuniversities before date": "Elections and politics",
+"Will the State Department stop allowing applicants to select \"X\" as gender before date?": "Education",
+"Will the Supreme Court rule that the National Labor Relations Act does not preempt a state tort claim against the International Brotherhood of Teamsters in Glacier Northwest Inc. v. International Brotherhood of Teamsters?": "Elections and politics",
+"Will the Trump Administration revoke universitys taxexempt status": "Education",
+"Will the UFC Fight Night: Hernandez vs. Rodrigues middleweight main-event fight originally scheduled for August 22, 2026 conclude during Round 1?": "Combat sports",
+"Will the United States boycott the 2022 Olympics?": "Other sports",
+"Will the White House say Trump is going to a golf course or playing golf before date": "Golf",
+"Will the average winning speed of <INDYCAR race> be <above/below/exactly/at least/between> <value>?": "Motorsport",
+"Will the best round by <golfer> in <round> of <tournament> be <above/below/between/exactly/at least/at most> <count> strokes?": "Golf",
+"Will the candidate that wins state win the 2024 U.S. presidential election?": "Elections and politics",
+"Will the combined score exceed 139.5 points in the NCAA Division I Women's Basketball game between Notre Dame and Villanova on November 1, 2026?": "College basketball",
+"Will the combined score exceed 160 points in the NCAA Division I Men's Basketball game between Notre Dame and Villanova on November 1, 2026?": "College basketball",
+"Will the combined score in {NBA game} be above {threshold}?": "NBA",
+"Will the combined score in {WNBA game} be above {threshold}?": "WNBA",
+"Will the consumer price index release for month be released by date?": "Other",
+"Will the fastest pit stop for <team> be <above/below/exactly/at least/at most/between> <time> at <F1 race>?": "Motorsport",
+"Will the fastest pit stop for Mercedes be <above/below/exactly/at least/at most/between> <time> at the 2026 United States Grand Prix?": "Motorsport",
+"Will the first EPL manager to leave their position in <time period> be the manager of <football team>?": "Soccer",
+"Will the first OpenAI device created in conjunction with ioJony Ivy have a screen": "Companies and tech",
+"Will the first game of the <season> MLB regular season commence before <date>?": "MLB",
+"Will the game differential in favor of player across scope of tennis match be above/below/exactly/at least/between count?": "Tennis",
+"Will the government of Canada pass a confidence vote before date": "Elections and politics",
+"Will the high temperature in Miami be greater than/less than/between degrees?": "Weather",
+"Will the next NFL team sell for above $10B before January 1, 2036?": "NFL",
+"Will the next budget reconciliation bill reduce Energy Production and Manufacturing Credits from the IRA by abovebelowbetweenexactlyat least count": "Elections and politics",
+"Will the next iteration of golf tournament have a first time winner": "Golf",
+"Will the number of regular season WNBA games played be <above/below/exactly/at least/between> <value> in <season>?": "WNBA",
+"Will the price of Bitcoin hit $100,000 for the first time on date?": "Crypto",
+"Will the score of <time period> of Bundesliga <game> be exactly <score>?": "Soccer",
+"Will the score of <time period> of EFL <game> be exactly <score>?": "Soccer",
+"Will the score of <time period> of LigaPro Ecuador <game> be exactly <score>?": "Other",
+"Will the score of the entire game excluding extra time of AFA Argentina Primera Division match between Talleres and Belgrano originally scheduled for 4:00 p.m. ET on October 4, 2026 be exactly Talleres to win 2-1?": "Soccer",
+"Will the score of the entire game excluding extra time of AFA Argentina Primera Division match between Vlez Sarsfield and Tigre originally scheduled for 8:30 p.m. ET on September 20, 2026 be exactly Vlez Sarsfield to win 2-1?": "Soccer",
+"Will the score of the entire game excluding extra time of Bundesliga Matchday 1 match between Bayern Munich and VfB Stuttgart in the 2026/27 season originally scheduled for 2:30 p.m. ET on August 28, 2026 be exactly Bayern Munich to win 2-1?": "Soccer",
+"Will the score of the entire game excluding extra time of DIMAYOR Colombia Primera A Finalizacin match between Atltico Nacional and Millonarios originally scheduled for 8:30 p.m. ET on September 24, 2026 be exactly Atltico Nacional to win 2-1?": "Soccer",
+"Will the score of the entire game excluding extra time of LigaPro Ecuador Serie B promotion-round match between Independiente Juniors and Vinotinto originally scheduled for 4:30 p.m. ET on September 23, 2026 be exactly Independiente Juniors to win 2-1?": "Other",
+"Will the score of the entire game including overtime and a shootout of NHL regular-season game between the Montreal Canadiens and Toronto Maple Leafs originally scheduled for 7:00 p.m. ET on September 29, 2026 be exactly Toronto Maple Leafs to win 4-2?": "NHL",
+"Will the spot price of Bitcoin be above/below price by date at time?": "Crypto",
+"Will the spot price of Dogecoin be above/below/between price on date at time?": "Crypto",
+"Will the spread between Colombia's minimum wage increase and inflation be <above/below> <value> in <time period>?": "Economics",
+"Will the start of the WNBA regular season be delayed by <above/below/exactly/at least/between> <count> days": "WNBA",
+"Will the tax rate on university endowments be abovebelowbetweenexactlyat least count be in the next budget reconciliation bill": "Education",
+"Will the top song on Spotify chart win by a margin of above/below/between/exactly/at least count streams?": "Entertainment",
+"Will the total goals scored in {NHL game} be above {threshold}?": "NHL",
+"Will the total points scored in the EuroLeague Basketball game between Dubai Basketball and Real Madrid on September 24, 2026 be over 172.5?": "Other basketball",
+"Will the total points scored in {period} of {NFL game} be {above/below/at least/between} {count}?": "NFL",
+"Will the value of <income measure> in <period> be <above/below/exactly/at least> <inflation measure> in <period 2>?": "Economics",
+"Will the yield of the 30-Year U.S. Treasury Bond be <above/below/exactly/at least/at most/between> <value> <time period>?": "Financials",
+"Will there be <above/below/exactly/at least/between> <value> of snowfall at <IKON ski resort> <time period>?": "Weather",
+"Will there be <above/below/exactly/at least/between> <value> of snowfall at Bald Mountain Ski Area <time period>?": "Weather",
+"Will there be <above/below/exactly/at least/between> <value> of snowfall at Sierra-at-Tahoe Resort <time period>?": "Weather",
+"Will there be <above/below/exactly/between/at least> <count> wide film releases <time period>?": "Entertainment",
+"Will there be a 269-269 tie in the electoral college in election year?": "Elections and politics",
+"Will there be a F1 team from country before date": "Motorsport",
+"Will there be a hurricane warning in region before date": "Weather",
+"Will there be a playoff at golf event?": "Golf",
+"Will there be abovebelowbetweenexactlyat least count Cabinet position of the United States during presidential term": "Elections and politics",
+"Will there be an AI model released that was trained with more than count total petaFLOP before date?": "Companies and tech",
+"Will university class year of demographic be abovebelowbetweenexactlyat least count percent": "Education",
+"Will university fall in the next US News and World Report ranking of best US colleges": "Education",
+"Will university lose its accreditation before date": "Education",
+"Will university make a deal with the Trump administration before date": "Education",
+"Will {NFL team} win the NFL Championship Game following the {NFL season}?": "NFL",
+"Will {NFL team} win {win threshold} or more games in {NFL season}?": "NFL",
+"Will {Team} win {WNBA game}?": "WNBA",
+"Will {Team}'s final margin in {WNBA game} be above {threshold}?": "WNBA",
+"Will {individual} be drafted in the 2027 WNBA Draft?": "WNBA",
+"Will {individual} play in a game during the 2027 WNBA season?": "WNBA",
+"Will {player} record {above/below/at least/between} {count} Assist(s) in {NBA game}?": "NBA",
+"Will {player} record {above/below/at least/between} {count} Point(s) in {NBA game}?": "NBA",
+"Will {player} record {above/below/at least/between} {count} Rebound(s) in {NBA game}?": "NBA",
+"Will {quarterback A} have more Passing Yards than {quarterback B} in {NFL game}?": "Props",
+"Will {quarterback} record {above/below/exactly/at least/between} {count} Passing Touchdowns in {NFL game}?": "NFL",
+"Will {team} be Leading after 5 Innings of {MLB game}?": "MLB",
+"Will {team} cover a {spread} point spread in {NFL game}?": "NFL",
+"Will {team} cover the {spread} in {NHL game}?": "NHL",
+"Will {team} score {above/below/at least/between} {count} points in {NFL game}?": "NFL",
+"Will {team} score {above/below/exactly/at least/between} {count} Runs in {MLB game}?": "MLB",
+"Will {team} win the {WNBA season} Championship?": "WNBA",
+"Will {team} win the {year} NBA Championship?": "NBA",
+"Will {team} win the {year} NBA Western Conference Championship?": "NBA",
+"Will {team} win the {year} NCAA Men's Basketball National Championship?": "College basketball",
+"Will {team} win {NFL game}?": "NFL",
+"Will {team} win {cricket match}?": "Cricket",
+"Will {team}'s Final Margin be above {count} in {MLB game}?": "MLB",
+"Will {team}'s First 5 Innings Margin be above {count} in {MLB game}?": "MLB",
+"Will {wide receiver} record {above/below/exactly/at least/between} {count} Receiving Yards in {NFL game}?": "Props",
+"XRP Threshold Forecast Contract": "Crypto",
+"iShares S&P SmallCap 600 Growth Index - Div": "Financials",
+"iShares S&P SmallCap 600 Index (ETF) - Div.": "Financials"
+},
+"note": "topic labels from the rule list before the 2026-10-22 weekly-pin change; new rules must not move any of these",
+"series": [
+[
+"GOVPARTYGA",
+"Georgia Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYMD",
+"Maryland Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYNM",
+"New Mexico Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYOR",
+"Oregon Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYRI",
+"Rhode Island Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYWI",
+"Wisconsin Governor winner?",
+"Elections and politics"
+],
+[
+"GOVPARTYWY",
+"Wyoming Governor winner?",
+"Elections and politics"
+],
+[
+"KX10YRDIRHW",
+"How high will the 10Y US Treasury yield get by Oct 23, 2026?",
+"Financials"
+],
+[
+"KX10YRDIRLW",
+"How low will the 10Y US Treasury yield get by Oct 23, 2026?",
+"Financials"
+],
+[
+"KX2028DRUN",
+"Who will run for the Democratic presidential nomination in 2028?",
+"Elections and politics"
+],
+[
+"KX2028RRUN",
+"Who will run for the 2028 Republican presidential nomination?",
+"Elections and politics"
+],
+[
+"KXAAAGASED",
+"US gas prices on Election Day",
+"Financials"
+],
+[
+"KXAAAGASMAXNY",
+"How high will gas prices in New York get this year?",
+"Financials"
+],
+[
+"KXAAAGASMINNY",
+"How low will gas prices in New York get this year?",
+"Financials"
+],
+[
+"KXACTORSONNYCROCKETT",
+"Next Miami Vice film: Cast",
+"Entertainment"
+],
+[
+"KXAICABINET",
+"When will the U.S. have a Cabinet-level AI official?",
+"Elections and politics"
+],
+[
+"KXAKSENATE",
+"Alaska Senate winner? (Person)",
+"Elections and politics"
+],
+[
+"KXALBERTAREFYES",
+"Will Alberta vote to secede from Canada?",
+"Elections and politics"
+],
+[
+"KXALBUMSTREAMS",
+"Grand Theft Auto VI · The Album: First Week Streams",
+"Entertainment"
+],
+[
+"KXAMZN",
+"Amazon headcount in Q3",
+"Companies and tech"
+],
+[
+"KXAPCALLSENATE",
+"When will AP call the 2026 U.S. Senate majority?",
+"Elections and politics"
+],
+[
+"KXATP",
+"2027 US Open Men's Singles Winner",
+"Tennis"
+],
+[
+"KXATPFINALSQUAL",
+"Nitto ATP Singles Finals: Qualifiers",
+"Tennis"
+],
+[
+"KXBALANCESHEET",
+"Size of Fed balance sheet at end of 2026",
+"Economics"
+],
+[
+"KXBC3RD",
+"British Columbia general election: 3rd place",
+"Elections and politics"
+],
+[
+"KXBCCONSEATS",
+"British Columbia election: Conservative number of seats?",
+"Elections and politics"
+],
+[
+"KXBCELECTION",
+"British Columbia general election winner?",
+"Elections and politics"
+],
+[
+"KXBELGIANPLGAME",
+"Union Gilloise vs Cercle Brugge",
+"Soccer"
+],
+[
+"KXBERNIEMENTION",
+"What will Bernie say during his rally in Wisconsin?",
+"Mentions"
+],
+[
+"KXBOND",
+"Next James Bond film: Actor cast as James Bond",
+"Entertainment"
+],
+[
+"KXBRASILEIRO",
+"Brasileiro Serie A Champion",
+"Soccer"
+],
+[
+"KXBRAZILINF",
+"Will inflation in Brazil be below 4.00% in Dec 2026?",
+"Economics"
+],
+[
+"KXBRAZILTURNOUT",
+"Brazil presidential runoff: voter turnout",
+"Elections and politics"
+],
+[
+"KXBRPRES2MOVD",
+"Brazil presidential runoff: Lula margin of victory",
+"Elections and politics"
+],
+[
+"KXBRRUNOFFCOUNTRIES",
+"Brazil presidential runoff: which countries will Flávio Bolsonaro win?",
+"Elections and politics"
+],
+[
+"KXBTC",
+"BTC price range on Oct 23, 2026 at 5pm EDT?",
+"Crypto"
+],
+[
+"KXBTC2026250",
+"Will Bitcoin be above $250k by 2027?",
+"Crypto"
+],
+[
+"KXBTC70VS100",
+"Will BTC hit $70,000 before $100,000 by Dec 31, 2026?",
+"Crypto"
+],
+[
+"KXBTCVSGOLD",
+"Will Bitcoin outperform gold in 2026?",
+"Crypto"
+],
+[
+"KXBULGARIAPRES",
+"Bulgarian presidential election winner?",
+"Elections and politics"
+],
+[
+"KXBUNDESLIGAGAME",
+"Frankfurt vs Hamburg",
+"Soccer"
+],
+[
+"KXBUNDESLIGARELEGATION",
+"Bundesliga Relegation",
+"Soccer"
+],
+[
+"KXBUNDESLIGASPREAD",
+"Freiburg vs Bayern Munich: Spread",
+"Soccer"
+],
+[
+"KXBUNDESLIGATOP",
+"Bundesliga Top 4 Finishers",
+"Soccer"
+],
+[
+"KXBUNDESLIGAWGAME",
+"Hamburger SV vs Union Berlin",
+"Soccer"
+],
+[
+"KXCALIEUTENANTGOV",
+"California Lieutenant Governor winner?",
+"Elections and politics"
+],
+[
+"KXCANALBERTAREMAIN",
+"Alberta referendum: Remain vote share?",
+"Elections and politics"
+],
+[
+"KXCARNEYMENTION",
+"What will Mark Carney say during NYT DealBook Summit?",
+"Mentions"
+],
+[
+"KXCAVOTERID",
+"Will the California Voter ID initiative pass?",
+"Elections and politics"
+],
+[
+"KXCFNAI",
+"Chicago Fed National Activity Index for September",
+"Economics"
+],
+[
+"KXCHINAOILINV",
+"China strategic oil inventories in Q3 2026",
+"Financials"
+],
+[
+"KXCLARENCEMAYOR",
+"Clarence mayoral election winner?",
+"Elections and politics"
+],
+[
+"KXCOMPANYACTIONMERGER",
+"When will Tesla and SpaceX merge?",
+"Companies and tech"
+],
+[
+"KXCRITICSLSERIESACTR",
+"Critics Choice Awards: Best Actress in a Limited Series or Movie Made for Television",
+"Entertainment"
+],
+[
+"KXCRITICSLSERIESSUPACTO",
+"Critics Choice Awards: Best Supporting Actor in a Limited Series or Movie Made for Television",
+"Entertainment"
+],
+[
+"KXCS2GAME",
+"Natus Vincere vs. G2",
+"Esports"
+],
+[
+"KXCS2TOTALMAPS",
+"Natus Vincere vs. G2: Total Maps",
+"Esports"
+],
+[
+"KXDEMCOREFOURSENATESWEEP",
+"Will Democrats sweep the \"core four\" Senate races?",
+"Elections and politics"
+],
+[
+"KXDEMSWINGSTATEGOVSWEEP",
+"Will Democrats sweep all swing state Governor races?",
+"Elections and politics"
+],
+[
+"KXDIESELELECT",
+"Diesel price on Election Day",
+"Elections and politics"
+],
+[
+"KXDIMAYORGAME",
+"Jaguares vs Llaneros",
+"Soccer"
+],
+[
+"KXDIMAYORSPREAD",
+"Atletico Nacional vs Pasto: Spread",
+"Soccer"
+],
+[
+"KXDIMAYORTOTAL",
+"Atletico Nacional vs Pasto: Total Goals",
+"Soccer"
+],
+[
+"KXDJIAREMOVE",
+"Which companies will be removed from the Dow Jones Industrial Average in 2026?",
+"Financials"
+],
+[
+"KXDOGE15M",
+"DOGE 15 min · $0.0793409 target",
+"Crypto"
+],
+[
+"KXDOGEMINMON",
+"How low will DOGE get in October?",
+"Crypto"
+],
+[
+"KXDOTA2TOTALMAPS",
+"Xipto Esports vs. Novus Gaming: Total Maps",
+"Esports"
+],
+[
+"KXDPRESPRIMARY",
+"2028 South Carolina Democratic primary winner?",
+"Elections and politics"
+],
+[
+"KXDTEMMYS",
+"Daytime Emmy Awards: Outstanding Daytime Drama Series",
+"Entertainment"
+],
+[
+"KXEARNINGSMENTIONAAL",
+"What will American Airlines say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONAXP",
+"What will American Express say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONBA",
+"What will Boeing say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONCAVA",
+"What will Cava say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONCVNA",
+"What will Carvana say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONDAL",
+"What will Delta Air Lines say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONEBAY",
+"What will eBay say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONF",
+"What will Ford say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONFDX",
+"What will FedEx say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONGIS",
+"What will General Mills say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONHOOD",
+"What will Robinhood say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONLMT",
+"What will Lockheed Martin say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONMTN",
+"What will Vail Resorts say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONPSKY",
+"What will Paramount say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONSFM",
+"What will Sprouts say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONVZ",
+"What will Verizon say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONWING",
+"What will Wingstop say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXEARNINGSMENTIONYUM",
+"What will Yum! Brands say during their next earnings call?",
+"Companies and tech"
+],
+[
+"KXECONSTATCORECPIYOY",
+"Core CPI YoY in December (exact value)",
+"Economics"
+],
+[
+"KXECONSTATCPI",
+"CPI in December (exact value)",
+"Economics"
+],
+[
+"KXECONSTATCPICORE",
+"Core CPI in December (exact value)",
+"Economics"
+],
+[
+"KXELECTIONEMERGENCY",
+"Will Trump declare an election emergency?",
+"Elections and politics"
+],
+[
+"KXEPLBTTS",
+"Sunderland vs Leeds United: BTTS",
+"Soccer"
+],
+[
+"KXEPLLAST",
+"EPL Last Place Finisher",
+"Soccer"
+],
+[
+"KXETH",
+"ETH price range on Oct 23, 2026 at 5pm EDT?",
+"Crypto"
+],
+[
+"KXETHMAXY",
+"How high will Ethereum get in 2026?",
+"Crypto"
+],
+[
+"KXETHY",
+"Ethereum price at the end of 2026",
+"Crypto"
+],
+[
+"KXEXITPOLL",
+"Midterms: which party wins young men?",
+"Elections and politics"
+],
+[
+"KXF1FASTLAP",
+"United States Grand Prix Main Race: Fastest Lap",
+"Motorsport"
+],
+[
+"KXF1POLE",
+"United States Grand Prix Qualifying Session: Pole Position",
+"Motorsport"
+],
+[
+"KXFASTANDFURIOUSRELEASE",
+"New main Fast & Furious film officially announced in 2026?",
+"Entertainment"
+],
+[
+"KXFEATURE",
+"Grand Theft Auto VI: The Album · Features",
+"Entertainment"
+],
+[
+"KXFED",
+"Fed funds rate after Jan 2028 meeting?",
+"Economics"
+],
+[
+"KXFEDCOMBO",
+"October 2026 Fed Combo · Rate and Dissents",
+"Economics"
+],
+[
+"KXFEDCUT",
+"Next Fed rate cut?",
+"Economics"
+],
+[
+"KXFEDDISSENT",
+"Who will dissent at the October Fed meeting?",
+"Economics"
+],
+[
+"KXFOMCDISSENTCOUNT",
+"How many dissenting votes at the October Fed meeting?",
+"Economics"
+],
+[
+"KXFREYOUT",
+"Jacob Frey out as Mayor of Minneapolis?",
+"Elections and politics"
+],
+[
+"KXGOLDDIRY",
+"Gold price at year end?",
+"Financials"
+],
+[
+"KXGOOGSHARE",
+"Google market share this week",
+"Companies and tech"
+],
+[
+"KXGOVCA",
+"California Governor winner? (Person)",
+"Elections and politics"
+],
+[
+"KXGOVSENDIFF",
+"How many states will elect a governor and senator from different parties this year? (Directional)",
+"Elections and politics"
+],
+[
+"KXGOVTSHUTDOWN",
+"Government shutdown on Dec 12, 2026?",
+"Elections and politics"
+],
+[
+"KXGRAMBNA",
+"Grammy Winner: Best New Artist",
+"Entertainment"
+],
+[
+"KXGRAMMY",
+"Grammy Winner · Best Traditional R&B Performance",
+"Entertainment"
+],
+[
+"KXGRAMMYNOMNAOTY",
+"Grammy nominees: Best New Artist",
+"Elections and politics"
+],
+[
+"KXGRAMMYNOMROTY",
+"Grammy nominees: Record of the Year",
+"Elections and politics"
+],
+[
+"KXGYANESHOUT",
+"Will Gyanesh Kumar be out as Chief Election Commissioner of India?",
+"Elections and politics"
+],
+[
+"KXHEISMAN",
+"Heisman Trophy Winner",
+"College football"
+],
+[
+"KXHIGHLAX",
+"Highest temperature in Los Angeles on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXHIGHMIA",
+"Highest temperature in Miami on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXHIGHTEWR",
+"Highest temperature in Newark on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXHMONTHRANGE",
+"Oct 2026 temperature increase?",
+"Weather"
+],
+[
+"KXHOOD",
+"Robinhood gold subs in Q3",
+"Financials"
+],
+[
+"KXHOUSEPOPVOTEMARGIND",
+"2026 Midterms: House popular vote margin of victory? (Directional)",
+"Elections and politics"
+],
+[
+"KXHURCAT",
+"Hurricane Zeke category?",
+"Weather"
+],
+[
+"KXHURRICANENAMES",
+"What named storms will be hurricanes in the Eastern Pacific this year?",
+"Weather"
+],
+[
+"KXIBPLGAME",
+"Keflavik vs Alftanes",
+"Soccer"
+],
+[
+"KXIMPEACH",
+"Will President Trump be impeached during his term?",
+"Elections and politics"
+],
+[
+"KXINXDUD",
+"S&P 500 Daily Up/Down",
+"Financials"
+],
+[
+"KXINXMAXY",
+"How high will the S&P get this year?",
+"Financials"
+],
+[
+"KXIPHONERELEASE",
+"When will Apple release the iPhone 18?",
+"Companies and tech"
+],
+[
+"KXIPOANTHROPIC",
+"When will Anthropic officially announce an IPO?",
+"Companies and tech"
+],
+[
+"KXISRAELKNESSET",
+"Israeli legislative election winner?",
+"Elections and politics"
+],
+[
+"KXISRFORMIN",
+"Who will be Israeli foreign minister after the election?",
+"Elections and politics"
+],
+[
+"KXISRKNESSETCOUNT",
+"How many Israeli elections until a government forms?",
+"Elections and politics"
+],
+[
+"KXITFWDOUBLES",
+"Bush / Lanton vs Fouad / Justine Hejtmanek",
+"Tennis"
+],
+[
+"KXJBLEAGUEGAME",
+"Chiba Jets Funabashi vs Osaka Evessa",
+"Soccer"
+],
+[
+"KXJOHNNYDEPP",
+"Next Pirates of the Caribbean film: Will Johnny Depp be cast?",
+"Entertainment"
+],
+[
+"KXLALIGA",
+"La Liga Champion",
+"Soccer"
+],
+[
+"KXLALIGACORNERS",
+"Sevilla vs Osasuna: Total Corners",
+"Soccer"
+],
+[
+"KXLALIGAGAME",
+"Deportivo De La Coruna vs Osasuna",
+"Soccer"
+],
+[
+"KXLALIGALEADER",
+"La Liga Golden Boot",
+"Soccer"
+],
+[
+"KXLALIGARELEGATION",
+"La Liga Relegation",
+"Soccer"
+],
+[
+"KXLALIGASCORE",
+"Deportivo Alaves vs Malaga CF: Correct Score",
+"Soccer"
+],
+[
+"KXLALIGASPREAD",
+"Sevilla vs Osasuna: Spread",
+"Soccer"
+],
+[
+"KXLALIGATOTAL",
+"Sevilla vs Osasuna: Total Goals",
+"Soccer"
+],
+[
+"KXLEADERNFLPYDS",
+"Pro Football Passing Yards Leader",
+"Props"
+],
+[
+"KXLEADERNFLRUSHTDS",
+"Pro Football Rushing Touchdowns Leader",
+"NFL"
+],
+[
+"KXLEADERNFLSACKS",
+"Pro Football Sacks Leader",
+"NFL"
+],
+[
+"KXLIGUE1",
+"Ligue 1 Champion",
+"Soccer"
+],
+[
+"KXLIGUE11HSCORE",
+"Stade Brest 29 vs OGC Nice: 1st Half Correct Score",
+"Soccer"
+],
+[
+"KXLIGUE1BTTS",
+"PSG vs Lyon: BTTS",
+"Soccer"
+],
+[
+"KXLIVOCCUR",
+"Will there be a LIV Golf Tournament in Q1 2027?",
+"Golf"
+],
+[
+"KXLLMH2H",
+"Meta vs OpenAI: Highest Arena Score at the end of 2026",
+"Companies and tech"
+],
+[
+"KXLOLTOTALMAPS",
+"Solary vs. Galions: Total Games",
+"Esports"
+],
+[
+"KXLOSEREELECTIONDHOUSE",
+"How many House Democrats will lose reelection in 2026?",
+"Elections and politics"
+],
+[
+"KXLOWTHOU",
+"Lowest temperature in Houston on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXLOWTNOLA",
+"Lowest temperature in New Orleans on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXLOWTPHX",
+"Lowest temperature in Phoenix on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXLOWTTTN",
+"Lowest temperature in Trenton on Oct 22, 2026?",
+"Weather"
+],
+[
+"KXLPGAR1LEAD",
+"BMW Ladies Championship End of Round 1 Leader",
+"Golf"
+],
+[
+"KXMAMMOTHSNOW",
+"Mammoth Mountain snowfall total by December 24th",
+"Weather"
+],
+[
+"KXMAYORCHI",
+"Chicago mayoral election winner? (2027)",
+"Elections and politics"
+],
+[
+"KXMAYOROFKINGSTOWN",
+"Mayor of Kingstown S5: Released this year?",
+"Elections and politics"
+],
+[
+"KXMC",
+"Grand Theft Auto VI: Metacritic score",
+"Companies and tech"
+],
+[
+"KXMETAKIDSCASE",
+"Meta ordered to pay $10 billion or more in child safety case?",
+"Companies and tech"
+],
+[
+"KXMISENATE",
+"Michigan Senate winner? (Person)",
+"Elections and politics"
+],
+[
+"KXMISENGOVCOMBO",
+"Michigan Governor-Senate combo",
+"Elections and politics"
+],
+[
+"KXMLBALMOTY",
+"AL Manager of the Year Winner",
+"MLB"
+],
+[
+"KXMLBALROTY",
+"AL Rookie of the Year Winner",
+"MLB"
+],
+[
+"KXMLBAWARDFIN",
+"National League MVP Finalists",
+"MLB"
+],
+[
+"KXMLBHA",
+"Tampa Bay vs Milwaukee: Hits Allowed",
+"MLB"
+],
+[
+"KXMLBHIT",
+"Tampa Bay vs Milwaukee: Hits",
+"MLB"
+],
+[
+"KXMLBNLMOTY",
+"NL Manager of the Year Winner",
+"MLB"
+],
+[
+"KXMLBPLAYOFFHOST",
+"How many playoff games will Milwaukee host this season?",
+"MLB"
+],
+[
+"KXMLBSERIES",
+"Series Winner: Tampa Bay vs Milwaukee",
+"MLB"
+],
+[
+"KXMLBSERIESSPREAD",
+"Series Game Spread: Tampa Bay vs Milwaukee",
+"MLB"
+],
+[
+"KXMLBWSMVP",
+"Pro Baseball Championship Series MVP Winner",
+"MLB"
+],
+[
+"KXMLSWEST",
+"MLS Western Conference Champion",
+"Soccer"
+],
+[
+"KXMNSENGOVCOMBO",
+"Minnesota Governor-Senate combo",
+"Elections and politics"
+],
+[
+"KXMOCTRUMP25",
+"Will any GOP member of Congress call for the 25th Amendment on Trump?",
+"Elections and politics"
+],
+[
+"KXMOVIEDELAY",
+"Will Black Panther 3 be delayed?",
+"Entertainment"
+],
+[
+"KXMOVIERELEASEDATE",
+"Austin Powers 4: Release Date",
+"Entertainment"
+],
+[
+"KXMUSICREPORT",
+"Top U.S. Selling Vinyl Album: 2026",
+"Entertainment"
+],
+[
+"KXNASCARAUTOPARTSSERIES",
+"NASCAR O'Reilly Auto Parts Series Champion",
+"Motorsport"
+],
+[
+"KXNASCARCUPSERIES",
+"NASCAR Cup Series Champion",
+"Motorsport"
+],
+[
+"KXNASCARTOP10",
+"NASCAR YellaWood 500: Top 10 Finishers",
+"Motorsport"
+],
+[
+"KXNASCARTOPTEAM",
+"NASCAR YellaWood 500: Top Team",
+"Motorsport"
+],
+[
+"KXNASDAQ100",
+"Nasdaq-100 price range on Oct 23, 2026 at 4pm EDT?",
+"Financials"
+],
+[
+"KXNBA1HTOTAL",
+"Houston vs San Antonio: 1st Half Total",
+"NBA"
+],
+[
+"KXNBA3D",
+"Portland vs Sacramento: Triple Double",
+"NBA"
+],
+[
+"KXNBA4QSPREAD",
+"Houston vs San Antonio: 4th Quarter Spread",
+"NBA"
+],
+[
+"KXNBAASTPROT",
+"Houston vs San Antonio: Assists",
+"NBA"
+],
+[
+"KXNBADPOY",
+"Pro Basketball Defensive Player of the Year Winner",
+"NBA"
+],
+[
+"KXNBAEAST",
+"Pro Basketball Eastern Conference Champion",
+"NBA"
+],
+[
+"KXNBAEFINMVP",
+"Pro Basketball Eastern Conference Finals MVP Winner",
+"NBA"
+],
+[
+"KXNBAMIMP",
+"Pro Basketball Most Improved Player Winner",
+"NBA"
+],
+[
+"KXNBAPACIFIC",
+"Pro Basketball Pacific Division Winner",
+"NBA"
+],
+[
+"KXNBAPLAYERHIGHSCORE",
+"Highest Scoring Performance by Any Player in the Regular Season",
+"NBA"
+],
+[
+"KXNBAPLAYIN",
+"Western Conference Play-In Tournament Qualifiers",
+"NBA"
+],
+[
+"KXNBAPTS",
+"Houston vs San Antonio: Points",
+"Props"
+],
+[
+"KXNBARACE",
+"Portland vs Sacramento: Race to 30 Points",
+"NBA"
+],
+[
+"KXNBARETIRE",
+"Steph Curry: Retirement",
+"NBA"
+],
+[
+"KXNBAROY",
+"Pro Basketball Rookie of the Year Winner",
+"NBA"
+],
+[
+"KXNBASPREAD",
+"Portland vs Sacramento: Spread",
+"NBA"
+],
+[
+"KXNBASTL",
+"Houston vs San Antonio: Steals",
+"Props"
+],
+[
+"KXNBASTOCK",
+"Denver vs Oklahoma City: Steals + Blocks",
+"NBA"
+],
+[
+"KXNBATOTAL",
+"Portland vs Sacramento: Total Points",
+"NBA"
+],
+[
+"KXNBAWEST",
+"Pro Basketball Western Conference Champion",
+"NBA"
+],
+[
+"KXNBAWFINMVP",
+"Pro Basketball Western Conference Finals MVP Winner",
+"NBA"
+],
+[
+"KXNCAAF4Q",
+"Houston vs Utah: 4th Quarter Winner",
+"College football"
+],
+[
+"KXNCAAFAAC",
+"College Football AAC Championship Winner",
+"College football"
+],
+[
+"KXNCAAFACCLEADER",
+"ACC: Receiving Yards Leader",
+"Props"
+],
+[
+"KXNCAAFACCQUAL",
+"College Football ACC Championship Game Qualifiers",
+"College football"
+],
+[
+"KXNCAAFB12",
+"College Football Big 12 Championship Winner",
+"College football"
+],
+[
+"KXNCAAFB12REGTOP",
+"Big 12 Regular Season: Top 5 Finishers",
+"College football"
+],
+[
+"KXNCAAFBIGTENLEADER",
+"Big Ten: Sacks Leader",
+"College football"
+],
+[
+"KXNCAAFCOACHLEAVE",
+"When will Mike Norvell leave Florida St.?",
+"College football"
+],
+[
+"KXNCAAFCOACHOUT",
+"College Football Coaches Out Before February",
+"College football"
+],
+[
+"KXNCAAFCONF",
+"Conference to Win the National Championship",
+"College football"
+],
+[
+"KXNCAAFCONFMATCHUP",
+"ACC Conference Championship Matchup",
+"College football"
+],
+[
+"KXNCAAFGAME",
+"Toledo vs Sacramento St.",
+"College football"
+],
+[
+"KXNCAAFMWCQUAL",
+"College Football Mountain West Championship Game Qualifiers",
+"College football"
+],
+[
+"KXNCAAFPLAYOFF",
+"College Football Playoff Qualifiers",
+"College football"
+],
+[
+"KXNCAAFSF",
+"College Football Playoff Semifinals Qualifiers",
+"College football"
+],
+[
+"KXNCAAFSPREAD",
+"Houston vs Utah: Spread",
+"College football"
+],
+[
+"KXNCAAFTEAMRECTD",
+"Vanderbilt vs Kentucky: Team Receiving Touchdowns",
+"College football"
+],
+[
+"KXNCAAFTOPCFPPOLL",
+"Dec 6 CFP Rankings: Top 25 Ranked Teams",
+"College football"
+],
+[
+"KXNCAAFWINS",
+"College Football: West Virginia Regular Season Wins",
+"College football"
+],
+[
+"KXNCAAMBACCREG",
+"ACC Regular Season Champion",
+"College basketball"
+],
+[
+"KXNCAAMBUNDEFEATED",
+"College Basketball (M): Undefeated Regular Season",
+"College basketball"
+],
+[
+"KXNCAAMBWINS",
+"College Basketball (M): Virginia Regular Season Wins",
+"College basketball"
+],
+[
+"KXNCAAWBWINS",
+"College Basketball (W): USC Regular Season Wins",
+"College basketball"
+],
+[
+"KXNDQDIRY",
+"NASDAQ-100 price at year-end?",
+"Financials"
+],
+[
+"KXNESENGOVCOMBO",
+"Nebraska Governor-Senate combo",
+"Elections and politics"
+],
+[
+"KXNETFLIXRANKMOVIE",
+"Top US Netflix Movie this week?",
+"Entertainment"
+],
+[
+"KXNETFLIXRANKMOVIERUNNERUP",
+"#2 US Netflix Movie this week?",
+"Entertainment"
+],
+[
+"KXNEXTATLFED",
+"Who will be the next President of the Federal Reserve Bank of Atlanta?",
+"Economics"
+],
+[
+"KXNEXTGERCHANC",
+"Who will become Chancellor of Germany following the next federal election?",
+"Elections and politics"
+],
+[
+"KXNFL1HSPREAD",
+"Dallas vs Philadelphia: 1st Half Spread",
+"NFL"
+],
+[
+"KXNFL1QBTTS",
+"New England vs Chicago: 1st Quarter Both Teams to Score",
+"NFL"
+],
+[
+"KXNFL1QSPREAD",
+"Dallas vs Philadelphia: 1st Quarter Spread ",
+"NFL"
+],
+[
+"KXNFL1QTOTAL",
+"Dallas vs Philadelphia: 1st Quarter Total ",
+"NFL"
+],
+[
+"KXNFL4QBTTS",
+"New England vs Chicago: 4th Quarter Both Teams to Score",
+"NFL"
+],
+[
+"KXNFLAFCEAST",
+"AFC East Division Winner",
+"NFL"
+],
+[
+"KXNFLBOTH",
+"New England vs Chicago: Both Teams to Score",
+"NFL"
+],
+[
+"KXNFLCOACHOUT",
+"Pro Football Coaches Out Before March",
+"NFL"
+],
+[
+"KXNFLDIVISIONWINS",
+"NFC West: Total Wins",
+"NFL"
+],
+[
+"KXNFLDIVUNDEFEATED",
+"Pro Football Teams to go Undefeated in their Division",
+"NFL"
+],
+[
+"KXNFLDPOTY",
+"Defensive Player of the Year Winner?",
+"NFL"
+],
+[
+"KXNFLDRAFTPICK",
+"Pro Football #1 Overall Pick in 2027",
+"NFL"
+],
+[
+"KXNFLDROTY",
+"Defensive Rookie of the Year Winner?",
+"NFL"
+],
+[
+"KXNFLFFPLAYERHIGH",
+"Player's Highest Scoring Game this Season",
+"NFL"
+],
+[
+"KXNFLHALLOFFAME",
+"2027 Pro Football Hall of Fame Inductees",
+"NFL"
+],
+[
+"KXNFLLADDERRECYDS",
+"New England vs Chicago: Receiving Yards Ladder",
+"Props"
+],
+[
+"KXNFLLASTTOLOSE",
+"Pro Football Last Undefeated Team",
+"NFL"
+],
+[
+"KXNFLMVP",
+"MVP Winner?",
+"NFL"
+],
+[
+"KXNFLNFCNORTH",
+"NFC North Division Winner",
+"NFL"
+],
+[
+"KXNFLOT",
+"Dallas vs Philadelphia: Overtime",
+"NFL"
+],
+[
+"KXNFLPASSATT",
+"New England vs Chicago: Passing Attempts",
+"NFL"
+],
+[
+"KXNFLPASSCOMP",
+"New England vs Chicago: Passing Completions",
+"NFL"
+],
+[
+"KXNFLPASSTDS",
+"Dallas vs Philadelphia: Passing Touchdowns",
+"NFL"
+],
+[
+"KXNFLPASSTDSPROT",
+"Dallas vs Philadelphia: Passing Touchdowns",
+"NFL"
+],
+[
+"KXNFLPROOTY",
+"Protector of the Year Winner?",
+"NFL"
+],
+[
+"KXNFLRSHATT",
+"New England vs Chicago: Rushing Attempts",
+"NFL"
+],
+[
+"KXNFLRSHYDS",
+"Dallas vs Philadelphia: Rushing Yards",
+"Props"
+],
+[
+"KXNFLSEASONPASSYDS",
+"Pro Football: 4500+ Passing Yards Season",
+"Props"
+],
+[
+"KXNFLSEASONRSHTD",
+"Pro Football: 8+ Rushing Touchdowns Season",
+"NFL"
+],
+[
+"KXNFLSZNRECORD",
+"Single Season Sack Record Broken",
+"NFL"
+],
+[
+"KXNFLTEAMFIRSTTD",
+"New England vs Chicago: 1st New England Touchdown",
+"Props"
+],
+[
+"KXNFLTEAMTOTAL",
+"Dallas vs Philadelphia: Team Total",
+"NFL"
+],
+[
+"KXNFLTOTAL",
+"Dallas vs Philadelphia: Total Points",
+"NFL"
+],
+[
+"KXNFLWINS-ANY",
+"Any Pro Football Team with 15+/16+/17 Wins",
+"NFL"
+],
+[
+"KXNGASMAX",
+"Highest natural gas spot price in​ 2026",
+"Financials"
+],
+[
+"KXNHL1PSPREAD",
+"Tampa Bay vs Colorado: 1st Period Spread",
+"NHL"
+],
+[
+"KXNHLATLANTIC",
+"NHL Atlantic Division Winner",
+"NHL"
+],
+[
+"KXNHLOT",
+"Tampa Bay vs Colorado: Overtime",
+"NHL"
+],
+[
+"KXNHLPLAYOFF",
+"NHL Playoff Qualifiers",
+"NHL"
+],
+[
+"KXNHLSEASONGOALS",
+"NHL: 50+ Goals Season",
+"NHL"
+],
+[
+"KXNHLSEASONPTS",
+"NHL: WSH Capitals Total Points",
+"NHL"
+],
+[
+"KXNHLSPREAD",
+"Minnesota vs Seattle: Spread",
+"NHL"
+],
+[
+"KXNHLTEAMTOTAL",
+"Tampa Bay vs Colorado: Team Total",
+"NHL"
+],
+[
+"KXNHLTOTAL",
+"Minnesota vs Seattle: Total Goals",
+"NHL"
+],
+[
+"KXNHLWEST",
+"NHL Western Conference Finals Winner",
+"NHL"
+],
+[
+"KXNORTHSTARSNOW",
+"Northstar California Resort snowfall total by December 24th",
+"Weather"
+],
+[
+"KXNOTE10Y",
+"10Y US Treasury yield at year-end?",
+"Financials"
+],
+[
+"KXNOTLMAYOR",
+"Niagara-on-the-Lake mayoral election winner?",
+"Elections and politics"
+],
+[
+"KXNYTOAI",
+"New York Times wins OpenAI lawsuit?",
+"Companies and tech"
+],
+[
+"KXOAIANTH",
+"Will OpenAI or Anthropic IPO first?",
+"Companies and tech"
+],
+[
+"KXOAIHARDWARE",
+"What kind of device will Jony Ive and OpenAI announce?",
+"Companies and tech"
+],
+[
+"KXOBAMAMENTION",
+"What will Obama say during his midterm rally in Ohio?",
+"Mentions"
+],
+[
+"KXOBERGEFELL",
+"Will the Supreme Court overturn gay marriage?",
+"Elections and politics"
+],
+[
+"KXOSCARNOMCIN",
+"Oscar nominees: Best Cinematography",
+"Elections and politics"
+],
+[
+"KXOSCARNOMINTERFILM",
+"Oscar nominees: Best International Feature Film",
+"Elections and politics"
+],
+[
+"KXOSCARNOMSBANIMATEDF",
+"Oscar nominees: Best Animated Feature Film",
+"Elections and politics"
+],
+[
+"KXOSCARNOMSCORE",
+"Oscar nominees: Best Music (Original Score)",
+"Elections and politics"
+],
+[
+"KXOSCARNOMSUPACTO",
+"Oscar nominees: Best Supporting Actor",
+"Elections and politics"
+],
+[
+"KXOSHAWAMAYOR",
+"Oshawa mayoral election winner?",
+"Elections and politics"
+],
+[
+"KXPARTYLEAVE",
+"Will anyone else in Congress change parties in 2026?",
+"Elections and politics"
+],
+[
+"KXPASEN",
+"Pennsylvania State Senate winner?",
+"Elections and politics"
+],
+[
+"KXPAYROLLS",
+"Jobs numbers in Nov 2026?",
+"Economics"
+],
+[
+"KXPGAR1TOP5",
+"Butterfield Bermuda Championship: Round 1 Top 5 Finishers",
+"Golf"
+],
+[
+"KXPRESELECTIONOCCUR",
+"Will the 2028 presidential election occur?",
+"Elections and politics"
+],
+[
+"KXPRESMATCHUP",
+"2028 Presidential matchup",
+"Elections and politics"
+],
+[
+"KXPRESNIGERIA",
+"Nigerian presidential election winner?",
+"Elections and politics"
+],
+[
+"KXPRESOUTCOME",
+"2028 Presidential race: exact outcome",
+"Elections and politics"
+],
+[
+"KXPROVIDENCEMAYOR",
+"Providence Mayor winner?",
+"Elections and politics"
+],
+[
+"KXRAINCMHM",
+"Rain in Columbus in Nov 2026?",
+"Weather"
+],
+[
+"KXRAINDALM",
+"Rain in Dallas in Nov 2026?",
+"Weather"
+],
+[
+"KXRAINNYCM",
+"Rain in NYC in Oct 2026?",
+"Weather"
+],
+[
+"KXRANKLISTGOOGLESEARCH",
+"#1 searched person on Google in 2026",
+"Companies and tech"
+],
+[
+"KXRELOCATIONCHI",
+"Chicago Pro Football Team: Relocation",
+"NFL"
+],
+[
+"KXRTTV",
+"Harry Potter and the Philosopher's Stone · Rotten Tomatoes score",
+"Entertainment"
+],
+[
+"KXSAARLAND",
+"Saarland state election winner?",
+"Elections and politics"
+],
+[
+"KXSAGDPQOQ",
+"South Africa GDP growth rate QoQ for Q3 2026",
+"Economics"
+],
+[
+"KXSAMEPARTYCONGRESS",
+"Will the same party control the U.S. House and Senate?",
+"Elections and politics"
+],
+[
+"KXSAUDIPLGAME",
+"Al-Riyadh vs Al Qadsiah",
+"Soccer"
+],
+[
+"KXSCOTUSAICOPYRIGHT",
+"Will the SCOTUS hear a case about AI and copyright law before 2027?",
+"Combat sports"
+],
+[
+"KXSCOTUSRESIGN",
+"Which Supreme Court justices will resign during Trump's term?",
+"Elections and politics"
+],
+[
+"KXSEASNOWM",
+"Snow in Seattle in Dec 2026?",
+"Weather"
+],
+[
+"KXSECPRESSMENTION",
+"What will the White House Press Secretary say in the next press briefing?",
+"Mentions"
+],
+[
+"KXSENATEWITHIN1",
+"Which Senate races will be within 1 point?",
+"Elections and politics"
+],
+[
+"KXSERBIAPM",
+"Prime Minister of Serbia after the next election?",
+"Elections and politics"
+],
+[
+"KXSERBIAPRES",
+"Next Serbian presidential election winner?",
+"Elections and politics"
+],
+[
+"KXSERBIATURNOUT",
+"Serbian parliamentary election: voter turnout",
+"Elections and politics"
+],
+[
+"KXSERIEAGAME",
+"Atalanta vs Parma Calcio",
+"Soccer"
+],
+[
+"KXSILVERW",
+"Silver price on Oct 23, 2026 at 5:00 PM EDT?",
+"Financials"
+],
+[
+"KXSOCCERTROPHIES",
+"Tottenham: Trophies 2026-27 Season",
+"Soccer"
+],
+[
+"KXSOL26500",
+"Will Solana end 2026 over $500?",
+"Crypto"
+],
+[
+"KXSOLD26",
+"Price of Solana by end of 2026?",
+"Crypto"
+],
+[
+"KXSOLMAXMON",
+"How high will SOL get in October?",
+"Crypto"
+],
+[
+"KXSPANISHPM",
+"Prime Minister of Spain after the next election?",
+"Elections and politics"
+],
+[
+"KXSPEAKER120",
+"120th Congress: Who will be elected Speaker of the House?",
+"Elections and politics"
+],
+[
+"KXSTREAMINGADS",
+"Film & TV Streaming Ad Spend in October",
+"Entertainment"
+],
+[
+"KXSUPERBOWLWHITEHOUSE",
+"Will the 2026 Pro Football champs visit the White House?",
+"NFL"
+],
+[
+"KXTEMPCHIHS",
+"Temperature in Chicago Metro Area on Oct 22, 2026 at 7am EDT?",
+"Weather"
+],
+[
+"KXTESLAOPTIMUS",
+"Tesla Optimus released this year?",
+"Companies and tech"
+],
+[
+"KXTESLAROADSTER",
+"Tesla Roadster delivery",
+"Companies and tech"
+],
+[
+"KXTOPARTIST",
+"Top artist on Spotify in 2026?",
+"Entertainment"
+],
+[
+"KXTOPMODEL",
+"Top AI model this month",
+"Companies and tech"
+],
+[
+"KXTOPSONGSPOTIFYUSA",
+"Top Song on Spotify U.S in 2026?",
+"Entertainment"
+],
+[
+"KXTOPSONGTHIRD",
+"#3 song on Spotify in 2026?",
+"Entertainment"
+],
+[
+"KXTRUMPAPPROVALBELOW",
+"How low will Trump's approval rating get during his term?",
+"Elections and politics"
+],
+[
+"KXTRUMPBULLCASECOMBO",
+"2026: Trump's dream year?",
+"Elections and politics"
+],
+[
+"KXTRUMPCOUNTRIES",
+"What countries will Trump visit in 2026?",
+"Elections and politics"
+],
+[
+"KXTRUMPFLAVIO",
+"Will Trump endorse Flávio Bolsonaro?",
+"Elections and politics"
+],
+[
+"KXTRUMPGOLFD",
+"When will Trump golf this weekend? (10/23-10/25)",
+"Golf"
+],
+[
+"KXTRUMPIMPEACHCOUNT",
+"How many times will Trump be impeached in his second term?",
+"Elections and politics"
+],
+[
+"KXTRUMPIRAN",
+"Will Donald Trump visit Iran?",
+"Elections and politics"
+],
+[
+"KXTRUMPMEETM",
+"Who will Donald Trump talk to in Oct 2026?",
+"Elections and politics"
+],
+[
+"KXTRUMPNOMNUM",
+"How many nominations will Trump send to the Senate this week? (10/18-10/24)",
+"Elections and politics"
+],
+[
+"KXTRUMPOUT27",
+"Donald Trump announces departure as President? (Excluding death)",
+"Elections and politics"
+],
+[
+"KXTRUMPRALLIES",
+"How many rallies will Trump hold before the midterms?",
+"Elections and politics"
+],
+[
+"KXTRUMPRUN",
+"Will Trump run for a third term?",
+"Elections and politics"
+],
+[
+"KXTRUMPSAY",
+"What will Trump say this week?",
+"Elections and politics"
+],
+[
+"KXTRUMPSAYCOUNTRY",
+"What countries will Trump say in October?",
+"Elections and politics"
+],
+[
+"KXTRUMPSAYNICKNAME",
+"What nicknames will Trump say before 2027?",
+"Elections and politics"
+],
+[
+"KXTRUMPSUPREMELEADER",
+"Will Trump meet the Supreme Leader of Iran?",
+"Elections and politics"
+],
+[
+"KXTRUMPUFC",
+"Will Donald Trump attend UFC 335?",
+"Combat sports"
+],
+[
+"KXTRUMPVISITCAPITOL",
+"Will Trump visit the U.S. Capitol again?",
+"Elections and politics"
+],
+[
+"KXTRUMPVISITKENNEDY",
+"Will Trump visit the Kennedy Center again in 2026?",
+"Elections and politics"
+],
+[
+"KXTRUMPVISITTOWER",
+"Will Trump visit Trump Tower again?",
+"Elections and politics"
+],
+[
+"KXTRUMPXIPUTIN",
+"When will Trump, Xi and Putin meet together?",
+"Elections and politics"
+],
+[
+"KXTURKEYPRES",
+"Turkish presidential election winner?",
+"Elections and politics"
+],
+[
+"KXTXHOUSE",
+"Texas House of Representatives winner",
+"Elections and politics"
+],
+[
+"KXTXSENOUTCOME",
+"Texas Senate: Exact outcome",
+"Elections and politics"
+],
+[
+"KXUCLLEAGUE",
+"Champions League: League of Champion",
+"Soccer"
+],
+[
+"KXUCLROUND",
+"Champions League Final Qualifiers",
+"Soccer"
+],
+[
+"KXUCLTOP8",
+"League Phase Top 8 Finishers",
+"Soccer"
+],
+[
+"KXUFCFIGHTOCCUR",
+"Conor McGregor to fight again before 2028",
+"Combat sports"
+],
+[
+"KXUFCHEAVYWEIGHTTITLE",
+"Heavyweight Title on Dec 31, 2026?",
+"Combat sports"
+],
+[
+"KXUFCROUNDS",
+"Alex Volkanovski vs Movsar Evloev: Round of Finish",
+"Combat sports"
+],
+[
+"KXUKPARTY",
+"Which party will win the next UK general election?",
+"Elections and politics"
+],
+[
+"KXUSCLIMATE",
+"US meets its climate goals?",
+"Weather"
+],
+[
+"KXUSPSELECTION",
+"Will Trump’s election order lead to large-scale ballot blocking?",
+"Elections and politics"
+],
+[
+"KXUST10A",
+"10Y US Treasury yield on Oct 23, 2026?",
+"Financials"
+],
+[
+"KXUST30AD",
+"30Y US Treasury yield on Oct 22, 2026?",
+"Financials"
+],
+[
+"KXUST7AD",
+"7Y US Treasury yield on Oct 22, 2026?",
+"Financials"
+],
+[
+"KXVLADTENEVMENTION",
+"What will Vlad Tenev say during NYT DealBook Summit?",
+"Mentions"
+],
+[
+"KXVOTEGENERAL",
+"California Proposition 40 election: Yes vote percent",
+"Elections and politics"
+],
+[
+"KXVOTESAVEAMERICA",
+"When will the Senate vote on the SAVE America Act?",
+"Elections and politics"
+],
+[
+"KXVPRESNOMD",
+"2028 Democratic VP nominee",
+"Elections and politics"
+],
+[
+"KXVPRESNOMR",
+"2028 Republican VP nominee",
+"Elections and politics"
+],
+[
+"KXWARATAHWYNYARD",
+"Waratah-Wynyard mayoral election winner?",
+"Elections and politics"
+],
+[
+"KXWCW",
+"2027 FIFA Women's World Cup Champion",
+"Soccer"
+],
+[
+"KXWNBA",
+"Women's Pro Basketball Champion",
+"WNBA"
+],
+[
+"KXWNBATOTAL",
+"Golden State vs Atlanta: Total",
+"WNBA"
+],
+[
+"KXWTIMAX",
+"How high will oil (WTI) get by Dec 31, 2026?",
+"Financials"
+],
+[
+"KXWTIW",
+"Oil Price (WTI) on Oct 23, 2026?",
+"Financials"
+],
+[
+"KXXRPD",
+" XRP price at Oct 23, 2026 at 5pm EDT?\n",
+"Crypto"
+],
+[
+"KXXRPMAXY",
+"How high will XRP get in 2026?",
+"Crypto"
+],
+[
+"KXXRPMINMON",
+"How low will XRP get in October?",
+"Crypto"
+],
+[
+"KXXRPMINY",
+"How low will XRP get in 2026?",
+"Crypto"
+],
+[
+"KXYOUTHUN",
+"Will youth unemployment fall below 7.5% in 2026?",
+"Economics"
+],
+[
+"RSENATESEATS",
+"How many Senate seats will Republicans hold after the Midterms?",
+"Elections and politics"
+],
+[
+"SENATEIA",
+"Iowa Senate winner? (2028)",
+"Elections and politics"
+],
+[
+"SENATENC",
+"North Carolina Senate winner? (2028)",
+"Elections and politics"
+],
+[
+"SENATERI",
+"Rhode Island Senate winner?",
+"Elections and politics"
+],
+[
+"SENATEWV",
+"West Virginia Senate winner?",
+"Elections and politics"
+],
+[
+"SENATEWY",
+"Wyoming Senate winner?",
+"Elections and politics"
+]
+]
+}

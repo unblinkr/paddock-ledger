@@ -16,6 +16,7 @@ Maintained by [Paddock](https://paddock.finance/venues). Started October 2026.
 | Novig daily files: every trade and every market's open interest, volume, open, high, low, close and status, as Novig publishes them | data.novig.com public files | daily, 10:20 UTC | Cloudflare R2 `record/novig/<kind>/YYYY-MM-DD.csv.gz` (kind: trades or markets) (access on request); what was captured is listed in `data/novig/etags.json` |
 | Run records: one line per collector run with counts, caps hit, and a `source` marker | this repository | every run | `data/runs/YYYY-MM-DD/<job>.jsonl` |
 | Summaries: small daily aggregates the site reads (filings by exchange, Kalshi volume by topic) | built from the record, no fetches | daily, with listings | `data/summaries/` |
+| Weekly summaries: the three summary files the venue reports read, frozen under the ISO Monday of the week they were written, never rewritten | the daily summaries run | weekly, first passing run of the week | data/summaries/weeks/YYYY-MM-DD/ |
 
 The public repository holds the method, the tests, the run records and the CFTC filings ledger. The platform record (listings, books, settlements and combo collections) is kept on R2 and is available under licence; write to the address on paddock.finance/venues.
 
@@ -28,6 +29,7 @@ Platforms with a collector today: Kalshi, Polymarket US, Gemini Predictions, Nov
 - Kalshi multivariate (combo) markets are not in the Kalshi single-leg record; each run counts how many it skipped. The collections themselves (which events a combo spans, its size limits and the price structure the exchange publishes) are in the record under record/kalshi/combos/, one file a day. Gemini combos are kept with is_combo: true. Polymarket US rows carry quote_kind: "outcome_prices" because the gateway publishes a price per side, not a quote from the book.
 - Every pagination limit is named in the collector and the run record says whether it was hit. `source` is `live` when the walk finished, `partial` when a cap or a server-shortened walk left something out, `unavailable` when the fetch failed and nothing was written.
 - Platform collectors say what they do and do not capture in their module docstrings (`collectors/*.py`). The constraints found on 2026-10-20 are recorded there: Kalshi rate-limits bursts; Gemini caps every query at 1,000 events and ignores `page`; Polymarket US caps `limit` at 500 and ignores `page`.
+A venue report shows one week. data/summaries/weeks/latest.json names the newest week folder; the folder's meta.json carries the real generation stamp and the Kalshi topic map share that gated it.
 
 ## Citing it
 
