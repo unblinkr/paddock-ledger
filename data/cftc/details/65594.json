@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <college> have the lowest admissions rate of <set of colleges> in <year>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635692.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635693.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:37Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "KEX",
+"product_name": "Will <college> have the lowest admissions rate of <set of colleges> in <year>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65594,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65594"
+}

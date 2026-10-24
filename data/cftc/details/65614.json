@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - PWINCISD - (2026.10.22) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635890.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:21Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "QCEX",
+"product_name": "Party Winner Contracts: Israel (PWINCISD)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65614,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65614"
+}

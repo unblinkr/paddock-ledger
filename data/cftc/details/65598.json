@@ -1,0 +1,42 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635736.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635739.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635735.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635741.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635740.pdf"
+},
+{
+"title": "FOIA Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635744.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:34Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-22 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will the Villanova Wildcats score more than 50 total points in the Villanova vs Notre Dame game on November 1, 2026? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65598,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65598"
+}

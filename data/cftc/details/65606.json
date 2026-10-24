@@ -1,0 +1,76 @@
+{
+"documents": [
+{
+"title": "FIBASPR Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635800.pdf"
+},
+{
+"title": "FIBATOT Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635801.pdf"
+},
+{
+"title": "FIBAWIN Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635804.pdf"
+},
+{
+"title": "FIBASPR Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635808.pdf"
+},
+{
+"title": "FIBATOT Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635809.pdf"
+},
+{
+"title": "FIBAWIN Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635810.pdf"
+},
+{
+"title": "Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635805.pdf"
+},
+{
+"title": "MLBAWACH Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635803.pdf"
+},
+{
+"title": "MLBPLACH Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635802.pdf"
+},
+{
+"title": "MLBSTARCH Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635806.pdf"
+},
+{
+"title": "MLBAWARCH Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635814.pdf"
+},
+{
+"title": "MLBPLACH Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635813.pdf"
+},
+{
+"title": "MLBSTARCH Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635812.pdf"
+},
+{
+"title": "PRESCUP Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635807.pdf"
+},
+{
+"title": "PRESCUP Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules10232635811.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:13Z",
+"fields": {
+"date": "2026-10-22 00:00:00",
+"description": "Rule recertification of 10/9/26 amendment",
+"official_receipt_date": "2026-10-22 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65606,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65606"
+}

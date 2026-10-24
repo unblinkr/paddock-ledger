@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635778.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:30Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-22 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will <college football team> win by <condition> <count> points in the <college football game>? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65602,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65602"
+}

@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "PMUS - RLCBOD - (2026.10.22) - 40.2d - Cover Letter + Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635868.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:25Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "QCEX",
+"product_name": "Blue Origin Rocket Launch Contracts (RLCBOD)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65610,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65610"
+}

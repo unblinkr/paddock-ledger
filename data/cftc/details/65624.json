@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635946.pdf"
+},
+{
+"title": "WNBA PROP",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635945.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:18Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "LEX",
+"product_name": "WNBA PROP",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65624,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65624"
+}

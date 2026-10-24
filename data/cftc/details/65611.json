@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - RLCSPX - (2026.10.22) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635875.pdf"
+},
+{
+"title": "PMUS - RLCSPX - (2026.10.22) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635872.pdf"
+},
+{
+"title": "PMUS - RLCSPX - (2026.10.22) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635873.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "QCEX",
+"product_name": "SpaceX Rocket Launch Contracts (RLCSPX)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65611,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65611"
+}

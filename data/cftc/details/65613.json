@@ -1,0 +1,30 @@
+{
+"documents": [
+{
+"title": "PMUS - PWINCIS - (2026.10.22) - 40.2 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635886.pdf"
+},
+{
+"title": "PMUS - PWINCIS - (2026.10.22) - 40.2a - Cover Letter",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635883.pdf"
+},
+{
+"title": "PMUS - PWINCIS - (2026.10.22) - 40.2a - Product Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635884.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "QCEX",
+"product_name": "Party Winner Contracts: Israel (PWINCIS)",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65613,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65613"
+}

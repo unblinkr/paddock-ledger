@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will Harvard University have the lowest admissions rate of the Ivy League in <year>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635686.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635687.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-22 00:00:00",
+"organization": "KEX",
+"product_name": "Will Harvard University have the lowest admissions rate of the Ivy League in <year>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65593,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65593"
+}

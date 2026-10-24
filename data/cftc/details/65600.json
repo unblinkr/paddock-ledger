@@ -1,0 +1,42 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635764.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635767.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635763.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635769.pdf"
+},
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635768.pdf"
+},
+{
+"title": "FOIA Confidentiality Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635772.pdf"
+}
+],
+"fetched": "2026-10-24T06:30:32Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-22 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will the Villanova Wildcats win the Villanova vs Notre Dame game on November 1, 2026? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65600,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65600"
+}
