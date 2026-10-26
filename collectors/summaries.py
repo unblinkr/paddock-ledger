@@ -36,8 +36,9 @@
       are pipeline facts: they live in kalshi-week.json, meta.json and run
       records, never on a page. One deliberate exception: `--repin <monday>
       --reason "<text>"` replaces an existing week folder after a counting
-      defect, records the reason and the previous generated stamp in meta.json,
-      and leaves latest.json alone.
+      defect in the filings files, rebuilds those two, keeps the pinned
+      kalshi-week.json byte for byte, records the reason and the previous
+      generated stamp in meta.json, and leaves latest.json alone.
 
 No fetches. Reads data/cftc/*.jsonl and the Kalshi listings under record/
 (the local copy written by that day's run; earlier days' series files are
@@ -212,17 +213,18 @@ def gate_passes(share: float | None) -> bool:
     return share is not None and share <= GATE_MAX_OTHER_SHARE
 
 
-def _build_week(monday: str, kw: dict, share, repinned: dict | None = None) -> Path:
+def _build_week(monday: str, kw: dict, share, repinned: dict | None = None, kalshi_file: Path | None = None) -> Path:
     """Copy the three daily files and a meta.json into weeks/<monday>.tmp and
     return that path. Built beside the final name and renamed by the caller, so a
-    killed run never leaves a partial week."""
+    killed run never leaves a partial week. `kalshi_file` replaces the daily
+    kalshi-week.json as the source of that one file (a re-pin keeps the pinned one)."""
     weeks = OUT / "weeks"
     tmp = weeks / f"{monday}.tmp"
     if tmp.exists():
         shutil.rmtree(tmp)
     tmp.mkdir(parents=True)
     for name in DAILY_FILES:
-        shutil.copyfile(OUT / name, tmp / name)
+        shutil.copyfile(kalshi_file if (kalshi_file and name == "kalshi-week.json") else OUT / name, tmp / name)
     fr = json.loads((OUT / "filings-recent.json").read_text())
     meta = {"monday": monday, "generated": kw["generated"], "filings_generated": fr["generated"], "kalshi_days": kw["days"], "sports_other_share": share}
     if repinned:
@@ -251,26 +253,36 @@ def pin_week(monday: str) -> dict:
 
 def repin_week(monday: str, reason: str) -> dict:
     """Replace an existing week folder once, on purpose, after a counting defect
-    in the summaries (the reason is recorded in meta.json). Only reachable through
-    `--repin <monday> --reason "<text>"`; a plain run still never rewrites a week.
-    The old files stay in git history. latest.json is not touched."""
-    kw = json.loads((OUT / "kalshi-week.json").read_text())
-    share = kw.get("sports_other_share")
+    in the filings summaries (the reason is recorded in meta.json). Only reachable
+    through `--repin <monday> --reason "<text>"`; a plain run still never rewrites a
+    week. filings-recent.json and org-topics.json are rebuilt from today's run.
+    kalshi-week.json is kept byte for byte from the pinned folder: the defect is
+    not in it, the gate is judged on it as pinned, and the Kalshi figures under a
+    link already reviewed do not move. The old files stay in git history.
+    latest.json is not touched."""
     weeks = OUT / "weeks"
     final = weeks / monday
     if not final.exists():
         raise ValueError(f"no week folder to re-pin: {monday}")
+    pinned_kw = final / "kalshi-week.json"
+    kw = json.loads(pinned_kw.read_text())
+    share = kw.get("sports_other_share")
     if not gate_passes(share):
         return {"source": "gate_failed", "week_written": False, "week_reason": "gate", "week": monday, "sports_other_share": share}
     previous = json.loads((final / "meta.json").read_text()).get("generated")
-    repinned = {"at": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "reason": reason, "previous_generated": previous}
-    tmp = _build_week(monday, kw, share, repinned)
-    old = weeks / f"{monday}.old"
-    if old.exists():
+    repinned = {"at": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "reason": reason, "previous_generated": previous, "kalshi_kept": True}
+    keep = weeks / f"{monday}.kalshi-week.json"  # the pinned file is read from here after the folder is renamed
+    shutil.copyfile(pinned_kw, keep)
+    try:
+        tmp = _build_week(monday, kw, share, repinned, kalshi_file=keep)
+        old = weeks / f"{monday}.old"
+        if old.exists():
+            shutil.rmtree(old)
+        final.rename(old)
+        tmp.rename(final)
         shutil.rmtree(old)
-    final.rename(old)
-    tmp.rename(final)
-    shutil.rmtree(old)
+    finally:
+        keep.unlink(missing_ok=True)
     return {"source": "live", "week_written": True, "week_reason": "repinned", "week": monday, "sports_other_share": share, "repin": monday}
 
 

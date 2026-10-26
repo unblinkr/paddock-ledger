@@ -80,13 +80,17 @@ def test_org_topics_counts_crypto_com_event_contract_once(ledger):
     assert summaries.org_topics()["orgs"]["REX"]["College football"] == {"count": 1, "last": "2026-08-20"}
 
 
-def _week(out, monday="2026-10-26", share=0.01):
+def _week(out, monday="2026-10-26", pinned_share=0.011):
+    """A pinned week with an old filings summary, and a daily Kalshi file whose
+    share is different (0.5) so a test can tell which one the re-pin used."""
     (out / "weeks" / monday).mkdir(parents=True)
     for name in summaries.DAILY_FILES:
         (out / "weeks" / monday / name).write_text("old")
-    (out / "weeks" / monday / "meta.json").write_text(json.dumps({"monday": monday, "generated": "2026-10-26T05:43:00Z"}))
+    pinned = json.dumps({"generated": "2026-10-26T05:43:44Z", "days": ["2026-10-26"], "sports_other_share": pinned_share})
+    (out / "weeks" / monday / "kalshi-week.json").write_text(pinned)
+    (out / "weeks" / monday / "meta.json").write_text(json.dumps({"monday": monday, "generated": "2026-10-26T05:43:44Z"}))
     (out / "weeks" / "latest.json").write_text(json.dumps({"monday": monday}))
-    (out / "kalshi-week.json").write_text(json.dumps({"generated": "2026-10-26T20:00:00Z", "days": ["2026-10-26"], "sports_other_share": share}))
+    (out / "kalshi-week.json").write_text(json.dumps({"generated": "2026-10-26T20:00:00Z", "days": ["2026-10-26"], "sports_other_share": 0.5}))
     (out / "filings-recent.json").write_text(json.dumps({"generated": "2026-10-26T20:00:01Z", "rows": []}))
     (out / "org-topics.json").write_text(json.dumps({"generated": "2026-10-26T20:00:02Z", "orgs": {}}))
 
@@ -97,17 +101,20 @@ def out(tmp_path, monkeypatch):
     return tmp_path
 
 
-def test_repin_replaces_the_week_and_records_why(out):
+def test_repin_replaces_the_filings_files_keeps_kalshi_and_records_why(out):
     _week(out)
     r = summaries.repin_week("2026-10-26", "count each filing once")
     assert r["source"] == "live" and r["week_reason"] == "repinned" and r["repin"] == "2026-10-26"
     meta = json.loads((out / "weeks" / "2026-10-26" / "meta.json").read_text())
     assert meta["repinned"]["reason"] == "count each filing once"
-    assert meta["repinned"]["previous_generated"] == "2026-10-26T05:43:00Z"
-    assert meta["generated"] == "2026-10-26T20:00:00Z"
+    assert meta["repinned"]["previous_generated"] == "2026-10-26T05:43:44Z"
+    assert meta["generated"] == "2026-10-26T05:43:44Z"  # the pinned Kalshi stamp, kept
     assert (out / "weeks" / "2026-10-26" / "org-topics.json").read_text() != "old"
+    assert (out / "weeks" / "2026-10-26" / "filings-recent.json").read_text() != "old"
+    assert json.loads((out / "weeks" / "2026-10-26" / "kalshi-week.json").read_text())["generated"] == "2026-10-26T05:43:44Z"
     assert json.loads((out / "weeks" / "latest.json").read_text()) == {"monday": "2026-10-26"}
-    assert not (out / "weeks" / "2026-10-26.old").exists() and not (out / "weeks" / "2026-10-26.tmp").exists()
+    left = sorted(p.name for p in (out / "weeks").iterdir())
+    assert left == ["2026-10-26", "latest.json"]  # no .old, .tmp or kept-file leftovers
 
 
 def test_plain_run_still_never_rewrites_an_existing_week(out):
@@ -119,10 +126,11 @@ def test_plain_run_still_never_rewrites_an_existing_week(out):
     assert (out / "weeks" / "2026-10-26" / "org-topics.json").read_text() == "old"
 
 
-def test_repin_does_nothing_when_the_gate_fails_or_the_week_is_missing(out):
-    _week(out, share=0.5)
+def test_repin_does_nothing_when_the_pinned_gate_fails_or_the_week_is_missing(out):
+    _week(out, pinned_share=0.5)
     assert summaries.repin_week("2026-10-26", "x")["source"] == "gate_failed"
     assert (out / "weeks" / "2026-10-26" / "org-topics.json").read_text() == "old"
+    assert sorted(p.name for p in (out / "weeks").iterdir()) == ["2026-10-26", "latest.json"]
     with pytest.raises(ValueError):
         summaries.repin_week("2026-11-02", "x")
 
