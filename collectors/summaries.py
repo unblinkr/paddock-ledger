@@ -4,7 +4,11 @@
       Event-contract filings from the last 120 days by every exchange mapped in
       data/cftc/orgs.json: id, date, organization code, platform slug, product
       name, and a topic label from collectors/topics.py (a reading aid; the
-      product name is kept beside it so any label can be checked).
+      product name is kept beside it so any label can be checked). A filing is
+      one CFTC id: `date` is the day it was first filed, `status` is its latest
+      status, and a later withdrawal line never makes it a new filing. Event
+      contracts filed under another CFTC category (Rothera) count too; see
+      topics.is_event_contract.
 
   data/summaries/kalshi-series/YYYY-MM-DD.json
       From that day's Kalshi listings snapshot: per series, its topic, Kalshi
@@ -30,7 +34,10 @@
       Never rewritten. A run that fails the gate writes the daily files, no
       week folder, and records source "gate_failed". The share and threshold
       are pipeline facts: they live in kalshi-week.json, meta.json and run
-      records, never on a page.
+      records, never on a page. One deliberate exception: `--repin <monday>
+      --reason "<text>"` replaces an existing week folder after a counting
+      defect, records the reason and the previous generated stamp in meta.json,
+      and leaves latest.json alone.
 
 No fetches. Reads data/cftc/*.jsonl and the Kalshi listings under record/
 (the local copy written by that day's run; earlier days' series files are
@@ -39,6 +46,7 @@ already in git and are not rewritten).
 
 from __future__ import annotations
 
+import argparse
 import gzip
 import json
 import shutil
@@ -48,7 +56,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from common import DATA, RECORD, iso_monday, record_run, utcnow, write_atomic
-from topics import is_sport, topic
+from topics import is_event_contract, is_sport, topic
 
 OUT = DATA / "summaries"
 GATE_MAX_OTHER_SHARE = 0.02  # a week folder is written only at or below this share of unmapped Kalshi sports volume
@@ -62,23 +70,38 @@ def _num(x) -> float:
         return 0.0
 
 
-def filings_recent(days: int = 120) -> dict:
-    orgs = json.loads((DATA / "cftc" / "orgs.json").read_text())["orgs"]
-    cutoff = (utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
-    latest: dict[int, dict] = {}
+def _filings(orgs: dict) -> list[tuple[dict, dict]]:
+    """One (first, last) pair per CFTC filing id, for exchanges mapped in orgs.json.
+
+    The ledger is append-only: a status change (Certified, then Withdrawn) is a
+    second line with a later date. `first` is the earliest line for the id (ties
+    go to file order) and carries the date the filing was made. `last` is the
+    final line in file order and carries the current status. A filing counts on
+    its first date, whatever it became later; a withdrawal of an older filing is
+    a line, not a new filing."""
+    first: dict[int, dict] = {}
+    last: dict[int, dict] = {}
     with (DATA / "cftc" / "products.jsonl").open() as f:
         for line in f:
             r = json.loads(line)
-            if r.get("date", "") < cutoff or r.get("organization") not in orgs:
+            if r.get("organization") not in orgs:
                 continue
-            if r.get("category") != "Event":
-                continue
-            latest[r["id"]] = r  # later lines win: the newest status
+            i = r["id"]
+            if i not in first or r["date"] < first[i]["date"]:
+                first[i] = r
+            last[i] = r
+    return [(first[i], last[i]) for i in first if is_event_contract(first[i])]
+
+
+def filings_recent(days: int = 120) -> dict:
+    orgs = json.loads((DATA / "cftc" / "orgs.json").read_text())["orgs"]
+    cutoff = (utcnow() - timedelta(days=days)).strftime("%Y-%m-%d")
+    pairs = [(f, l) for f, l in _filings(orgs) if f.get("date", "") >= cutoff]
     rows = []
-    for r in sorted(latest.values(), key=lambda r: (r["date"], r["id"]), reverse=True):
+    for f, r in sorted(pairs, key=lambda p: (p[0]["date"], p[0]["id"]), reverse=True):
         t = topic(r["product_name"])
         rows.append({
-            "id": r["id"], "date": r["date"], "org": r["organization"], "platform": orgs[r["organization"]]["slug"],
+            "id": r["id"], "date": f["date"], "org": r["organization"], "platform": orgs[r["organization"]]["slug"],
             "name": r["product_name"], "status": r["status"], "topic": t, "sport": is_sport(t), "url": r["url"],
         })
     return {"generated": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "window_days": days, "since": cutoff, "rows": rows,
@@ -88,20 +111,14 @@ def filings_recent(days: int = 120) -> dict:
 def org_topics() -> dict:
     """All-time event-filing counts per exchange per topic, with the last
     filing date. Answers 'has this exchange ever filed in this topic', which a
-    120-day window cannot: an exchange lists for years on one old filing."""
+    120-day window cannot: an exchange lists for years on one old filing. A
+    filing is counted once, on the date it was first filed."""
     orgs = json.loads((DATA / "cftc" / "orgs.json").read_text())["orgs"]
     out: dict[str, dict[str, dict]] = {k: {} for k in orgs}
-    seen: set[int] = set()
-    with (DATA / "cftc" / "products.jsonl").open() as f:
-        for line in f:
-            r = json.loads(line)
-            if r.get("organization") not in orgs or r.get("category") != "Event" or r["id"] in seen:
-                continue
-            seen.add(r["id"])
-            t = topic(r["product_name"])
-            cell = out[r["organization"]].setdefault(t, {"count": 0, "last": ""})
-            cell["count"] += 1
-            cell["last"] = max(cell["last"], r["date"])
+    for f, _ in _filings(orgs):
+        cell = out[f["organization"]].setdefault(topic(f["product_name"]), {"count": 0, "last": ""})
+        cell["count"] += 1
+        cell["last"] = max(cell["last"], f["date"])
     return {"generated": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "orgs": out}
 
 
@@ -195,6 +212,25 @@ def gate_passes(share: float | None) -> bool:
     return share is not None and share <= GATE_MAX_OTHER_SHARE
 
 
+def _build_week(monday: str, kw: dict, share, repinned: dict | None = None) -> Path:
+    """Copy the three daily files and a meta.json into weeks/<monday>.tmp and
+    return that path. Built beside the final name and renamed by the caller, so a
+    killed run never leaves a partial week."""
+    weeks = OUT / "weeks"
+    tmp = weeks / f"{monday}.tmp"
+    if tmp.exists():
+        shutil.rmtree(tmp)
+    tmp.mkdir(parents=True)
+    for name in DAILY_FILES:
+        shutil.copyfile(OUT / name, tmp / name)
+    fr = json.loads((OUT / "filings-recent.json").read_text())
+    meta = {"monday": monday, "generated": kw["generated"], "filings_generated": fr["generated"], "kalshi_days": kw["days"], "sports_other_share": share}
+    if repinned:
+        meta["repinned"] = repinned
+    (tmp / "meta.json").write_bytes(json.dumps(meta, ensure_ascii=False, sort_keys=True).encode())
+    return tmp
+
+
 def pin_week(monday: str) -> dict:
     """Freeze the three daily files under weeks/<monday>/ if this week has no
     folder yet and the gate passes. Returns the run-record fields. Never touches
@@ -207,21 +243,44 @@ def pin_week(monday: str) -> dict:
         return {"source": "live", "week_written": False, "week_reason": "exists", "week": monday, "sports_other_share": share}
     if not gate_passes(share):
         return {"source": "gate_failed", "week_written": False, "week_reason": "gate", "week": monday, "sports_other_share": share}
-    tmp = weeks / f"{monday}.tmp"  # built beside the final name, renamed in one step, so a killed run never leaves a partial week
-    if tmp.exists():
-        shutil.rmtree(tmp)
-    tmp.mkdir(parents=True)
-    for name in DAILY_FILES:
-        shutil.copyfile(OUT / name, tmp / name)
-    fr = json.loads((OUT / "filings-recent.json").read_text())
-    meta = {"monday": monday, "generated": kw["generated"], "filings_generated": fr["generated"], "kalshi_days": kw["days"], "sports_other_share": share}
-    (tmp / "meta.json").write_bytes(json.dumps(meta, ensure_ascii=False, sort_keys=True).encode())
+    tmp = _build_week(monday, kw, share)
     tmp.rename(final)
     write_atomic(weeks / "latest.json", json.dumps({"monday": monday}).encode())
     return {"source": "live", "week_written": True, "week_reason": "written", "week": monday, "sports_other_share": share}
 
 
-def main() -> int:
+def repin_week(monday: str, reason: str) -> dict:
+    """Replace an existing week folder once, on purpose, after a counting defect
+    in the summaries (the reason is recorded in meta.json). Only reachable through
+    `--repin <monday> --reason "<text>"`; a plain run still never rewrites a week.
+    The old files stay in git history. latest.json is not touched."""
+    kw = json.loads((OUT / "kalshi-week.json").read_text())
+    share = kw.get("sports_other_share")
+    weeks = OUT / "weeks"
+    final = weeks / monday
+    if not final.exists():
+        raise ValueError(f"no week folder to re-pin: {monday}")
+    if not gate_passes(share):
+        return {"source": "gate_failed", "week_written": False, "week_reason": "gate", "week": monday, "sports_other_share": share}
+    previous = json.loads((final / "meta.json").read_text()).get("generated")
+    repinned = {"at": utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"), "reason": reason, "previous_generated": previous}
+    tmp = _build_week(monday, kw, share, repinned)
+    old = weeks / f"{monday}.old"
+    if old.exists():
+        shutil.rmtree(old)
+    final.rename(old)
+    tmp.rename(final)
+    shutil.rmtree(old)
+    return {"source": "live", "week_written": True, "week_reason": "repinned", "week": monday, "sports_other_share": share, "repin": monday}
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--repin", metavar="MONDAY", help="replace that week's folder once; needs --reason")
+    ap.add_argument("--reason", help="why the week is re-pinned; recorded in meta.json")
+    args = ap.parse_args(argv)
+    if bool(args.repin) != bool(args.reason):
+        ap.error("--repin and --reason go together")
     started = utcnow()
     OUT.mkdir(parents=True, exist_ok=True)
     try:
@@ -237,7 +296,7 @@ def main() -> int:
         write_atomic(OUT / "kalshi-week.json", json.dumps(kalshi_week(), ensure_ascii=False, sort_keys=True).encode())
         idx = sorted(p.name.split(".")[0] for p in (OUT / "kalshi-series").glob("*.json") if p.name != "index.json")
         write_atomic(OUT / "kalshi-series" / "index.json", json.dumps({"days": idx}).encode())
-        pin = pin_week(iso_monday(utcnow().date()))
+        pin = repin_week(args.repin, args.reason) if args.repin else pin_week(iso_monday(utcnow().date()))
         counts = {"filings": len(fr["rows"]), "kalshi_days_written": written, **{k: v for k, v in pin.items() if k != "source"}}
         record_run("summaries", source=pin["source"], counts=counts, started=started)
         return 0

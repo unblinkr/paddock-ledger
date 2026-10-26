@@ -68,3 +68,18 @@ def topic(*texts: str | None) -> str:
 
 def is_sport(label: str) -> bool:
     return label in SPORTS
+
+
+# Some exchanges file event contracts under another CFTC category. Rothera
+# (ROTHDCM) files 128 of its 131 filings as "Financial Instrument", about 107
+# of them event contracts ("Will the Bulls win ... Event Contract"); Crypto.com
+# and Kalshi have older ones of the same form. A row counts as an event contract
+# when its category is Event, or when its name reads as one. Verified on
+# 2026-10-26 against data/cftc/products.jsonl: the pattern matches no Rothera
+# row from 2019 (LedgerX bitcoin swaps and options) and, inside the last 90 days,
+# only Rothera's rows.
+EVENT_FORM = re.compile(r"event contract|^will\b", re.I)
+
+
+def is_event_contract(row: dict) -> bool:
+    return row.get("category") == "Event" or bool(EVENT_FORM.search(row.get("product_name") or ""))
