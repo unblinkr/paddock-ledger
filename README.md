@@ -25,6 +25,7 @@ Platforms with a collector today: Kalshi, Polymarket US, Gemini Predictions, Nov
 ## How to read it
 
 - A row is never rewritten. A filing whose status changes (Approval Pending to Certified) is a second line with a later `seen`; take the latest line per `id`.
+- `rules_sha256` is a fingerprint of the rule text a platform served, on Kalshi, Polymarket US and Gemini rows (daily, hourly and settled). The definition differs by platform and is written in `collectors/rules.py`; it starts on the date of the commit that added it, and earlier rows do not carry it. Gemini's terms PDF is not fetched, so a change inside the PDF behind an unchanged URL is not seen.
 - Every price is the string the platform served. Nothing here is rounded, averaged or converted.
 - Kalshi multivariate (combo) markets are not in the Kalshi single-leg record; each run counts how many it skipped. The collections themselves (which events a combo spans, its size limits and the price structure the exchange publishes) are in the record under record/kalshi/combos/, one file a day. Gemini combos are kept with is_combo: true. Polymarket US rows carry quote_kind: "outcome_prices" because the gateway publishes a price per side, not a quote from the book.
 - Every pagination limit is named in the collector and the run record says whether it was hit. `source` is `live` when the walk finished, `partial` when a cap or a server-shortened walk left something out, `unavailable` when the fetch failed and nothing was written.

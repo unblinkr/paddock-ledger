@@ -60,6 +60,7 @@ import argparse
 import sys
 from pathlib import Path
 
+import rules
 from common import RECORD, REPO, FetchError, Http, day, record_run, stamp, utcnow, write_jsonl_gz
 
 BASE = "https://api.gemini.com/v1/prediction-markets"
@@ -112,6 +113,7 @@ def compact(events: list[dict], at: str, hourly: bool) -> list[dict]:
                 "last_trade_price": p.get("lastTradePrice"),
                 "buy_yes": (p.get("buy") or {}).get("yes"),
                 "sell_yes": (p.get("sell") or {}).get("yes"),
+                "rules_sha256": rules.gemini_rules_sha256(e, c),
                 "at": at,
             }
             if hourly:
@@ -138,6 +140,7 @@ def compact_settled(events: list[dict], at: str) -> list[dict]:
                 "is_combo": c.get("isCombo"),
                 "resolution_side": c.get("resolutionSide"),
                 "resolved_at": c.get("resolvedAt"),
+                "rules_sha256": rules.gemini_rules_sha256(e, c),
                 "contract": c,
                 "event": ev,
                 "at": at,

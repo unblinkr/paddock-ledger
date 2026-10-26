@@ -45,6 +45,7 @@ import sys
 from datetime import timedelta
 from pathlib import Path
 
+import rules
 from common import RECORD, REPO, Http, day, record_run, stamp, utcnow, write_jsonl_gz
 
 BASE = "https://gateway.polymarket.us/v1"
@@ -103,6 +104,7 @@ def compact_resolved(markets: list[dict], at: str) -> list[dict]:
     for m in markets:
         row = {k: m.get(k) for k in RESOLVED_FIELDS if k in m}
         row["sides"] = _sides(m)
+        row["rules_sha256"] = rules.polymarket_us_rules_sha256(m)
         row["at"] = at
         rows.append(row)
     return rows
@@ -144,11 +146,13 @@ def compact(markets: list[dict], at: str, hourly: bool) -> list[dict]:
         if hourly:
             row = {"id": m.get("id"), "slug": m.get("slug"), "active": m.get("active"), "closed": m.get("closed"),
                    "outcome_prices": m.get("outcomePrices"), "sides": [{"id": s["id"], "price": s["price"]} for s in _sides(m)],
-                   "end_date": m.get("endDate"), "quote_kind": "outcome_prices", "at": at}
+                   "end_date": m.get("endDate"), "quote_kind": "outcome_prices",
+                   "rules_sha256": rules.polymarket_us_rules_sha256(m), "at": at}
         else:
             row = {k: m.get(k) for k in DAILY_FIELDS if k in m}
             row["sides"] = _sides(m)
             row["quote_kind"] = "outcome_prices"
+            row["rules_sha256"] = rules.polymarket_us_rules_sha256(m)
             row["at"] = at
         rows.append(row)
     return rows
