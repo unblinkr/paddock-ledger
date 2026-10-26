@@ -19,6 +19,7 @@ import gemini  # noqa: E402
 import kalshi  # noqa: E402
 import kalshi_combos  # noqa: E402
 import polymarket_us  # noqa: E402
+import rules  # noqa: E402
 
 FX = ROOT / "tests" / "fixtures"
 
@@ -381,3 +382,51 @@ def test_novig_fetch_writes_the_served_bytes_gzipped(monkeypatch, tmp_path):
     got = novig.Paced().fetch_to_gz("https://example.invalid/x.csv", out)
     assert _gzip.decompress(out.read_bytes()) == raw
     assert got["etag"] == "abc123" and got["bytes"] == len(raw) and got["rows"] == 25
+
+
+def test_gemini_rules_hash_is_on_every_row_kind_and_follows_the_text():
+    events = json.loads((FX / "gemini-events.json").read_text())
+    events = events.get("data") or events
+    for hourly in (True, False):
+        rows = gemini.compact(events, "x", hourly=hourly)
+        assert rows and all(re.fullmatch(r"[0-9a-f]{64}", r["rules_sha256"]) for r in rows)
+    e = events[0]
+    c = e["contracts"][0]
+    before = rules.gemini_rules_sha256(e, c)
+    assert before == gemini.compact([e], "x", hourly=True)[0]["rules_sha256"]
+    # A change in the rules text, the event description or the terms URL moves the hash.
+    c2 = {**c, "termsAndConditionsUrl": "https://example.invalid/other.pdf"}
+    assert rules.gemini_rules_sha256(e, c2) != before
+    assert rules.gemini_rules_sha256({**e, "description": "changed"}, c) != before
+    assert rules.gemini_rules_sha256(e, {**c, "description": {"content": []}}) != before
+    # No description key: no hash, not a hash of nothing.
+    assert rules.gemini_rules_sha256(e, {k: v for k, v in c.items() if k != "description"}) is None
+
+
+def test_gemini_settled_rows_carry_the_same_hash_as_the_live_rows():
+    settled = json.loads((FX / "gemini-settled-weather.json").read_text())
+    settled = settled.get("data") or settled
+    rows = gemini.compact_settled(settled, "x")
+    assert rows
+    for r in rows:
+        assert re.fullmatch(r"[0-9a-f]{64}", r["rules_sha256"])
+
+
+def test_polymarket_us_rules_hash_is_sha256_of_description_on_every_row_kind():
+    d = json.loads((FX / "polymarket-us-markets.json").read_text())
+    markets = d.get("markets") or d.get("data") or d
+    m = markets[0]
+    want = hashlib.sha256(m["description"].encode("utf-8")).hexdigest()
+    for hourly in (True, False):
+        assert polymarket_us.compact(markets, "x", hourly=hourly)[0]["rules_sha256"] == want
+    resolved = json.loads((FX / "polymarket-us-resolved.json").read_text())
+    resolved = resolved.get("markets") or resolved.get("data") or resolved
+    rows = polymarket_us.compact_resolved(resolved, "x")
+    assert rows and all(re.fullmatch(r"[0-9a-f]{64}", r["rules_sha256"]) for r in rows if "description" in r)
+    assert rules.polymarket_us_rules_sha256({"id": "a"}) is None
+
+
+def test_kalshi_rules_hash_definition_is_untouched():
+    m = {"rules_primary": "a", "rules_secondary": None}
+    assert kalshi.rules_sha256(m) == _sha("a", None)
+    assert kalshi.rules_sha256({}) is None
