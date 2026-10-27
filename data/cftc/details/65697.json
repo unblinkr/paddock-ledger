@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636377.pdf"
+},
+{
+"title": "Will France impose capital controls <time period>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636376.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:37Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "KEX",
+"product_name": "Will France impose capital controls <time period>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65697,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65697"
+}

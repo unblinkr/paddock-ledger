@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636056.pdf"
+},
+{
+"title": "JAPANJLGTOTAL 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636055.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:57Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will JAPANJLG J1 League match between Mito HollyHock and Sanfrecce Hiroshima originally scheduled for 1:00 a.m. ET on October 31, 2026 have above 2.5 goals during the entire game excluding extra time?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65643,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65643"
+}

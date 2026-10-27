@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "CRO Futures Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636476.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:24Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-26 00:00:00",
+"organization": "CDNA",
+"product_name": "Cronos (CRO) Fully Collateralized Futures Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Currency",
+"type": "Future"
+},
+"id": 65713,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65713"
+}

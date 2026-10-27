@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10252636290.pdf"
+},
+{
+"title": "Will a member of <political party> win the Presidency by being the first inaugurated as President for the <year> Term of Office?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10252636288.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10252636287.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:17Z",
+"fields": {
+"date": "2026-10-25 00:00:00",
+"description": "Straightforward amendment to the \"Will a member of <political party> win the Presidency by being the first inaugurated as President for the <year> Term of Office?\" contract",
+"official_receipt_date": "2026-10-25 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65682,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65682"
+}

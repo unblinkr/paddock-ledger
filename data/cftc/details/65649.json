@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636092.pdf"
+},
+{
+"title": "JAPANJLGTITLE 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636091.pdf"
+}
+],
+"fetched": "2026-10-27T06:31:03Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will JAPANJLG <team> win the <season> <title>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65649,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65649"
+}

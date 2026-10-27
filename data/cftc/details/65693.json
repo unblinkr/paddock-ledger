@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NHL Worst Record (PHI)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636353.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NHL Worst Record (PHI)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636355.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:39Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Philadelphia Flyers have the worst record in the 2027 NHL regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65693,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65693"
+}

@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "CDNA-Nadex-OG.com Monthly Notional Volume Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635986.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:46Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "PROPHX",
+"product_name": "CDNA/Nadex/OG.com Monthly Event Contract Volume Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65631,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65631"
+}

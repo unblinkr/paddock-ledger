@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "Nodal Exchange Appendix A - Contract Specifications - REDLINE",
+"url": "https://www.cftc.gov/filings/orgrules/rules10262636387.pdf"
+},
+{
+"title": "Self-Certification Letter 26-037",
+"url": "https://www.cftc.gov/filings/orgrules/rules10262636388.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:12Z",
+"fields": {
+"date": "2026-10-26 00:00:00",
+"description": "The Exchange is amending Appendix A - Contract Specifications for WCA vs. CCA (OPIS) Spread Future, Regional Greenhouse Gas Initiative Allowance Auction Clearing Price, and Washington Carbon Allowance Advance Auction Clearing Price",
+"official_receipt_date": "2026-10-26 00:00:00",
+"organization": "NODAL",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65698,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65698"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636038.pdf"
+},
+{
+"title": "JAPANJLGWINTOTAL 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636036.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:54Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will JAPANJLG Mito HollyHock record above 10.5 wins in the 2026/27 JAPANJLG J1 League regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65640,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65640"
+}

@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Will the Dow Jones Industrial Average close <above/below/exactly/at least/at most/between> <value> <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10262636302.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10262636303.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10262636304.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:15Z",
+"fields": {
+"date": "2026-10-26 00:00:00",
+"description": "Straightforward amendment to the \"Will the Dow Jones Industrial Average close <above/below/exactly/at least/at most/between> <value> <time period>?\" Contract",
+"official_receipt_date": "2026-10-26 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65684,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65684"
+}

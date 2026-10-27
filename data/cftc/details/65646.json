@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636074.pdf"
+},
+{
+"title": "JAPANJLGSPREAD 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636073.pdf"
+}
+],
+"fetched": "2026-10-27T06:31:00Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will JAPANJLG <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of JAPANJLG <game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65646,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65646"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636044.pdf"
+},
+{
+"title": "JAPANJLGTITLE 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636042.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:55Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will JAPANJLG Mito HollyHock win the 2026/27 JAPANJLG J1 League championship?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65641,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65641"
+}

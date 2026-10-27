@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "ProphetX 40.2(a) CDNA-Nadex-OG.com Monthly Notional Volume Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635980.pdf"
+},
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635982.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:45Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will CDNA/Nadex/OG.com's event contract notional traded volume exceed $2 billion in November 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65630,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65630"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - NHL Playoff Qualifier (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636336.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NHL Playoff Qualifier (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636337.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:42Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the {team} qualify for the {year} NHL Playoffs?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65690,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65690"
+}

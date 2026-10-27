@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NHL Best Record (PIT)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636341.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NHL Best Record (PIT)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636343.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:41Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Pittsburgh Penguins have the best record in the 2027 NHL regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65691,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65691"
+}

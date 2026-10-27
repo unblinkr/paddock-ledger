@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636152.pdf"
+},
+{
+"title": "TURKEYFFENTITYOUTCOME 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636150.pdf"
+}
+],
+"fetched": "2026-10-27T06:30:44Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will TURKEYFF Konyaspor record at least 0.5 goals during the entire game excluding extra time of TURKEYFF Sper Lig match between Konyaspor and Galatasaray originally scheduled for 1:00 p.m. ET on October 30, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65659,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65659"
+}
