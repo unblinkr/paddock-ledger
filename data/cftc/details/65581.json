@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635615.pdf"
+},
+{
+"title": "NBAENTITYCOMP 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635614.pdf"
+}
+],
+"fetched": "2026-10-28T06:30:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-27 00:00:00",
+"organization": "ARST",
+"product_name": "Will <entity> record more <stat> than <competitor> during <time period> of NBA <game>?",
+"remarks": "",
+"status": "Withdrawn",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65581,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65581"
+}

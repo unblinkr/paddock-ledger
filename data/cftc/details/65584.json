@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - NBA Best Record (LAL)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635633.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NBA Best Record (LAL)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635635.pdf"
+}
+],
+"fetched": "2026-10-28T06:31:43Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Los Angeles Lakers have the best record in the 2027 NBA regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65584,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65584"
+}

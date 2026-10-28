@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635601.pdf"
+},
+{
+"title": "NBAENTITYCOMP 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635599.pdf"
+}
+],
+"fetched": "2026-10-28T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-27 00:00:00",
+"organization": "ARST",
+"product_name": "Will Jalen Brunson record more points than all other players during the entire game (including overtime) of NBA New York Knicks at Boston Celtics on October 23, 2026?",
+"remarks": "",
+"status": "Withdrawn",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65578,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65578"
+}

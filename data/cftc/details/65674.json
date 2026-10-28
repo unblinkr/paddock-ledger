@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636241.pdf"
+},
+{
+"title": "TURKEYFFSPREAD 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636242.pdf"
+}
+],
+"fetched": "2026-10-28T06:31:31Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will TURKEYFF <team> score <above/below/between/exactly/at least> <count> more goals during <time period> of TURKEYFF <game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65674,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65674"
+}

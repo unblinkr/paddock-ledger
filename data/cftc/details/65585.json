@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - NBA Best Record (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635639.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - NBA Best Record (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232635641.pdf"
+}
+],
+"fetched": "2026-10-28T06:31:42Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-21 00:00:00",
+"organization": "GMNI",
+"product_name": "Will {team} have the best record in the {year} NBA regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65585,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65585"
+}

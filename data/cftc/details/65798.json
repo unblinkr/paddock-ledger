@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272636940.pdf"
+},
+{
+"title": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in the House of Delegates of Virginia after the November 2, 2027, general election?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272636939.pdf"
+}
+],
+"fetched": "2026-10-28T06:30:48Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "KEX",
+"product_name": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in the House of Delegates of Virginia after the November 2, 2027, general election?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65798,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65798"
+}
