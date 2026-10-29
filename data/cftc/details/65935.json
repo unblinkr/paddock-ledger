@@ -1,0 +1,34 @@
+{
+"documents": [
+{
+"title": "Exhibit A: November 2, 2026 Addition to Nodal Exchange Appendix A - Contract Specifications",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637839.pdf"
+},
+{
+"title": "Exhibit C: November 2, 2026 Addition to Nodal Exchange Appendix C - Reporting Levels, Accountability Levels and Position Limits",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637841.pdf"
+},
+{
+"title": "FOIA Confidential Treatment Request 10.28.2026",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637842.pdf"
+},
+{
+"title": "Self Certification Letter 26-038",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637840.pdf"
+}
+],
+"fetched": "2026-10-29T13:23:03Z",
+"fields": {
+"category": "Natural Resource",
+"date": "2026-10-28 00:00:00",
+"organization": "NODAL",
+"product_name": "PJM JCPL Calendar Year Day Ahead On-Peak Power Option",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Electricity",
+"type": "Option on a Future"
+},
+"id": 65935,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65935"
+}
