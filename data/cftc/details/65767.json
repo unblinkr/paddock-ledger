@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - CONFIDENTIAL DOCUMENT",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636809.pdf"
+},
+{
+"title": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in <chamber> of Texas after <election>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10262636807.pdf"
+}
+],
+"fetched": "2026-10-29T06:30:53Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-26 00:00:00",
+"organization": "KEX",
+"product_name": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in <chamber> of Texas after <election>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65767,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65767"
+}

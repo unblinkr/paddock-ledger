@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <entity> win <election> in California?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272637124.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272637125.pdf"
+}
+],
+"fetched": "2026-10-29T06:30:46Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-27 00:00:00",
+"organization": "KEX",
+"product_name": "Will <entity> win <election> in California?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65819,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65819"
+}

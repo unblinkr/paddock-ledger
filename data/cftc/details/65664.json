@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636182.pdf"
+},
+{
+"title": "TURKEYFFTITLE 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636180.pdf"
+}
+],
+"fetched": "2026-10-29T06:31:08Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will TURKEYFF Konyaspor win the 2026/27 TURKEYFF Sper Lig championship?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65664,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65664"
+}

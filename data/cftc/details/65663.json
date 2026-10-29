@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636176.pdf"
+},
+{
+"title": "TURKEYFFWINTOTAL 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636174.pdf"
+}
+],
+"fetched": "2026-10-29T06:31:09Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will TURKEYFF Konyaspor record above 10.5 wins in the 2026/27 TURKEYFF Sper Lig regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65663,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65663"
+}

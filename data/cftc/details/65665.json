@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636188.pdf"
+},
+{
+"title": "PORTLIGAGAMEWIN 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636187.pdf"
+}
+],
+"fetched": "2026-10-29T06:31:04Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will PORTLIGA <team> score more goals during <time period> of PORTLIGA <game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65665,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65665"
+}

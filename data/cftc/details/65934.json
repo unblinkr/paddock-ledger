@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Self-Certification",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637830.pdf"
+}
+],
+"fetched": "2026-10-29T06:30:17Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-10-28 00:00:00",
+"organization": "ROTHDCM",
+"product_name": "Will <company> report <time period> <corporate performance metric> <condition> <value>? Event Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Other Financial Instrument",
+"type": "Swap"
+},
+"id": 65934,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65934"
+}

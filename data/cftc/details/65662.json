@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636170.pdf"
+},
+{
+"title": "TURKEYFFSCORE 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636168.pdf"
+}
+],
+"fetched": "2026-10-29T06:31:11Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will the score of the entire game excluding extra time of TURKEYFF Sper Lig match between Konyaspor and Galatasaray originally scheduled for 1:00 p.m. ET on October 30, 2026 be exactly Konyaspor to win 2-1?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65662,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65662"
+}

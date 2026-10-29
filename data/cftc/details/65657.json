@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636140.pdf"
+},
+{
+"title": "PORTLIGATITLE 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc10232636138.pdf"
+}
+],
+"fetched": "2026-10-29T06:31:06Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-23 00:00:00",
+"organization": "ARST",
+"product_name": "Will PORTLIGA SL Benfica win the 2026/27 PORTLIGA Primeira Liga championship?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65657,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65657"
+}

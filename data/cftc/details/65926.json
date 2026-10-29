@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will the price of coffee, per the Pyth price feed for the ICE Coffee \"C\" futures contract for <delivery month>, be <above/below/exactly/at least/at most/between> <value> <in/at> <time period>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637781.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637782.pdf"
+}
+],
+"fetched": "2026-10-29T06:30:21Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-28 00:00:00",
+"organization": "KEX",
+"product_name": "Will the price of coffee, per the Pyth price feed for the ICE Coffee \"C\" futures contract for <delivery month>, be <above/below/exactly/at least/at most/between> <value> <in/at> <time period>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65926,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65926"
+}
