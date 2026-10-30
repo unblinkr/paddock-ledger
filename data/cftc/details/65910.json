@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <entity> win <election> in New Jersey?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637674.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637675.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:41Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-27 00:00:00",
+"organization": "KEX",
+"product_name": "Will <entity> win <election> in New Jersey?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65910,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65910"
+}

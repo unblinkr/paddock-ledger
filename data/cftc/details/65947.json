@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637922.pdf"
+},
+{
+"title": "NFL PROP PARTICIPATION PROTECTION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637921.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "LEX",
+"product_name": "NFL PROP PARTICIPATION PROTECTION",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap"
+},
+"id": 65947,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65947"
+}

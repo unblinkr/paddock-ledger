@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "BOXINGMETHODOFVICTORY-FURJOS-11DEC2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637695.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637696.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:30Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-28 00:00:00",
+"organization": "REX",
+"product_name": "BOXINGMETHODOFVICTORY-FURJOS-11DEC2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65914,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65914"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - Monthly US CPI (Dec. 10)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637974.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request 40.2(a) - Monthly US CPI (Dec. 10)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637975.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:18Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the BLS CPI-U year-over-year change for November 2026 be above 3.7%?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65955,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65955"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "emini 40.2(d) Product Filing - Monthly US CPI (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637979.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request 40.2(d) - Monthly US CPI (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637981.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:17Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the BLS CPI-U year-over-year change for {reference month} be {above/below} {threshold}?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65956,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65956"
+}

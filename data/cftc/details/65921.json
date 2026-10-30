@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "BOXINGWIN - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637737.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637738.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:23Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-28 00:00:00",
+"organization": "REX",
+"product_name": "BOXINGWIN",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65921,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65921"
+}

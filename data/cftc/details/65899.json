@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/orgrules/rules10282637620.pdf"
+},
+{
+"title": "Will <player> transfer to <team> in <time period>?",
+"url": "https://www.cftc.gov/filings/orgrules/rules10282637618.pdf"
+},
+{
+"title": "Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules10282637619.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:14Z",
+"fields": {
+"date": "2026-10-28 00:00:00",
+"description": "Straightforward amendment to the \"Will <player> transfer to <team> in <time period>?\" Contract",
+"official_receipt_date": "2026-10-28 00:00:00",
+"organization": "KEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65899,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65899"
+}

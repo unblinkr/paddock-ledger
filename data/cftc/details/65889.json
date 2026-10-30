@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <entity> win the November 3, 2026, general election for the at-large U.S. House seat in Vermont?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272637558.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10272637559.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:46Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-27 00:00:00",
+"organization": "KEX",
+"product_name": "Will <entity> win the November 3, 2026, general election for the at-large U.S. House seat in Vermont?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65889,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65889"
+}

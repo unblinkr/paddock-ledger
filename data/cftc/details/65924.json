@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - Combos (LV-NYJ-BAL-BUF)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637768.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request - Combos (LV-NYJ-BAL-BUF)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637770.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-28 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the Las Vegas Raiders win the Las Vegas Raiders at New York Jets game on November 1, 2026, and will the Buffalo Bills win the Baltimore Ravens at Buffalo Bills game on November 1, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65924,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65924"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "BOXINGROUNDOFVICTORY - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637713.pdf"
+},
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10282637714.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:27Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-28 00:00:00",
+"organization": "REX",
+"product_name": "BOXINGROUNDOFVICTORY",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65917,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65917"
+}

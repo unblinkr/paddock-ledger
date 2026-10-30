@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "Ludlow FOIA Request",
+"url": "https://www.cftc.gov/filings/orgrules/rules10282637871.pdf"
+},
+{
+"title": "PGAPROP Cover Letter and Appendix A",
+"url": "https://www.cftc.gov/filings/orgrules/rules10282637869.pdf"
+}
+],
+"fetched": "2026-10-30T06:30:12Z",
+"fields": {
+"date": "2026-10-28 00:00:00",
+"description": "Amends PGA Prop Contract specifications for shortened tournaments, playoff outcomes, and settlement deadlines; updates settlement sources, clarifies comparison operators and recurring issuance, and conforms the Core Principles analysis.",
+"official_receipt_date": "2026-10-28 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 65939,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/65939"
+}
