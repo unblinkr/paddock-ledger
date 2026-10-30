@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in the U.S. House of Representatives after the November 7, 2028, general election?\"",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637876.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637877.pdf"
+}
+],
+"fetched": "2026-10-30T13:14:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <party> hold <above/below/exactly/at least/at most/between> <count> seats in the U.S. House of Representatives after the November 7, 2028, general election?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65940,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65940"
+}
