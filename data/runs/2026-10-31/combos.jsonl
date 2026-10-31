@@ -1,0 +1,2 @@
+{"collector": "kalshi-combos:daily", "counts": {"bytes_gz": 229033, "collections": 1406, "ended_on_empty_cursor": true, "file": "record/kalshi/combos/2026-10-31.jsonl.gz", "page_size": 1000, "pages": 2}, "finished": "2026-10-31T13:52:58Z", "http": {"requests": 2, "retries": 0}, "source": "live", "started": "2026-10-31T13:52:57Z", "store": "record"}
+{"collector": "store", "counts": {"bucket_set": true, "bytes": 229033, "files": 1, "root": "record"}, "finished": "2026-10-31T13:53:02Z", "source": "live", "started": "2026-10-31T13:53:01Z", "store": "r2"}
