@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <team> win <time period> of the Recoletas Salud San Pablo Burgos vs. Rostock Seawolves game on November 4, 2026?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302638125.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302638127.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of the Recoletas Salud San Pablo Burgos vs. Rostock Seawolves game on November 4, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65980,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65980"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638249.pdf"
+},
+{
+"title": "Will <team> win <time period> of <GBL game>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638248.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:23Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of <GBL game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65995,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65995"
+}

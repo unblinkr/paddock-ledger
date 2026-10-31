@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <team> win <time period> of <ABA League game>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637992.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637993.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:32Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of <ABA League game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65958,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65958"
+}

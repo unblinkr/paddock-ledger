@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302640133.pdf"
+},
+{
+"title": "PROFOOTBALLGAMESTAT-MAHOMES-ALLEN-26NOV2026 - Public Product Cert",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302640132.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:15Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-30 00:00:00",
+"organization": "REX",
+"product_name": "PROFOOTBALLGAMESTAT-MAHOMES-ALLEN-26NOV2026",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66297,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66297"
+}

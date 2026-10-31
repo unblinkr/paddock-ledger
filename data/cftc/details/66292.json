@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <team> win <time period> of <EuroLeague Women game>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302638144.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302638145.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:18Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of <EuroLeague Women game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66292,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66292"
+}

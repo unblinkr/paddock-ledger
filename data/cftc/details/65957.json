@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <team> win <time period> of the Mega Superbet vs. Spartak Office Shoes game on November 2, 2026?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637985.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292637987.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:33Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of the Mega Superbet vs. Spartak Office Shoes game on November 2, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65957,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65957"
+}

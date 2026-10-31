@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(d) Product Filing - US CPI (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638254.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request 40.2(d) - US CPI (Class)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638256.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the US CPI Index be {up/down/unchanged} at 5 PM ET on {measurement date} compared to 5 PM ET on {reference date}?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 65996,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/65996"
+}

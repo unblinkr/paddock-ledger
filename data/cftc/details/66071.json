@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will the points differential recorded in favour of <team> in <time period> of <BAL game> be <above/below/exactly/at least/between> <count> points?",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638717.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc10292638719.pdf"
+}
+],
+"fetched": "2026-10-31T06:30:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "KEX",
+"product_name": "Will the points differential recorded in favour of <team> in <time period> of <BAL game> be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66071,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66071"
+}
