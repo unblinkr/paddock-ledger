@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Gemini 40.2(a) Product Filing - US CPI (Nov. 3)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302640552.pdf"
+},
+{
+"title": "Gemini Conf. Treatment Request 40.2(a) - US CPI (Nov. 3)",
+"url": "https://www.cftc.gov/filings/ptc/ptc10302640655.pdf"
+}
+],
+"fetched": "2026-11-03T06:30:15Z",
+"fields": {
+"category": "Event",
+"date": "2026-10-29 00:00:00",
+"organization": "GMNI",
+"product_name": "Will the US CPI Index be up at 5 PM ET on November 3, 2026 compared to 5 PM ET on November 2, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66393,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66393"
+}
