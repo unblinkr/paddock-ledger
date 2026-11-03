@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "CME Submission No. 26-497",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642066.pdf"
+},
+{
+"title": "CME Submission No. 26-497 (FOIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642065.pdf"
+}
+],
+"fetched": "2026-11-03T14:29:23Z",
+"fields": {
+"category": "Agriculture",
+"date": "2026-11-02 00:00:00",
+"organization": "CME",
+"product_name": "Options on European Whey Powder Futures",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Dairy",
+"type": "Option on a Future"
+},
+"id": 66472,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66472"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "CME Submission No. 26-497",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642093.pdf"
+},
+{
+"title": "CME Submission No. 26-497 (FOIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642090.pdf"
+}
+],
+"fetched": "2026-11-03T14:29:19Z",
+"fields": {
+"category": "Agriculture",
+"date": "2026-11-02 00:00:00",
+"organization": "CME",
+"product_name": "Options on European Skimmed Milk Powder Futures",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Dairy",
+"type": "Option on a Future"
+},
+"id": 66476,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66476"
+}
