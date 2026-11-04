@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOMC Rate Decision",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641913.pdf"
+},
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641914.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:34Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-01 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the FOMC raise the federal funds target range by 25 basis points at its December 8-9, 2026 meeting?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66461,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66461"
+}

@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Taiwan Local Elections Party Winner",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642112.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-02 00:00:00",
+"organization": "PROPHX",
+"product_name": "Taiwan Local Elections Party Winner Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66479,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66479"
+}

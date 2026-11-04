@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Federal Funds Target Rate Level",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641903.pdf"
+},
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641904.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:32Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-01 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the upper bound of the federal funds target range be above 4.00% following the FOMC's December 8-9, 2026 meeting?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66459,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66459"
+}

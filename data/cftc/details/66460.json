@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Federal Funds Target Rate Level",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641908.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:32Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-01 00:00:00",
+"organization": "PROPHX",
+"product_name": "Federal Funds Target Rate Level Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66460,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66460"
+}

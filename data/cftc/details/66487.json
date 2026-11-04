@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Spain General Election Most Seats",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642147.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:20Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-02 00:00:00",
+"organization": "PROPHX",
+"product_name": "Spanish General Election Most Seats Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66487,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66487"
+}

@@ -1,0 +1,24 @@
+{
+"documents": [
+{
+"title": "PMUS - CROSSD - (2026.11.02) - 40.6 - Confidentiality Request",
+"url": "https://www.cftc.gov/filings/orgrules/rules11012641898.pdf"
+},
+{
+"title": "PMUS - CROSSD - (2026.11.02) - 40.6d - Cover Letter + Product Certification (combined)",
+"url": "https://www.cftc.gov/filings/orgrules/rules11012641896.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:15Z",
+"fields": {
+"date": "2026-11-01 00:00:00",
+"description": "Adds twelve previously certified contracts to the list of eligible Constituent Contracts and makes that list exhaustive.",
+"official_receipt_date": "2026-11-01 00:00:00",
+"organization": "QCEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 66458,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/66458"
+}

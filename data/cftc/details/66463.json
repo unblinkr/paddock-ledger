@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Number of Federal Funds Rate Cuts or Hikes",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641923.pdf"
+},
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11012641924.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:38Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-01 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the FOMC cut the federal funds target range at least two times in 2027?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66463,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66463"
+}

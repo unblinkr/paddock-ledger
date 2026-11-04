@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642133.pdf"
+},
+{
+"title": "Spain General Election Vote Share",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642132.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:27Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-02 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the People's Party receive at least 26% of the vote in Spain's November 29, 2026 general election?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66484,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66484"
+}

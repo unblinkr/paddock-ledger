@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Spain Prime Minister",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642127.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:26Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-02 00:00:00",
+"organization": "PROPHX",
+"product_name": "Spanish Prime Minister Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66483,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66483"
+}

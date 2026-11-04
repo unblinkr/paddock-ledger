@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642108.pdf"
+},
+{
+"title": "Taiwan Local Elections Party Winner",
+"url": "https://www.cftc.gov/filings/ptc/ptc11022642106.pdf"
+}
+],
+"fetched": "2026-11-04T06:30:23Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-02 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will the Kuomintang win the most mayoral and magistrate races in Taiwan's November 28, 2026 local elections?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66480,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66480"
+}
