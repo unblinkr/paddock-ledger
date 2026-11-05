@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642547.pdf"
+},
+{
+"title": "PERUFFWINTOTAL 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642532.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:18Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-03 00:00:00",
+"organization": "ARST",
+"product_name": "Will PERUFF Atltico Grau record above 10.5 wins in the 2027 PERUFF Liga1 regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66545,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66545"
+}

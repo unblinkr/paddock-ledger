@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642553.pdf"
+},
+{
+"title": "PERUFFENTITYOUTCOME 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642534.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:26Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-03 00:00:00",
+"organization": "ARST",
+"product_name": "Will PERUFF Atltico Grau record at least 0.5 goals during the entire game excluding extra time of PERUFF Liga1 Clausura match between Atltico Grau and Cusco FC originally scheduled for 3:00 p.m. ET on November 6, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66550,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66550"
+}

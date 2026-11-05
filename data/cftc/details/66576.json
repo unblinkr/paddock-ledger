@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Presidential Election Winning Party Contracts",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642710.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:12Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-04 00:00:00",
+"organization": "PROPHX",
+"product_name": "Presidential Election Winning Party Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66576,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66576"
+}

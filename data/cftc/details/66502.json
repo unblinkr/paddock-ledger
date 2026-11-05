@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642280.pdf"
+},
+{
+"title": "PERUFFTOTAL 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642279.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-03 00:00:00",
+"organization": "ARST",
+"product_name": "Will PERUFF <game> have <above/below/between/exactly/at least> <count> goals during <time period>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66502,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66502"
+}

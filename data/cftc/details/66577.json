@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "US Presidential Winner",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642714.pdf"
+},
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642716.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:11Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-04 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will J.D. Vance win the 2028 U.S. presidential election?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66577,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66577"
+}

@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "Terms and Conditions",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642642.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:03Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-04 00:00:00",
+"organization": "KEX",
+"product_name": "PLTRPERP2",
+"remarks": "",
+"status": "Certified",
+"subcategory": "SSF - Single Stock Future",
+"type": "Future"
+},
+"id": 66564,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66564"
+}

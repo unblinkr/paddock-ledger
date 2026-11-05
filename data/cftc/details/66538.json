@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642516.pdf"
+},
+{
+"title": "Terms and Conditions",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642514.pdf"
+}
+],
+"fetched": "2026-11-05T06:30:57Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-04 00:00:00",
+"organization": "KEX",
+"product_name": "QQQPERP2",
+"remarks": "",
+"status": "Certified",
+"subcategory": "ETF - Exchange Traded Fund",
+"type": "Future"
+},
+"id": 66538,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66538"
+}

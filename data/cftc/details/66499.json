@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642261.pdf"
+},
+{
+"title": "PERUFFSCORE 40.2(a) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642260.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:19Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-03 00:00:00",
+"organization": "ARST",
+"product_name": "Will the score of the entire game excluding extra time of PERUFF Liga1 Clausura match between Atltico Grau and Cusco FC originally scheduled for 3:00 p.m. ET on November 6, 2026 be exactly Atltico Grau to win 2-1?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66499,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66499"
+}

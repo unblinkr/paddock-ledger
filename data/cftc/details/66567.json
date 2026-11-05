@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642638.pdf"
+},
+{
+"title": "Terms and Conditions",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642631.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:05Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-04 00:00:00",
+"organization": "KEX",
+"product_name": "PLDPERP2",
+"remarks": "",
+"status": "Certified",
+"subcategory": "REIT - Real Estate Investment Trust",
+"type": "Future"
+},
+"id": 66567,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66567"
+}

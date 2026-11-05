@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "US Presidential Nominee Republican",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642700.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:15Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-04 00:00:00",
+"organization": "PROPHX",
+"product_name": "Republican Party Presidential and Vice Presidential Nominee Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66574,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66574"
+}

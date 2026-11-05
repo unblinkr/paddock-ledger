@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642444.pdf"
+},
+{
+"title": "Terms and Conditions",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642443.pdf"
+}
+],
+"fetched": "2026-11-05T06:30:45Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-04 00:00:00",
+"organization": "KEX",
+"product_name": "NVDAPERP2",
+"remarks": "",
+"status": "Certified",
+"subcategory": "SSF - Single Stock Future",
+"type": "Future"
+},
+"id": 66527,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66527"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "FOIA Confidential Treatment Request",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642293.pdf"
+},
+{
+"title": "PERUFFTITLE 40.2(d) Exhibit A",
+"url": "https://www.cftc.gov/filings/ptc/ptc11032642292.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-03 00:00:00",
+"organization": "ARST",
+"product_name": "Will PERUFF <team> win the <season> <title>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66504,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66504"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "The Game Awards",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642736.pdf"
+},
+{
+"title": "FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642737.pdf"
+}
+],
+"fetched": "2026-11-05T06:31:17Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-04 00:00:00",
+"organization": "PROPHX",
+"product_name": "Will Grand Theft Auto VI win Game of the Year at The Game Awards 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66580,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66580"
+}

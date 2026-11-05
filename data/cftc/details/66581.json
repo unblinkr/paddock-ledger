@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "The Game Awards",
+"url": "https://www.cftc.gov/filings/ptc/ptc11042642741.pdf"
+}
+],
+"fetched": "2026-11-05T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-04 00:00:00",
+"organization": "PROPHX",
+"product_name": "The Game Awards Contracts",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66581,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66581"
+}
