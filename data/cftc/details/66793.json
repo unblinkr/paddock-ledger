@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Bulk Submission of BBALLWHOSTAT Contracts (1 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644274.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644275.pdf"
+}
+],
+"fetched": "2026-11-06T06:31:31Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will <stat> be recorded by <entity> <time period> of <SuperSport Premijer liga game>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66793,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66793"
+}

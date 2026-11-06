@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Bulk Submission of BBALLWHOSTAT Contracts (1 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052643979.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052643981.pdf"
+}
+],
+"fetched": "2026-11-06T06:30:31Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will <stat> be recorded by <entity> <time period> of the Zorg en Zekerheid Leiden vs. Coretec Oostende game on November 14, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66747,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66747"
+}

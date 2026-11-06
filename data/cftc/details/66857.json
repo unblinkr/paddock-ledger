@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will the U.S. 10-year Treasury yield be lower 20 trading days after Brent Crude Oil is first priced <above/below/exactly/at least/at most/between> <value> on any day before March 31, 2027?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644690.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644691.pdf"
+}
+],
+"fetched": "2026-11-06T06:34:58Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the U.S. 10-year Treasury yield be lower 20 trading days after Brent Crude Oil is first priced <above/below/exactly/at least/at most/between> <value> on any day before March 31, 2027?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66857,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66857"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644697.pdf"
+},
+{
+"title": "Will South Korea's semiconductor exports be <above/below/exactly/at least/at most/between> <value> between December 1, 2026, and December 31, 2026?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644696.pdf"
+}
+],
+"fetched": "2026-11-06T06:34:59Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will South Korea's semiconductor exports be <above/below/exactly/at least/at most/between> <value> between December 1, 2026, and December 31, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66858,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66858"
+}

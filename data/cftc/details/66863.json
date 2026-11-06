@@ -1,0 +1,98 @@
+{
+"documents": [
+{
+"title": "2026-69 - 41.23(a) Listing of AAPL Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644743.pdf"
+},
+{
+"title": "2026-70 - 41.23(a) Listing of ABBV Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644744.pdf"
+},
+{
+"title": "2026-72 - 41.23(a) Listing of AMAT Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644745.pdf"
+},
+{
+"title": "2026-73 - 41.23(a) Listing of AMD Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644746.pdf"
+},
+{
+"title": "2026-74 - 41.23(a) Listing of AMGN Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644747.pdf"
+},
+{
+"title": "2026-75 - 41.23(a) Listing of AMZN Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644748.pdf"
+},
+{
+"title": "2026-76 - 41.23(a) Listing of AVGO Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644749.pdf"
+},
+{
+"title": "2026-77 - 41.23(a) Listing of BA Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644750.pdf"
+},
+{
+"title": "2026-78 - 41.23(a) Listing of BAC Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644751.pdf"
+},
+{
+"title": "2026-79 - 41.23(a) Listing of BKNG Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644752.pdf"
+},
+{
+"title": "2026-80 - 41.23(a) Listing of BRK.B Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644753.pdf"
+},
+{
+"title": "2026-81 - 41.23(a) Listing of CAT Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644754.pdf"
+},
+{
+"title": "2026-82 - 41.23(a) Listing of COP Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644756.pdf"
+},
+{
+"title": "2026-83 - 41.23(a) Listing of COST Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644758.pdf"
+},
+{
+"title": "2026-84 - 41.23(a) Listing of CRM Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644760.pdf"
+},
+{
+"title": "2026-85 - 41.23(a) Listing of CSCO Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644762.pdf"
+},
+{
+"title": "2026-86 - 41.23(a) Listing of CVX Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644764.pdf"
+},
+{
+"title": "2026-87 - 41.23(a) Listing of DIS Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644766.pdf"
+},
+{
+"title": "2026-88 - 41.23(a) Listing of GOOGL Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644768.pdf"
+},
+{
+"title": "2026-89 - 41.23(a) Listing of HD Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644770.pdf"
+}
+],
+"fetched": "2026-11-06T06:35:04Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-05 00:00:00",
+"organization": "COIN",
+"product_name": "AMAT Equity Perpetual Futures Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "SSF - Single Stock Future",
+"type": "Future"
+},
+"id": 66863,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66863"
+}

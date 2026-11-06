@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "BULK SUBMISSION BBALLSPREADS CONTRACTS (1 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052642926.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052642929.pdf"
+}
+],
+"fetched": "2026-11-06T06:32:00Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the points differential recorded in favour of <team> in <time period> of the Guangdong Southern Tigers vs. Shenzhen Leopards game on December 4, 2026 be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66609,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66609"
+}

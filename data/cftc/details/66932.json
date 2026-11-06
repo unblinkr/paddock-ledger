@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Bulk Submission of BBALLGAMEWIN Contracts (2 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052645404.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052645406.pdf"
+}
+],
+"fetched": "2026-11-06T06:34:19Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will <team> win <time period> of the Michigan State vs. Duke NCAA men's basketball game on November 10, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66932,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66932"
+}

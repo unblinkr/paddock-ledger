@@ -1,0 +1,17 @@
+{
+"documents": [],
+"fetched": "2026-11-06T06:33:48Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the <points> recorded in <time period> of <SBL game> be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67025,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67025"
+}

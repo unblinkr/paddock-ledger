@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "BULK SUBMISSION BBALLSPREADS CONTRACTS (1 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052645266.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052645268.pdf"
+}
+],
+"fetched": "2026-11-06T06:35:26Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the points differential recorded in favour of <team> in <time period> of the Brazil vs. United States of America FIBA Basketball World Cup 2027 Americas Qualifiers game on November 27, 2026 be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66904,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66904"
+}

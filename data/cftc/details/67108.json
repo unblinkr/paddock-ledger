@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "NFL-GP-FIRSTTD FOIA",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646660.pdf"
+}
+],
+"fetched": "2026-11-06T06:33:54Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "XVE",
+"product_name": "NFL-GP-FIRSTTD - Football - NFL - Game Prop: First Score is a Touchdown - Full Game",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67108,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67108"
+}

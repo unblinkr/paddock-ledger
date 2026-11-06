@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Bulk Submission of BBALLTOTALS Contracts (1 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052643486.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052643488.pdf"
+}
+],
+"fetched": "2026-11-06T06:32:54Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the <points> recorded in <time period> of the Toros del Valle' s first home game of the 2027-I Colombia LBP regular season be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66677,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66677"
+}

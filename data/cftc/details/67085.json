@@ -1,0 +1,50 @@
+{
+"documents": [
+{
+"title": "2026-90 - 41.23(a) Listing of IBM Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646301.pdf"
+},
+{
+"title": "2026-91 - 41.23(a) Listing of INTC Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646297.pdf"
+},
+{
+"title": "2026-92 - 41.23(a) Listing of JNJ Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646285.pdf"
+},
+{
+"title": "2026-93 - 41.23(a) Listing of JPM Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646287.pdf"
+},
+{
+"title": "2026-94 - 41.23(a) Listing of KO Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646293.pdf"
+},
+{
+"title": "2026-95 - 41.23(a) Listing of LLY Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646280.pdf"
+},
+{
+"title": "2026-96 - 41.23(a) Listing of LMT Equity Perpetual Contract",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646276.pdf"
+},
+{
+"title": "2026-97 - 41.23(a) Listing of MA Equity Perpetual Contract.",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052646272.pdf"
+}
+],
+"fetched": "2026-11-06T06:33:53Z",
+"fields": {
+"category": "Security Futures Product",
+"date": "2026-11-05 00:00:00",
+"organization": "COIN",
+"product_name": "LMT Equity Perpetual Futures Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "SSF - Single Stock Future",
+"type": "Future"
+},
+"id": 67085,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67085"
+}

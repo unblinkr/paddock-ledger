@@ -1,0 +1,17 @@
+{
+"documents": [],
+"fetched": "2026-11-06T06:33:51Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will <stat> be recorded by <entity> <time period> of the Winnipeg Sea Bears' first home game of the 2027 CEBL regular season?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67028,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67028"
+}

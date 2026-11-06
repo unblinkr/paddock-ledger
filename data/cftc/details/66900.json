@@ -1,0 +1,17 @@
+{
+"documents": [],
+"fetched": "2026-11-06T06:35:44Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will the points differential recorded in favour of <team> in <time period> of the Mega Superbet vs. Dubai Basketball game on November 9, 2026 be <above/below/exactly/at least/between> <count> points?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66900,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66900"
+}

@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "NYMEX Submission No. 26-417",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644679.pdf"
+},
+{
+"title": "NYMEX Submission No. 26-417 (FOIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644681.pdf"
+}
+],
+"fetched": "2026-11-06T06:34:57Z",
+"fields": {
+"category": "Natural Resource",
+"date": "2026-11-05 00:00:00",
+"organization": "NYMEX",
+"product_name": "Gulf Coast CBOB Gasoline A2 (Platts) Decade (10-Day) Futures",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Gasoline",
+"type": "Future"
+},
+"id": 66856,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66856"
+}

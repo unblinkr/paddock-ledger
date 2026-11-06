@@ -1,0 +1,22 @@
+{
+"documents": [
+{
+"title": "2026-132",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052645590.pdf"
+}
+],
+"fetched": "2026-11-06T06:33:19Z",
+"fields": {
+"category": "Financial Instrument",
+"date": "2026-11-05 00:00:00",
+"organization": "BTNL",
+"product_name": "Architect Deci Memory Index Futures Contract",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Equity Index",
+"type": "Future"
+},
+"id": 66972,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66972"
+}

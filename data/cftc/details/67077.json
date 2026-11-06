@@ -1,0 +1,28 @@
+{
+"documents": [
+{
+"title": "Cover Letter",
+"url": "https://www.cftc.gov/filings/orgrules/rules11052646133.pdf"
+},
+{
+"title": "Appendix A Clean",
+"url": "https://www.cftc.gov/filings/orgrules/rules11052646137.pdf"
+},
+{
+"title": "Appendix A Redline",
+"url": "https://www.cftc.gov/filings/orgrules/rules11052646135.pdf"
+}
+],
+"fetched": "2026-11-06T06:30:15Z",
+"fields": {
+"date": "2026-11-05 00:00:00",
+"description": "Amends the MMA Prop Contract to add Method of Ending markets, including KO/TKO/DQ, Submission, Decision, and Draw, regardless of which fighter wins, with related changes to the entity definition and settlement provisions.",
+"official_receipt_date": "2026-11-05 00:00:00",
+"organization": "LEX",
+"remarks": "",
+"status": "10 Day Review"
+},
+"id": 67077,
+"list": "product-rules",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/PTCDCMRules/67077"
+}
