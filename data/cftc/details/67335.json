@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will cumulative art sales from Christie's <time period 1> be <above/below/exactly/at least/at most/between> cumulative art sales from Sotheby's <time period 2>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649194.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649196.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:24Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will cumulative art sales from Christie's <time period 1> be <above/below/exactly/at least/at most/between> cumulative art sales from Sotheby's <time period 2>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67335,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67335"
+}

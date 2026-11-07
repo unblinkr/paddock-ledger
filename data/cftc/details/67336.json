@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <measure> of art sales from <entity 1> <time period 1> be <above/below/exactly/at least/at most/between> <measure> of art sales from <entity 2> <time period 2>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649202.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649203.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:23Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will <measure> of art sales from <entity 1> <time period 1> be <above/below/exactly/at least/at most/between> <measure> of art sales from <entity 2> <time period 2>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67336,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67336"
+}

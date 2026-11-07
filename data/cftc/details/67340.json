@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <above/below/exactly/at least/at most/between> <value> percent of lots offered be sold <time period> at Christie's?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649226.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649227.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:19Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will <above/below/exactly/at least/at most/between> <value> percent of lots offered be sold <time period> at Christie's?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67340,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67340"
+}

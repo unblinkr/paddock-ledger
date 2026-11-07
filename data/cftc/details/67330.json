@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will the change in the AAA average price of regular gasoline in the United States from November 8, 2026 to November 9, 2026 be <above/below/exactly/at least/at most/between> <value>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649165.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649166.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:29Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will the change in the AAA average price of regular gasoline in the United States from November 8, 2026 to November 9, 2026 be <above/below/exactly/at least/at most/between> <value>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67330,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67330"
+}

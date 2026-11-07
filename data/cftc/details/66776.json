@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Bulk Submission of BBALLWHOSTAT Contracts (2 of 2)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644168.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11052644172.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:32Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-05 00:00:00",
+"organization": "KEX",
+"product_name": "Will <stat> be recorded by <entity> <time period> of Patrioti Levice vs. Iskra Svit on November 7, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 66776,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/66776"
+}

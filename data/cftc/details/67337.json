@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will <above/below/exactly/at least/at most/between> <count> works sell <price comparator> <value> <time period> at <entity>?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649207.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649209.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:22Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will <above/below/exactly/at least/at most/between> <count> works sell <price comparator> <value> <time period> at <entity>?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67337,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67337"
+}

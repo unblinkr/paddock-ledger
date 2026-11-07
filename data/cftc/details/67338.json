@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "Will Vincent van Gogh's Chataigniers en fleurs (1890) sell for <above/below/exactly/at least/at most/between> <value> between November 16, 2026, and November 20, 2026?",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649214.pdf"
+},
+{
+"title": "REQUEST FOR CONFIDENTIAL TREATMENT - DETAILED WRITTEN JUSTIFICATION",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649215.pdf"
+}
+],
+"fetched": "2026-11-07T06:30:21Z",
+"fields": {
+"category": "Event",
+"date": "2026-11-06 00:00:00",
+"organization": "KEX",
+"product_name": "Will Vincent van Gogh's Chataigniers en fleurs (1890) sell for <above/below/exactly/at least/at most/between> <value> between November 16, 2026, and November 20, 2026?",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Binary Option",
+"type": "Swap (Binary Option)"
+},
+"id": 67338,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67338"
+}
