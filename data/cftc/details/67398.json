@@ -1,0 +1,26 @@
+{
+"documents": [
+{
+"title": "COMEX Submission 26-486",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649971.pdf"
+},
+{
+"title": "COMEX Submission 26-486 (FOIA)",
+"url": "https://www.cftc.gov/filings/ptc/ptc11062649970.pdf"
+}
+],
+"fetched": "2026-11-09T06:30:16Z",
+"fields": {
+"category": "Natural Resource",
+"date": "2026-11-06 00:00:00",
+"organization": "COMEX",
+"product_name": "Tungsten APT Rotterdam/Baltimore (Fastmarkets) Futures",
+"remarks": "",
+"status": "Certified",
+"subcategory": "Metal",
+"type": "Future"
+},
+"id": 67398,
+"list": "products",
+"url": "https://www.cftc.gov/IndustryOversight/IndustryFilings/TradingOrganizationProducts/67398"
+}
